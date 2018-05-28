@@ -1079,7 +1079,7 @@ data:extend(
 			recipe = "constant-combinator"
 		}
 	},
-	prerequisites = {"circuit-network", "advanced-electronics", "forging-steel"},
+	prerequisites = {"circuit-network", "advanced-electronics", "forging-steel", "lead-brass"},
 	unit =
 	{
 		count = 50,
