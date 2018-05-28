@@ -194,13 +194,13 @@ data.raw.technology["fusion-reactor-equipment"].order = "08-57"
 
 --Base "heavy-armor"
 --null
-data.raw.technology["heavy-armor"].prerequisites = {"iron-armor"}
+data.raw.technology["heavy-armor"].prerequisites = {"iron-armor", "lead-brass", "rubber-a"}
 --null
 data.raw.technology["heavy-armor"].order = "08-58"
 
 --Base "modular-armor"
 --null
-data.raw.technology["modular-armor"].prerequisites = {"heavy-armor", "modules", "machines_2", "rubber-a"}
+data.raw.technology["modular-armor"].prerequisites = {"heavy-armor", "modules", "machines_2"}
 --null
 data.raw.technology["modular-armor"].order = "08-59"
 
