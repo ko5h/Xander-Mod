@@ -18,7 +18,7 @@ data.raw.technology["logistics"].prerequisites = {"parts_1", "logistics_0", "ins
 data.raw.technology["logistics"].order = "06-04"
 
 --Base "logistics-2"
-data.raw.technology["logistics-2"].prerequisites = {"logistics", "machines_1"}
+data.raw.technology["logistics-2"].prerequisites = {"logistics", "machines_1", "lead-brass"}
 data.raw.technology["logistics-2"].order = "06-05"
 
 --Base "logistics-3"
