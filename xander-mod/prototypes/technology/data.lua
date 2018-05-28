@@ -150,7 +150,7 @@ data:extend(
 			recipe = "circuit-1-b"
 		}
 	},
-	prerequisites = {"substrate_1", "wire_1", "phenolic-resin", "nitric-acid-a"},
+	prerequisites = {"substrate_1", "wire_1", "phenolic-resin", "nitric-acid-a", "advanced-material-processing-2"},
 	unit =
 	{
 		count = 200,
