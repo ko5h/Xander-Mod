@@ -2,7 +2,7 @@
 --Base Overrides
 
 --Steel Plate
-data.raw.item["steel-plate"].icon = "__xander-mod__/graphics/item/material/alloy/steel-plate.png"
+data.raw.item["steel-plate"].icon = "__xander-mod-v1__/graphics/item/material/alloy/steel-plate.png"
 data.raw.item["steel-plate"].subgroup = "alloy"
 data.raw.item["steel-plate"].order = "10"
 data.raw.item["steel-plate"].stack_size = 200
@@ -21,7 +21,7 @@ data:extend(
 {
 	type = "item",
 	name = "bronze-plate",
-	icon = "__xander-mod__/graphics/item/material/alloy/bronze-plate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/alloy/bronze-plate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "alloy",
@@ -32,7 +32,7 @@ data:extend(
 {
 	type = "item",
 	name = "brass-plate",
-	icon = "__xander-mod__/graphics/item/material/alloy/brass-plate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/alloy/brass-plate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "alloy",
@@ -43,7 +43,7 @@ data:extend(
 {
 	type = "item",
 	name = "monel-plate",
-	icon = "__xander-mod__/graphics/item/material/alloy/monel-plate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/alloy/monel-plate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "alloy",
@@ -54,7 +54,7 @@ data:extend(
 {
 	type = "item",
 	name = "solder-1-plate",
-	icon = "__xander-mod__/graphics/item/material/alloy/solder-1-plate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/alloy/solder-1-plate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "alloy",
@@ -65,7 +65,7 @@ data:extend(
 {
 	type = "item",
 	name = "solder-2-plate",
-	icon = "__xander-mod__/graphics/item/material/alloy/solder-2-plate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/alloy/solder-2-plate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "alloy",
@@ -76,7 +76,7 @@ data:extend(
 {
 	type = "item",
 	name = "silicon-boule",
-	icon = "__xander-mod__/graphics/item/material/alloy/silicon-boule.png",
+	icon = "__xander-mod-v1__/graphics/item/material/alloy/silicon-boule.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "alloy",

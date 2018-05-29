@@ -10,7 +10,7 @@ data.raw.technology["advanced-material-processing"].unit = {count = 20, ingredie
 data.raw.technology["advanced-material-processing"].order = "07-08"
 
 --Base "advanced-material-processing-2"
-data.raw.technology["advanced-material-processing-2"].icon = "__xander-mod__/graphics/technology/production/furnace_5.png"
+data.raw.technology["advanced-material-processing-2"].icon = "__xander-mod-v1__/graphics/technology/production/furnace_5.png"
 data.raw.technology["advanced-material-processing-2"].icon_size = 128
 data.raw.technology["advanced-material-processing-2"].effects = {{type = "unlock-recipe", recipe = "electric-furnace"}, 
 	{type = "unlock-recipe", recipe = "brick-clay-graphite-b"}, {type = "unlock-recipe", recipe = "fiber-glass"}}
@@ -19,7 +19,7 @@ data.raw.technology["advanced-material-processing-2"].unit = {count = 400, ingre
 data.raw.technology["advanced-material-processing-2"].order = "07-10"
 
 --Base "automation"
-data.raw.technology["automation"].icon = "__xander-mod__/graphics/technology/production/automation-1.png"
+data.raw.technology["automation"].icon = "__xander-mod-v1__/graphics/technology/production/automation-1.png"
 data.raw.technology["automation"].icon_size = 128
 data.raw.technology["automation"].effects = {{type = "unlock-recipe", recipe = "assembling-machine-1"}}
 data.raw.technology["automation"].prerequisites = {"automation_0", "machines_1", "inserter-a", "electronics"}
@@ -27,7 +27,7 @@ data.raw.technology["automation"].unit.count = 40
 data.raw.technology["automation"].order = "07-22"
 
 --Base "automation-2"
-data.raw.technology["automation-2"].icon = "__xander-mod__/graphics/technology/production/automation-2.png"
+data.raw.technology["automation-2"].icon = "__xander-mod-v1__/graphics/technology/production/automation-2.png"
 data.raw.technology["automation-2"].icon_size = 128
 data.raw.technology["automation-2"].effects = {{type = "unlock-recipe", recipe = "assembling-machine-2"}, 
 	{type = "unlock-recipe", recipe = "production-science-pack"}}
@@ -36,7 +36,7 @@ data.raw.technology["automation-2"].unit = {count = 100, ingredients = {{"scienc
 data.raw.technology["automation-2"].order = "07-23"
 
 --Base "automation-3"
-data.raw.technology["automation-3"].icon = "__xander-mod__/graphics/technology/production/automation-3.png"
+data.raw.technology["automation-3"].icon = "__xander-mod-v1__/graphics/technology/production/automation-3.png"
 data.raw.technology["automation-3"].icon_size = 128
 data.raw.technology["automation-3"].prerequisites = {"automation-2", "machines_2", "inserter-filter"}
 data.raw.technology["automation-3"].unit = {count = 200, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}, 
@@ -56,7 +56,7 @@ data.raw.technology["nuclear-power"].prerequisites = {"machines_2", "boiler_3", 
 data.raw.technology["nuclear-power"].order = "07-32"
 
 --Base "solar-energy"
-data.raw.technology["solar-energy"].icon = "__xander-mod__/graphics/technology/production/solar-energy_1.png"
+data.raw.technology["solar-energy"].icon = "__xander-mod-v1__/graphics/technology/production/solar-energy_1.png"
 data.raw.technology["solar-energy"].icon_size = 128
 data.raw.technology["solar-energy"].effects = {{type = "unlock-recipe", recipe = "wafer-solar"}, {type = "unlock-recipe", recipe = "solar-panel"}}
 data.raw.technology["solar-energy"].prerequisites = {"advanced-electronics", "forging-steel", "glass-a", "rubber-a", "semiconductors_1"}
@@ -119,7 +119,7 @@ data:extend(
 {
 	type = "technology",
 	name = "logging",
-	icon = "__xander-mod__/graphics/technology/production/logging.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/logging.png",
 	icon_size = 128,
 	effects =
 	{
@@ -148,7 +148,7 @@ data:extend(
 {
 	type = "technology",
 	name = "mining-drill_1",
-	icon = "__xander-mod__/graphics/technology/production/mining-drill_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/mining-drill_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -205,7 +205,7 @@ data:extend(
 {
 	type = "technology",
 	name = "mining-drill_3",
-	icon = "__xander-mod__/graphics/technology/production/mining-drill_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/mining-drill_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -232,7 +232,7 @@ data:extend(
 {
 	type = "technology",
 	name = "mining-drill_4",
-	icon = "__xander-mod__/graphics/technology/production/mining-drill_4.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/mining-drill_4.png",
 	icon_size = 128,
 	effects =
 	{
@@ -289,7 +289,7 @@ data:extend(
 {
 	type = "technology",
 	name = "pumpjack_2",
-	icon = "__xander-mod__/graphics/technology/production/pumpjack_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/pumpjack_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -317,7 +317,7 @@ data:extend(
 {
 	type = "technology",
 	name = "ore-processor_0",
-	icon = "__xander-mod__/graphics/technology/production/ore-processor_0.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/ore-processor_0.png",
 	icon_size = 128,
 	effects =
 	{
@@ -342,7 +342,7 @@ data:extend(
 {
 	type = "technology",
 	name = "ore-processor_1",
-	icon = "__xander-mod__/graphics/technology/production/ore-processor_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/ore-processor_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -371,7 +371,7 @@ data:extend(
 {
 	type = "technology",
 	name = "ore-processor_2",
-	icon = "__xander-mod__/graphics/technology/production/ore-processor_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/ore-processor_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -401,7 +401,7 @@ data:extend(
 {
 	type = "technology",
 	name = "furnace_4",
-	icon = "__xander-mod__/graphics/technology/production/furnace_4.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/furnace_4.png",
 	icon_size = 128,
 	effects =
 	{
@@ -433,7 +433,7 @@ data:extend(
 {
 	type = "technology",
 	name = "furnace_6",
-	icon = "__xander-mod__/graphics/technology/production/furnace_6.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/furnace_6.png",
 	icon_size = 128,
 	effects =
 	{
@@ -462,7 +462,7 @@ data:extend(
 {
 	type = "technology",
 	name = "reactor_0",
-	icon = "__xander-mod__/graphics/technology/production/reactor_0.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/reactor_0.png",
 	icon_size = 128,
 	effects =
 	{
@@ -495,7 +495,7 @@ data:extend(
 {
 	type = "technology",
 	name = "reactor_1",
-	icon = "__xander-mod__/graphics/technology/production/reactor_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/reactor_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -524,7 +524,7 @@ data:extend(
 {
 	type = "technology",
 	name = "reactor_2",
-	icon = "__xander-mod__/graphics/technology/production/reactor_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/reactor_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -551,7 +551,7 @@ data:extend(
 {
 	type = "technology",
 	name = "electrolyzer_1",
-	icon = "__xander-mod__/graphics/technology/production/electrolyzer_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/electrolyzer_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -577,7 +577,7 @@ data:extend(
 {
 	type = "technology",
 	name = "electrolyzer_2",
-	icon = "__xander-mod__/graphics/technology/production/electrolyzer_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/electrolyzer_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -604,7 +604,7 @@ data:extend(
 {
 	type = "technology",
 	name = "centrifuge",
-	icon = "__xander-mod__/graphics/technology/production/centrifuge.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/centrifuge.png",
 	icon_size = 128,
 	effects =
 	{
@@ -657,7 +657,7 @@ data:extend(
 {
 	type = "technology",
 	name = "reactor_3",
-	icon = "__xander-mod__/graphics/technology/production/reactor_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/reactor_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -686,7 +686,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machine-tool_0",
-	icon = "__xander-mod__/graphics/technology/production/machine-tool_0.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/machine-tool_0.png",
 	icon_size = 128,
 	effects =
 	{
@@ -711,7 +711,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machine-tool_1",
-	icon = "__xander-mod__/graphics/technology/production/machine-tool_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/machine-tool_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -740,7 +740,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machine-tool_2",
-	icon = "__xander-mod__/graphics/technology/production/machine-tool_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/machine-tool_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -766,7 +766,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machine-tool_3",
-	icon = "__xander-mod__/graphics/technology/production/machine-tool_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/machine-tool_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -794,7 +794,7 @@ data:extend(
 {
 	type = "technology",
 	name = "automation_0",
-	icon = "__xander-mod__/graphics/technology/production/automation_0.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/automation_0.png",
 	icon_size = 128,
 	effects =
 	{
@@ -825,7 +825,7 @@ data:extend(
 {
 	type = "technology",
 	name = "automation-4",
-	icon = "__xander-mod__/graphics/technology/production/automation-4.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/automation-4.png",
 	icon_size = 128,
 	effects =
 	{
@@ -854,7 +854,7 @@ data:extend(
 {
 	type = "technology",
 	name = "lab_2",
-	icon = "__xander-mod__/graphics/technology/production/lab_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/lab_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -881,7 +881,7 @@ data:extend(
 {
 	type = "technology",
 	name = "boiler_2",
-	icon = "__xander-mod__/graphics/technology/production/boiler_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/boiler_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -909,7 +909,7 @@ data:extend(
 {
 	type = "technology",
 	name = "boiler_4",
-	icon = "__xander-mod__/graphics/technology/production/boiler_4.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/boiler_4.png",
 	icon_size = 128,
 	effects =
 	{
@@ -937,7 +937,7 @@ data:extend(
 {
 	type = "technology",
 	name = "steam-turbine_1",
-	icon = "__xander-mod__/graphics/technology/production/steam-turbine_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/steam-turbine_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -964,7 +964,7 @@ data:extend(
 {
 	type = "technology",
 	name = "steam-turbine_2",
-	icon = "__xander-mod__/graphics/technology/production/steam-turbine_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/steam-turbine_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -993,7 +993,7 @@ data:extend(
 {
 	type = "technology",
 	name = "boiler_3",
-	icon = "__xander-mod__/graphics/technology/production/boiler_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/boiler_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1029,7 +1029,7 @@ data:extend(
 {
 	type = "technology",
 	name = "solar-energy_2",
-	icon = "__xander-mod__/graphics/technology/production/solar-energy_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/solar-energy_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1086,7 +1086,7 @@ data:extend(
 {
 	type = "technology",
 	name = "electric-energy-accumulators_2",
-	icon = "__xander-mod__/graphics/technology/production/electric-energy-accumulators_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/electric-energy-accumulators_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1114,7 +1114,7 @@ data:extend(
 {
 	type = "technology",
 	name = "lamp_1",
-	icon = "__xander-mod__/graphics/technology/production/lamp_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/lamp_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1139,7 +1139,7 @@ data:extend(
 {
 	type = "technology",
 	name = "lamp_2",
-	icon = "__xander-mod__/graphics/technology/production/lamp_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/lamp_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1169,7 +1169,7 @@ data:extend(
 {
 	type = "technology",
 	name = "repair_1",
-	icon = "__xander-mod__/graphics/technology/production/repair_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/repair_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1194,7 +1194,7 @@ data:extend(
 {
 	type = "technology",
 	name = "repair_2",
-	icon = "__xander-mod__/graphics/technology/production/repair_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/repair_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1220,7 +1220,7 @@ data:extend(
 {
 	type = "technology",
 	name = "repair_3",
-	icon = "__xander-mod__/graphics/technology/production/repair_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/repair_1.png",
 	icon_size = 128,
 	effects =
 	{

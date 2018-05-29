@@ -44,7 +44,7 @@ data:extend(
 {
 	type = "recipe",
     name = "forging-iron-c",
-	icon = "__xander-mod__/graphics/recipe/alloy/forging-iron-c.png",
+	icon = "__xander-mod-v1__/graphics/recipe/alloy/forging-iron-c.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 64,
@@ -67,7 +67,7 @@ data:extend(
 {
 	type = "recipe",
     name = "forging-steel-b",
-	icon = "__xander-mod__/graphics/recipe/alloy/forging-steel-b.png",
+	icon = "__xander-mod-v1__/graphics/recipe/alloy/forging-steel-b.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 64,
@@ -80,7 +80,7 @@ data:extend(
 {
 	type = "recipe",
     name = "forging-alloy-a",
-	icon = "__xander-mod__/graphics/recipe/alloy/forging-alloy-a.png",
+	icon = "__xander-mod-v1__/graphics/recipe/alloy/forging-alloy-a.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 32,
@@ -93,7 +93,7 @@ data:extend(
 {
 	type = "recipe",
     name = "forging-alloy-b",
-	icon = "__xander-mod__/graphics/recipe/alloy/forging-alloy-b.png",
+	icon = "__xander-mod-v1__/graphics/recipe/alloy/forging-alloy-b.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 64,
@@ -106,7 +106,7 @@ data:extend(
 {
 	type = "recipe",
     name = "forging-stainless",
-	icon = "__xander-mod__/graphics/recipe/alloy/forging-stainless.png",
+	icon = "__xander-mod-v1__/graphics/recipe/alloy/forging-stainless.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 32,
@@ -257,7 +257,7 @@ data:extend(
 {
 	type = "recipe",
     name = "blank-3-b",
-	icon = "__xander-mod__/graphics/recipe/mechanical/blank-3-b.png",
+	icon = "__xander-mod-v1__/graphics/recipe/mechanical/blank-3-b.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 16,

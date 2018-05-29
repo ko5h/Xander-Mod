@@ -33,7 +33,7 @@ data:extend(
 {
 	type = "technology",
 	name = "wire_1",
-	icon = "__xander-mod__/graphics/technology/data/wire_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/wire_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -70,7 +70,7 @@ data:extend(
 {
 	type = "technology",
 	name = "wire_2",
-	icon = "__xander-mod__/graphics/technology/data/wire_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/wire_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -104,7 +104,7 @@ data:extend(
 {
 	type = "technology",
 	name = "substrate_1",
-	icon = "__xander-mod__/graphics/technology/data/substrate_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/substrate_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -129,7 +129,7 @@ data:extend(
 {
 	type = "technology",
 	name = "substrate_2",
-	icon = "__xander-mod__/graphics/technology/data/substrate_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/substrate_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -167,7 +167,7 @@ data:extend(
 {
 	type = "technology",
 	name = "substrate_3",
-	icon = "__xander-mod__/graphics/technology/data/substrate_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/substrate_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -204,7 +204,7 @@ data:extend(
 {
 	type = "technology",
 	name = "soldering_1",
-	icon = "__xander-mod__/graphics/technology/data/soldering_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/soldering_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -229,7 +229,7 @@ data:extend(
 {
 	type = "technology",
 	name = "soldering_2",
-	icon = "__xander-mod__/graphics/technology/data/soldering_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/soldering_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -260,7 +260,7 @@ data:extend(
 {
 	type = "technology",
 	name = "soldering_3",
-	icon = "__xander-mod__/graphics/technology/data/soldering_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/soldering_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -291,7 +291,7 @@ data:extend(
 {
 	type = "technology",
 	name = "semiconductors_1",
-	icon = "__xander-mod__/graphics/technology/data/semiconductors.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/semiconductors.png",
 	icon_size = 128,
 	effects =
 	{
@@ -321,7 +321,7 @@ data:extend(
 {
 	type = "technology",
 	name = "semiconductors_2",
-	icon = "__xander-mod__/graphics/technology/data/semiconductors.png",
+	icon = "__xander-mod-v1__/graphics/technology/data/semiconductors.png",
 	icon_size = 128,
 	effects =
 	{

@@ -101,7 +101,7 @@ data:extend(
 {
 	type = "technology",
 	name = "substation_1",
-	icon = "__xander-mod__/graphics/technology/logistic/substation_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/substation_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -128,7 +128,7 @@ data:extend(
 {
 	type = "technology",
 	name = "substation_2",
-	icon = "__xander-mod__/graphics/technology/logistic/substation_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/substation_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -228,7 +228,7 @@ data:extend(
 {
 	type = "technology",
 	name = "loader_1",
-	icon = "__xander-mod__/graphics/technology/logistic/loader.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/loader.png",
 	icon_size = 128,
 	effects =
 	{
@@ -254,7 +254,7 @@ data:extend(
 {
 	type = "technology",
 	name = "loader_2",
-	icon = "__xander-mod__/graphics/technology/logistic/loader.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/loader.png",
 	icon_size = 128,
 	effects =
 	{
@@ -281,7 +281,7 @@ data:extend(
 {
 	type = "technology",
 	name = "loader_3",
-	icon = "__xander-mod__/graphics/technology/logistic/loader.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/loader.png",
 	icon_size = 128,
 	effects =
 	{
@@ -309,7 +309,7 @@ data:extend(
 {
 	type = "technology",
 	name = "loader_4",
-	icon = "__xander-mod__/graphics/technology/logistic/loader.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/loader.png",
 	icon_size = 128,
 	effects =
 	{
@@ -338,7 +338,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-a",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-b.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-b.png",
 	icon_size = 128,
 	effects =
 	{
@@ -363,7 +363,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-b",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-b.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-b.png",
 	icon_size = 128,
 	effects =
 	{
@@ -388,7 +388,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-long",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-long.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-long.png",
 	icon_size = 128,
 	effects =
 	{
@@ -413,7 +413,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-fast",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-fast.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-fast.png",
 	icon_size = 128,
 	effects =
 	{
@@ -439,7 +439,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-long-fast",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-long-fast.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-long-fast.png",
 	icon_size = 128,
 	effects =
 	{
@@ -465,7 +465,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-filter",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-filter.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-filter.png",
 	icon_size = 128,
 	effects =
 	{
@@ -493,7 +493,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-long-stack",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-long-stack.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-long-stack.png",
 	icon_size = 128,
 	effects =
 	{
@@ -521,7 +521,7 @@ data:extend(
 {
 	type = "technology",
 	name = "inserter-stack-filter",
-	icon = "__xander-mod__/graphics/technology/logistic/inserter-stack-filter.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/inserter-stack-filter.png",
 	icon_size = 128,
 	effects =
 	{
@@ -551,7 +551,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rail-b",
-	icon = "__xander-mod__/graphics/technology/logistic/rail-b.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/rail-b.png",
 	icon_size = 128,
 	effects =
 	{
@@ -584,7 +584,7 @@ data:extend(
 {
 	type = "technology",
 	name = "cargo-wagon_2",
-	icon = "__xander-mod__/graphics/technology/logistic/cargo-wagon_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/cargo-wagon_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -612,7 +612,7 @@ data:extend(
 {
 	type = "technology",
 	name = "fluid-wagon_2",
-	icon = "__xander-mod__/graphics/technology/logistic/fluid-wagon_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/fluid-wagon_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -640,7 +640,7 @@ data:extend(
 {
 	type = "technology",
 	name = "locomotive_2",
-	icon = "__xander-mod__/graphics/technology/logistic/locomotive_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/locomotive_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -667,7 +667,7 @@ data:extend(
 {
 	type = "technology",
 	name = "locomotive_3",
-	icon = "__xander-mod__/graphics/technology/logistic/locomotive_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/locomotive_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -697,7 +697,7 @@ data:extend(
 {
 	type = "technology",
 	name = "robotics_2",
-	icon = "__xander-mod__/graphics/technology/logistic/robotics_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/robotics_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -731,7 +731,7 @@ data:extend(
 {
 	type = "technology",
 	name = "construction-robotics_2",
-	icon = "__xander-mod__/graphics/technology/logistic/construction-robotics_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/construction-robotics_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -762,7 +762,7 @@ data:extend(
 {
 	type = "technology",
 	name = "logistic-robotics_2",
-	icon = "__xander-mod__/graphics/technology/logistic/logistic-robotics_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/logistic-robotics_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -793,7 +793,7 @@ data:extend(
 {
 	type = "technology",
 	name = "plumbing-steel",
-	icon = "__xander-mod__/graphics/technology/logistic/plumbing-steel.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/plumbing-steel.png",
 	icon_size = 128,
 	effects =
 	{
@@ -826,7 +826,7 @@ data:extend(
 {
 	type = "technology",
 	name = "plumbing-monel",
-	icon = "__xander-mod__/graphics/technology/logistic/plumbing-monel.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/plumbing-monel.png",
 	icon_size = 128,
 	effects =
 	{
@@ -856,7 +856,7 @@ data:extend(
 {
 	type = "technology",
 	name = "plumbing-stainless",
-	icon = "__xander-mod__/graphics/technology/logistic/plumbing-stainless.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/plumbing-stainless.png",
 	icon_size = 128,
 	effects =
 	{
@@ -887,7 +887,7 @@ data:extend(
 {
 	type = "technology",
 	name = "plumbing-superalloy",
-	icon = "__xander-mod__/graphics/technology/logistic/plumbing-superalloy.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/plumbing-superalloy.png",
 	icon_size = 128,
 	effects =
 	{
@@ -919,7 +919,7 @@ data:extend(
 {
 	type = "technology",
 	name = "plumbing-plastic",
-	icon = "__xander-mod__/graphics/technology/logistic/plumbing-plastic.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/plumbing-plastic.png",
 	icon_size = 128,
 	effects =
 	{
@@ -950,7 +950,7 @@ data:extend(
 {
 	type = "technology",
 	name = "pump_1",
-	icon = "__xander-mod__/graphics/technology/logistic/pump_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/pump_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -975,7 +975,7 @@ data:extend(
 {
 	type = "technology",
 	name = "pump_2",
-	icon = "__xander-mod__/graphics/technology/logistic/pump_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/pump_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1002,7 +1002,7 @@ data:extend(
 {
 	type = "technology",
 	name = "pump_3",
-	icon = "__xander-mod__/graphics/technology/logistic/pump_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/pump_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1032,7 +1032,7 @@ data:extend(
 {
 	type = "technology",
 	name = "fluid-handling_2",
-	icon = "__xander-mod__/graphics/technology/logistic/fluid-handling_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/fluid-handling_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1097,7 +1097,7 @@ data:extend(
 {
 	type = "technology",
 	name = "circuit-wire-b",
-	icon = "__xander-mod__/graphics/technology/logistic/circuit-wire-b.png",
+	icon = "__xander-mod-v1__/graphics/technology/logistic/circuit-wire-b.png",
 	icon_size = 128,
 	effects =
 	{

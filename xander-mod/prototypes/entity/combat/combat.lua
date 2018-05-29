@@ -42,12 +42,12 @@ xmutil.clone("wall", "stone-wall",
 	{
 		{
 			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod__/graphics/entity/combat/wall-2/",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/",
 		},
 	},
 	{
 		name = "wall-2",
-		icon = "__xander-mod__/graphics/item/combat/structure/wall-2.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-2.png",
 		minable = {mining_time = 0.5, result = "wall-2"},
 		max_health = 100,
 	}
@@ -57,12 +57,12 @@ xmutil.clone("wall", "stone-wall",
 	{
 		{
 			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod__/graphics/entity/combat/wall-3/",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/",
 		},
 	},
 	{
 		name = "wall-3",
-		icon = "__xander-mod__/graphics/item/combat/structure/wall-3.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-3.png",
 		minable = {mining_time = 0.5, result = "wall-3"},
 		max_health = 400,
 	}
@@ -72,12 +72,12 @@ xmutil.clone("wall", "stone-wall",
 	{
 		{
 			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod__/graphics/entity/combat/wall-4/",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/",
 		},
 	},
 	{
 		name = "wall-4",
-		icon = "__xander-mod__/graphics/item/combat/structure/wall-4.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-4.png",
 		minable = {mining_time = 0.5, result = "wall-4"},
 		max_health = 600,
 	}
@@ -87,12 +87,12 @@ xmutil.clone("wall", "stone-wall",
 	{
 		{
 			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod__/graphics/entity/combat/wall-5/",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/",
 		},
 	},
 	{
 		name = "wall-5",
-		icon = "__xander-mod__/graphics/item/combat/structure/wall-5.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-5.png",
 		minable = {mining_time = 0.5, result = "wall-4"},
 		max_health = 1000,
 	}
@@ -103,12 +103,12 @@ xmutil.clone("gate", "gate",
 	{
 		{
 			"__base__/graphics/entity/gate/gate-",
-			"__xander-mod__/graphics/entity/combat/gate-2/",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/",
 		},
 	},
 	{
 		name = "gate-2",
-		icon = "__xander-mod__/graphics/item/combat/structure/gate-2.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/gate-2.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "gate-2"},
 		max_health = 600,
 		opening_speed = 0.08,
@@ -119,12 +119,12 @@ xmutil.clone("gate", "gate",
 	{
 		{
 			"__base__/graphics/entity/gate/gate-",
-			"__xander-mod__/graphics/entity/combat/gate-3/",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/",
 		},
 	},
 	{
 		name = "gate-3",
-		icon = "__xander-mod__/graphics/item/combat/structure/gate-3.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/gate-3.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "gate-3"},
 		max_health = 600,
 		opening_speed = 0.08,
@@ -139,7 +139,7 @@ xmutil.clone("gate", "gate",
 {
 	type = "electric-turret",
 	name = "laser-turret-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/laser-turret-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/laser-turret-2.png",
 	icon_size = 32,
 	flags = {"placeable-player", "placeable-enemy", "player-creation"},
 	minable = {mining_time = 0.5, result = "laser-turret-2"},
@@ -164,7 +164,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-2/gun-start.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun-start.png",
 				priority = "medium",
 				width = 66,
 				height = 67,
@@ -184,7 +184,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-2/gun-start.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun-start.png",
 				priority = "medium",
 				width = 66,
 				height = 67,
@@ -204,7 +204,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-2/gun.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun.png",
 				line_length = 8,
 				width = 68,
 				height = 68,
@@ -243,7 +243,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-2/gun-start.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun-start.png",
 				priority = "medium",
 				width = 66,
 				height = 67,
@@ -263,7 +263,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-2/base.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/base.png",
 				priority = "high",
 				width = 98,
 				height = 82,
@@ -324,7 +324,7 @@ xmutil.clone("gate", "gate",
 {
 	type = "electric-turret",
 	name = "laser-turret-3",
-	icon = "__xander-mod__/graphics/item/combat/structure/laser-turret-3.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/laser-turret-3.png",
 	icon_size = 32,
 	flags = {"placeable-player", "placeable-enemy", "player-creation"},
 	minable = {mining_time = 0.5, result = "laser-turret-3"},
@@ -349,7 +349,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-3/gun-start.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun-start.png",
 				priority = "medium",
 				width = 66,
 				height = 67,
@@ -369,7 +369,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-3/gun-start.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun-start.png",
 				priority = "medium",
 				width = 66,
 				height = 67,
@@ -389,7 +389,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-3/gun.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun.png",
 				line_length = 8,
 				width = 68,
 				height = 68,
@@ -428,7 +428,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-3/gun-start.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun-start.png",
 				priority = "medium",
 				width = 66,
 				height = 67,
@@ -448,7 +448,7 @@ xmutil.clone("gate", "gate",
 		layers =
 		{
 			{
-				filename = "__xander-mod__/graphics/entity/combat/laser-turret-3/base.png",
+				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/base.png",
 				priority = "high",
 				width = 98,
 				height = 82,
@@ -512,7 +512,7 @@ xmutil.clone("radar", "radar",
 {},
 {
 	name = "radar-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/radar-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/radar-2.png",
 	minable = {hardness = 0.2, mining_time = 0.5, result = "radar-2"},
 	max_health = 300,
 	energy_per_sector = "20MJ",
@@ -527,7 +527,7 @@ xmutil.clone("radar", "radar",
 {},
 {
 	name = "radar-3",
-	icon = "__xander-mod__/graphics/item/combat/structure/radar-3.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/radar-3.png",
 	minable = {hardness = 0.2, mining_time = 0.5, result = "radar-3"},
 	max_health = 500,
 	energy_per_sector = "10MJ",
@@ -545,7 +545,7 @@ xmutil.clone("car", "tank",
 	{},
 	{
 		name = "artillery-crawler",
-		icon = "__xander-mod__/graphics/item/combat/structure/artillery-crawler.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/artillery-crawler.png",
 		minable = {mining_time = 1, result = "artillery-crawler"},
 		braking_power = "500kW",
 		consumption = "1MW",
@@ -558,7 +558,7 @@ xmutil.clone("car", "tank",
 	{},
 	{
 		name = "tank-2",
-		icon = "__xander-mod__/graphics/item/combat/structure/tank-2.png",
+		icon = "__xander-mod-v1__/graphics/item/combat/structure/tank-2.png",
 		minable = {mining_time = 1, result = "tank-2"},
 		max_health = 6000,
 		braking_power = "2MW",

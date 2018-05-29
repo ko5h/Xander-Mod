@@ -26,7 +26,7 @@ data:extend(
 {
 	type = "item",
 	name = "inserter-chemical-burner",
-	icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-chemical-burner.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-chemical-burner.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "inserter",
@@ -38,7 +38,7 @@ data:extend(
 {
 	type = "item",
 	name = "inserter-slow",
-	icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-slow.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-slow.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "inserter",
@@ -56,7 +56,7 @@ data:extend(
 {
 	type = "item",
 	name = "inserter-long-fast",
-	icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-long-fast.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-long-fast.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "inserter",
@@ -72,7 +72,7 @@ data:extend(
 {
 	type = "item",
 	name = "inserter-long-stack",
-	icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-long-stack.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-long-stack.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "inserter",

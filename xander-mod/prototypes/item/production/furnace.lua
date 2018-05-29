@@ -2,7 +2,7 @@
 
 --Base "stone-furnace" -> XM "Stone Brick Furnace"
 data.raw.item["stone-furnace"].order = "0"
-data.raw.item["stone-furnace"].icon = "__xander-mod__/graphics/item/production/furnace/furnace-1.png"
+data.raw.item["stone-furnace"].icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-1.png"
 data.raw.item["stone-furnace"].place_result = "furnace-1"
 
 --Base "steel-furnace" -> XM "Blast Furnace"
@@ -35,7 +35,7 @@ data:extend(
 {
 	type = "item",
 	name = "furnace-2",
-	icon = "__xander-mod__/graphics/item/production/furnace/furnace-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "smelting-machine",
@@ -61,7 +61,7 @@ data:extend(
 {
 	type = "item",
 	name = "furnace-4",
-	icon = "__xander-mod__/graphics/item/production/furnace/furnace-4.png",
+	icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-4.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "smelting-machine",
@@ -87,7 +87,7 @@ data:extend(
 {
 	type = "item",
 	name = "furnace-6",
-	icon = "__xander-mod__/graphics/item/production/furnace/furnace-6.png",
+	icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-6.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "smelting-machine",

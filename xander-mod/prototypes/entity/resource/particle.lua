@@ -6,14 +6,14 @@ data.raw.particle["copper-ore-particle"].order = "08"
 data.raw.particle["copper-ore-particle"].pictures =
 	{
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/copper/1.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/1.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/copper/hr-1.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/hr-1.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -22,14 +22,14 @@ data.raw.particle["copper-ore-particle"].pictures =
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/copper/2.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/2.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/copper/hr-2.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/hr-2.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -38,14 +38,14 @@ data.raw.particle["copper-ore-particle"].pictures =
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/copper/3.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/3.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/copper/hr-3.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/hr-3.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -54,14 +54,14 @@ data.raw.particle["copper-ore-particle"].pictures =
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/copper/4.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/4.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/copper/hr-4.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/copper/hr-4.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -76,14 +76,14 @@ data.raw.particle["iron-ore-particle"].order = "08"
 data.raw.particle["iron-ore-particle"].pictures =
 	{
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/iron/1.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/1.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/iron/hr-1.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/hr-1.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -92,14 +92,14 @@ data.raw.particle["iron-ore-particle"].pictures =
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/iron/2.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/2.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/iron/hr-2.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/hr-2.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -108,14 +108,14 @@ data.raw.particle["iron-ore-particle"].pictures =
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/iron/3.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/3.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/iron/hr-3.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/hr-3.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -124,14 +124,14 @@ data.raw.particle["iron-ore-particle"].pictures =
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/iron/4.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/4.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/iron/hr-4.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/iron/hr-4.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -155,14 +155,14 @@ data:extend(
 	pictures =
 	{
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/1.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/1.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/hr-1.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/hr-1.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -171,14 +171,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/2.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/2.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/hr-2.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/hr-2.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -187,14 +187,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/3.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/3.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/hr-3.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/hr-3.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -203,14 +203,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/4.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/4.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/bauxite/hr-4.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/bauxite/hr-4.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -296,14 +296,14 @@ data:extend(
 	pictures =
 	{
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/granitic/1.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/1.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/granitic/hr-1.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/hr-1.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -312,14 +312,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/granitic/2.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/2.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/granitic/hr-2.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/hr-2.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -328,14 +328,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/granitic/3.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/3.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/granitic/hr-3.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/hr-3.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -344,14 +344,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/granitic/4.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/4.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/granitic/hr-4.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/granitic/hr-4.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -437,14 +437,14 @@ data:extend(
 	pictures =
 	{
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/lead/1.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/1.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/lead/hr-1.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/hr-1.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -453,14 +453,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/lead/2.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/2.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/lead/hr-2.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/hr-2.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -469,14 +469,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/lead/3.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/3.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/lead/hr-3.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/hr-3.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,
@@ -485,14 +485,14 @@ data:extend(
 			}
 		},
 		{
-			filename = "__xander-mod__/graphics/entity/resource/particle/lead/4.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/4.png",
 			priority = "extra-high",
 			width = 16,
 			height = 16,
 			frame_count = 1,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/particle/lead/hr-4.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/particle/lead/hr-4.png",
 				priority = "extra-high",
 				width = 32,
 				height = 32,

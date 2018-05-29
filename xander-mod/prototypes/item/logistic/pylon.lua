@@ -22,7 +22,7 @@ data:extend(
 {
 	type = "item",
 	name = "medium-electric-pole-2",
-	icon = "__xander-mod__/graphics/item/logistic/pylon/medium-electric-pole-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pylon/medium-electric-pole-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy-pipe-distribution",
@@ -36,7 +36,7 @@ data:extend(
 {
 	type = "item",
 	name = "big-electric-pole-2",
-	icon = "__xander-mod__/graphics/item/logistic/pylon/big-electric-pole-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pylon/big-electric-pole-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy-pipe-distribution",
@@ -50,7 +50,7 @@ data:extend(
 {
 	type = "item",
 	name = "substation-2",
-	icon = "__xander-mod__/graphics/item/logistic/pylon/substation-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pylon/substation-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy-pipe-distribution",

@@ -15,7 +15,7 @@ data:extend(
 	name = "bulk",
 	order = "0",
 	inventory_order = "0",
-	icon = "__xander-mod__/graphics/category/bulk.png",
+	icon = "__xander-mod-v1__/graphics/category/bulk.png",
 	icon_size = 64
 },
 --==========

@@ -10,7 +10,7 @@ data.raw.resource["coal"].autoplace.richness_multiplier_distance_bonus = 60
 data.raw.resource["coal"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
 
 --Base "copper-ore"
-data.raw.resource["copper-ore"].icon = "__xander-mod__/graphics/item/material/resource/copper.png"
+data.raw.resource["copper-ore"].icon = "__xander-mod-v1__/graphics/item/material/resource/copper.png"
 data.raw.resource["copper-ore"].order = "03"
 data.raw.resource["copper-ore"].minable.hardness = 0.5
 data.raw.resource["copper-ore"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
@@ -18,7 +18,7 @@ data.raw.resource["copper-ore"].stages =
 {
 	sheet =
 	{
-		filename = "__xander-mod__/graphics/entity/resource/copper.png",
+		filename = "__xander-mod-v1__/graphics/entity/resource/copper.png",
 		priority = "extra-high",
 		width = 64,
 		height = 64,
@@ -26,7 +26,7 @@ data.raw.resource["copper-ore"].stages =
 		variation_count = 8,
 		hr_version =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/copper-hr.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/copper-hr.png",
 			priority = "extra-high",
 			width = 128,
 			height = 128,
@@ -42,7 +42,7 @@ data.raw.resource["copper-ore"].map_color = {r = 0.35, g = 0.48, b = 0.54}
 data.raw.resource["crude-oil"].order = "04"
 
 --Base "iron-ore" placeholder
-data.raw.resource["iron-ore"].icon = "__xander-mod__/graphics/item/material/resource/iron.png"
+data.raw.resource["iron-ore"].icon = "__xander-mod-v1__/graphics/item/material/resource/iron.png"
 data.raw.resource["iron-ore"].category = "basic-solid"
 data.raw.resource["iron-ore"].order = "08"
 data.raw.resource["iron-ore"].minable.hardness = 0.5
@@ -51,7 +51,7 @@ data.raw.resource["iron-ore"].stages =
 {
 	sheet =
 	{
-		filename = "__xander-mod__/graphics/entity/resource/iron.png",
+		filename = "__xander-mod-v1__/graphics/entity/resource/iron.png",
 		priority = "extra-high",
 		width = 64,
 		height = 64,
@@ -59,7 +59,7 @@ data.raw.resource["iron-ore"].stages =
 		variation_count = 8,
 		hr_version =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/iron-hr.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/iron-hr.png",
 			priority = "extra-high",
 			width = 128,
 			height = 128,
@@ -93,7 +93,7 @@ data:extend(
 {
 	type = "resource",
 	name = "apatite",
-	icon = "__xander-mod__/graphics/item/material/resource/apatite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/apatite.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "hard-solid",
@@ -130,7 +130,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/apatite.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/apatite.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -138,7 +138,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/apatite-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/apatite-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -154,7 +154,7 @@ data:extend(
 {
 	type = "resource",
 	name = "bauxite",
-	icon = "__xander-mod__/graphics/item/material/resource/bauxite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/bauxite.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "basic-solid",
@@ -192,7 +192,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/bauxite.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/bauxite.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -200,7 +200,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/bauxite-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/bauxite-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -222,7 +222,7 @@ data:extend(
 {
 	type = "resource",
 	name = "garnierite",
-	icon = "__xander-mod__/graphics/item/material/resource/garnierite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/garnierite.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "hard-solid",
@@ -259,7 +259,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/garnierite.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/garnierite.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -267,7 +267,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/garnierite-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/garnierite-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -283,7 +283,7 @@ data:extend(
 {
 	type = "resource",
 	name = "granitic",
-	icon = "__xander-mod__/graphics/item/material/resource/granitic.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/granitic.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "basic-solid",
@@ -321,7 +321,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/granitic.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/granitic.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -329,7 +329,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/granitic-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/granitic-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -345,7 +345,7 @@ data:extend(
 {
 	type = "resource",
 	name = "heavy-sand",
-	icon = "__xander-mod__/graphics/item/material/resource/heavy.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/heavy.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "tough-solid",
@@ -382,7 +382,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/heavy.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/heavy.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -390,7 +390,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/heavy-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/heavy-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -408,7 +408,7 @@ data:extend(
 {
 	type = "resource",
 	name = "lead-ore",
-	icon = "__xander-mod__/graphics/item/material/resource/lead.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/lead.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "basic-solid",
@@ -446,7 +446,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/lead.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/lead.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -454,7 +454,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/lead-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/lead-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -470,7 +470,7 @@ data:extend(
 {
 	type = "resource",
 	name = "mineral-water",
-	icon = "__xander-mod__/graphics/fluid/aqueous/mineral-water.png",
+	icon = "__xander-mod-v1__/graphics/fluid/aqueous/mineral-water.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
 	category = "basic-fluid",
@@ -523,7 +523,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/mineral-water.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/mineral-water.png",
 			priority = "extra-high",
 			width = 75,
 			height = 61,
@@ -538,7 +538,7 @@ data:extend(
 {
 	type = "resource",
 	name = "natural-gas",
-	icon = "__xander-mod__/graphics/fluid/hydrocarbon/natural-gas.png",
+	icon = "__xander-mod-v1__/graphics/fluid/hydrocarbon/natural-gas.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
 	category = "basic-fluid",
@@ -589,7 +589,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/natural-gas.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/natural-gas.png",
 			priority = "extra-high",
 			width = 75,
 			height = 61,
@@ -608,7 +608,7 @@ data:extend(
 {
 	type = "resource",
 	name = "sulfidic-ore",
-	icon = "__xander-mod__/graphics/item/material/resource/sulfidic.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/sulfidic.png",
 	icon_size = 32,
 	flags = {"placeable-neutral"},
     category = "hard-solid",
@@ -645,7 +645,7 @@ data:extend(
 	{
 		sheet =
 		{
-			filename = "__xander-mod__/graphics/entity/resource/sulfidic.png",
+			filename = "__xander-mod-v1__/graphics/entity/resource/sulfidic.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -653,7 +653,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__xander-mod__/graphics/entity/resource/sulfidic-hr.png",
+				filename = "__xander-mod-v1__/graphics/entity/resource/sulfidic-hr.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,

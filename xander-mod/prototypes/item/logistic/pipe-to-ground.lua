@@ -12,7 +12,7 @@ data:extend(
 {
 	type = "item",
 	name = "pipe-to-ground-copper",
-	icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-to-ground-copper.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-to-ground-copper.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "pipe-to-ground",
@@ -24,7 +24,7 @@ data:extend(
 {
 	type = "item",
 	name = "pipe-to-ground-steel",
-	icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-to-ground-steel.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-to-ground-steel.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "pipe-to-ground",
@@ -36,7 +36,7 @@ data:extend(
 {
 	type = "item",
 	name = "pipe-to-ground-monel",
-	icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-to-ground-monel.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-to-ground-monel.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "pipe-to-ground",
@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "item",
 	name = "pipe-to-ground-stainless",
-	icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-to-ground-stainless.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-to-ground-stainless.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "pipe-to-ground",
@@ -60,7 +60,7 @@ data:extend(
 {
 	type = "item",
 	name = "pipe-to-ground-superalloy",
-	icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-to-ground-superalloy.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-to-ground-superalloy.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "pipe-to-ground",
@@ -72,7 +72,7 @@ data:extend(
 {
 	type = "item",
 	name = "pipe-to-ground-plastic",
-	icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-to-ground-plastic.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-to-ground-plastic.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "pipe-to-ground",

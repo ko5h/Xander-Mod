@@ -57,7 +57,7 @@ data:extend(
 {
 	type = "gun",
 	name = "artillery-cannon",
-	icon = "__xander-mod__/graphics/item/combat/gun/artillery-cannon.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/gun/artillery-cannon.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory", "hidden"},
 	subgroup = "gun",

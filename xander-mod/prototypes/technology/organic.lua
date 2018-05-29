@@ -27,7 +27,7 @@ data:extend(
 {
 	type = "technology",
 	name = "phenol-a",
-	icon = "__xander-mod__/graphics/technology/organic/phenol-a.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/phenol-a.png",
 	icon_size = 128,
 	effects =
 	{
@@ -52,7 +52,7 @@ data:extend(
 {
 	type = "technology",
 	name = "flotation_1",
-	icon = "__xander-mod__/graphics/technology/organic/flotation_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/flotation_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -78,7 +78,7 @@ data:extend(
 {
 	type = "technology",
 	name = "flotation_2",
-	icon = "__xander-mod__/graphics/technology/organic/flotation_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/flotation_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -203,7 +203,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rubber-a",
-	icon = "__xander-mod__/graphics/technology/organic/rubber-a.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/rubber-a.png",
 	icon_size = 128,
 	effects =
 	{
@@ -236,7 +236,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rubber-b",
-	icon = "__xander-mod__/graphics/technology/organic/rubber-b.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/rubber-b.png",
 	icon_size = 128,
 	effects =
 	{
@@ -273,7 +273,7 @@ data:extend(
 {
 	type = "technology",
 	name = "nitrocellulose",
-	icon = "__xander-mod__/graphics/technology/organic/nitrocellulose.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/nitrocellulose.png",
 	icon_size = 128,
 	effects =
 	{
@@ -301,7 +301,7 @@ data:extend(
 {
 	type = "technology",
 	name = "powder_2",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -327,7 +327,7 @@ data:extend(
 {
 	type = "technology",
 	name = "blasting",
-	icon = "__xander-mod__/graphics/technology/organic/blasting.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/blasting.png",
 	icon_size = 128,
 	effects =
 	{
@@ -353,7 +353,7 @@ data:extend(
 {
 	type = "technology",
 	name = "hydrocarbon-chlorination",
-	icon = "__xander-mod__/graphics/technology/organic/hydrocarbon-chlorination.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/hydrocarbon-chlorination.png",
 	icon_size = 128,
 	effects =
 	{
@@ -393,7 +393,7 @@ data:extend(
 {
 	type = "technology",
 	name = "lubricant-b",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -420,7 +420,7 @@ data:extend(
 {
 	type = "technology",
 	name = "phenolic-resin",
-	icon = "__xander-mod__/graphics/technology/organic/phenolic-resin.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/phenolic-resin.png",
 	icon_size = 128,
 	effects =
 	{
@@ -446,7 +446,7 @@ data:extend(
 {
 	type = "technology",
 	name = "naptha-processing",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -477,7 +477,7 @@ data:extend(
 {
 	type = "technology",
 	name = "heavy-cracking",
-	icon = "__xander-mod__/graphics/technology/organic/heavy-cracking.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/heavy-cracking.png",
 	icon_size = 128,
 	effects =
 	{
@@ -507,7 +507,7 @@ data:extend(
 {
 	type = "technology",
 	name = "light-cracking",
-	icon = "__xander-mod__/graphics/technology/organic/light-cracking.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/light-cracking.png",
 	icon_size = 128,
 	effects =
 	{
@@ -541,7 +541,7 @@ data:extend(
 {
 	type = "technology",
 	name = "light-reforming",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -571,7 +571,7 @@ data:extend(
 {
 	type = "technology",
 	name = "heavy-reforming",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -601,7 +601,7 @@ data:extend(
 {
 	type = "technology",
 	name = "synthesis-gas",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -633,7 +633,7 @@ data:extend(
 {
 	type = "technology",
 	name = "methane-cracking",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{
@@ -661,7 +661,7 @@ data:extend(
 {
 	type = "technology",
 	name = "epoxy-resin",
-	icon = "__xander-mod__/graphics/technology/organic/temp-placeholder.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/temp-placeholder.png",
 	icon_size = 128,
 	effects =
 	{

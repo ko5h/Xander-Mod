@@ -47,16 +47,16 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/reactor-1/1.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-1/1.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/reactor-1/hr-1.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-1/hr-1.png",
 		},
 	},
 	{
 		name = "reactor-1",
-		icon = "__xander-mod__/graphics/item/production/chemical/reactor-1.png",
+		icon = "__xander-mod-v1__/graphics/item/production/chemical/reactor-1.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "reactor-1"},
 		max_health = 200,
 		module_specification = xmutil.NIL,
@@ -77,16 +77,16 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/reactor-2/2.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-2/2.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/reactor-2/hr-2.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-2/hr-2.png",
 		},
 	},
 	{
 		name = "reactor-2",
-		icon = "__xander-mod__/graphics/item/production/chemical/reactor-2.png",
+		icon = "__xander-mod-v1__/graphics/item/production/chemical/reactor-2.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "reactor-2"},
 		max_health = 400,
 		module_specification = { module_slots = 2 },
@@ -107,16 +107,16 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/electrolyzer-1/1.png",
+			"__xander-mod-v1__/graphics/entity/production/electrolyzer-1/1.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/electrolyzer-1/hr-1.png",
+			"__xander-mod-v1__/graphics/entity/production/electrolyzer-1/hr-1.png",
 		},
 	},
 	{
 		name = "electrolyzer-1",
-		icon = "__xander-mod__/graphics/item/production/chemical/electrolyzer-1.png",
+		icon = "__xander-mod-v1__/graphics/item/production/chemical/electrolyzer-1.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyzer-1"},
 		max_health = 200,
 		module_specification = { module_slots = 2 },
@@ -138,17 +138,17 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/electrolyzer-2/2.png",
+			"__xander-mod-v1__/graphics/entity/production/electrolyzer-2/2.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod__/graphics/entity/production/electrolyzer-2/hr-2.png",
+			"__xander-mod-v1__/graphics/entity/production/electrolyzer-2/hr-2.png",
 		},
 	},
 	{
 		type = "assembling-machine",
 		name = "electrolyzer-2",
-		icon = "__xander-mod__/graphics/item/production/chemical/electrolyzer-2.png",
+		icon = "__xander-mod-v1__/graphics/item/production/chemical/electrolyzer-2.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyzer-2"},
 		max_health = 400,
 		module_specification = { module_slots = 3 },
@@ -172,24 +172,24 @@ xmutil.clone("assembling-machine", "oil-refinery",
 	{
 		{
 			"__base__/graphics/entity/oil-refinery/oil-refinery.png",
-			"__xander-mod__/graphics/entity/production/reactor-3/3.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-3/3.png",
 		},
 		{
 			"__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
-			"__xander-mod__/graphics/entity/production/reactor-3/hr-3.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-3/hr-3.png",
 		},
 		{
 			"__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-			"__xander-mod__/graphics/entity/production/reactor-3/steam.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-3/steam.png",
 		},
 		{
 			"__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
-			"__xander-mod__/graphics/entity/production/reactor-3/hr-steam.png",
+			"__xander-mod-v1__/graphics/entity/production/reactor-3/hr-steam.png",
 		},
 	},
 	{
 		name = "reactor-3",
-		icon = "__xander-mod__/graphics/item/production/chemical/reactor-3.png",
+		icon = "__xander-mod-v1__/graphics/item/production/chemical/reactor-3.png",
 		minable = {mining_time = 1, result = "reactor-3"},
 		max_health = 1000,
 		crafting_categories = {"chemistry", "oil-processing", "chemical-plant"},

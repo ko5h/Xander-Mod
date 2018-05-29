@@ -6,7 +6,7 @@ data:extend(
 {
 	type = "item",
 	name = "boule-corundum",
-	icon = "__xander-mod__/graphics/item/part/optic/boule-corundum.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/boule-corundum.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -17,7 +17,7 @@ data:extend(
 {
 	type = "item",
 	name = "boule-diamond",
-	icon = "__xander-mod__/graphics/item/part/optic/boule-diamond.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/boule-diamond.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -28,7 +28,7 @@ data:extend(
 {
 	type = "item",
 	name = "boule-ruby",
-	icon = "__xander-mod__/graphics/item/part/optic/boule-ruby.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/boule-ruby.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -39,7 +39,7 @@ data:extend(
 {
 	type = "item",
 	name = "boule-yag",
-	icon = "__xander-mod__/graphics/item/part/optic/boule-yag.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/boule-yag.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -50,7 +50,7 @@ data:extend(
 {
 	type = "item",
 	name = "crystal-quartz",
-	icon = "__xander-mod__/graphics/item/part/optic/crystal-quartz.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/crystal-quartz.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -61,7 +61,7 @@ data:extend(
 {
 	type = "item",
 	name = "crystal-corundum",
-	icon = "__xander-mod__/graphics/item/part/optic/crystal-corundum.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/crystal-corundum.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -72,7 +72,7 @@ data:extend(
 {
 	type = "item",
 	name = "crystal-diamond",
-	icon = "__xander-mod__/graphics/item/part/optic/crystal-diamond.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/crystal-diamond.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -83,7 +83,7 @@ data:extend(
 {
 	type = "item",
 	name = "crystal-ruby",
-	icon = "__xander-mod__/graphics/item/part/optic/crystal-ruby.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/crystal-ruby.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",
@@ -94,7 +94,7 @@ data:extend(
 {
 	type = "item",
 	name = "crystal-yag",
-	icon = "__xander-mod__/graphics/item/part/optic/crystal-yag.png",
+	icon = "__xander-mod-v1__/graphics/item/part/optic/crystal-yag.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "optic",

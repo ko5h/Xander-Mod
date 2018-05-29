@@ -6,7 +6,7 @@ data:extend(
 {
 	type = "item",
 	name = "gold-sponge",
-	icon = "__xander-mod__/graphics/item/material/sponge/gold.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/gold.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",
@@ -17,7 +17,7 @@ data:extend(
 {
 	type = "item",
 	name = "raw-iron",
-	icon = "__xander-mod__/graphics/item/material/sponge/iron.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/iron.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",
@@ -28,7 +28,7 @@ data:extend(
 {
 	type = "item",
 	name = "platinum-sponge",
-	icon = "__xander-mod__/graphics/item/material/sponge/platinum.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/platinum.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",
@@ -39,7 +39,7 @@ data:extend(
 {
 	type = "item",
 	name = "silver-sponge",
-	icon = "__xander-mod__/graphics/item/material/sponge/silver.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/silver.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",
@@ -50,7 +50,7 @@ data:extend(
 {
 	type = "item",
 	name = "titanium-sponge",
-	icon = "__xander-mod__/graphics/item/material/sponge/titanium.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/titanium.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",
@@ -61,7 +61,7 @@ data:extend(
 {
 	type = "item",
 	name = "tungsten-powder",
-	icon = "__xander-mod__/graphics/item/material/sponge/tungsten.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/tungsten.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",
@@ -72,7 +72,7 @@ data:extend(
 {
 	type = "item",
 	name = "zirconium-sponge",
-	icon = "__xander-mod__/graphics/item/material/sponge/zirconium.png",
+	icon = "__xander-mod-v1__/graphics/item/material/sponge/zirconium.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "sponge",

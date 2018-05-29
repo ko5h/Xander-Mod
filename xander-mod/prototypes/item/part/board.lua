@@ -1,19 +1,19 @@
 --Base Overrides
 
 --Circuit 1
-data.raw.item["electronic-circuit"].icon = "__xander-mod__/graphics/item/part/board/circuit-1.png"
+data.raw.item["electronic-circuit"].icon = "__xander-mod-v1__/graphics/item/part/board/circuit-1.png"
 data.raw.item["electronic-circuit"].subgroup = "board"
 data.raw.item["electronic-circuit"].order = "06"
 data.raw.item["electronic-circuit"].stack_size = 100
 
 --Circuit 2
-data.raw.item["advanced-circuit"].icon = "__xander-mod__/graphics/item/part/board/circuit-2.png"
+data.raw.item["advanced-circuit"].icon = "__xander-mod-v1__/graphics/item/part/board/circuit-2.png"
 data.raw.item["advanced-circuit"].subgroup = "board"
 data.raw.item["advanced-circuit"].order = "07"
 data.raw.item["advanced-circuit"].stack_size = 100
 
 --Circuit 3
-data.raw.item["processing-unit"].icon = "__xander-mod__/graphics/item/part/board/circuit-3.png"
+data.raw.item["processing-unit"].icon = "__xander-mod-v1__/graphics/item/part/board/circuit-3.png"
 data.raw.item["processing-unit"].subgroup = "board"
 data.raw.item["processing-unit"].order = "08"
 data.raw.item["processing-unit"].stack_size = 100
@@ -26,7 +26,7 @@ data:extend(
 {
 	type = "item",
 	name = "metallized-1",
-	icon = "__xander-mod__/graphics/item/part/board/metallized-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/board/metallized-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "board",
@@ -37,7 +37,7 @@ data:extend(
 {
 	type = "item",
 	name = "metallized-2",
-	icon = "__xander-mod__/graphics/item/part/board/metallized-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/board/metallized-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "board",
@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "item",
 	name = "metallized-3",
-	icon = "__xander-mod__/graphics/item/part/board/metallized-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/board/metallized-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "board",
@@ -59,7 +59,7 @@ data:extend(
 {
 	type = "item",
 	name = "etched-2",
-	icon = "__xander-mod__/graphics/item/part/board/etched-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/board/etched-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "board",
@@ -70,7 +70,7 @@ data:extend(
 {
 	type = "item",
 	name = "etched-3",
-	icon = "__xander-mod__/graphics/item/part/board/etched-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/board/etched-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "board",

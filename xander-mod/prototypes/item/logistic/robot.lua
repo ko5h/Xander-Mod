@@ -26,7 +26,7 @@ data:extend(
 {
 	type = "item",
 	name = "roboport-2",
-	icon = "__xander-mod__/graphics/item/logistic/robot/roboport-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/robot/roboport-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "logistic-network",
@@ -40,7 +40,7 @@ data:extend(
 {
 	type = "item",
 	name = "construction-robot-2",
-	icon = "__xander-mod__/graphics/item/logistic/robot/construction-robot-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/robot/construction-robot-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "logistic-network",
@@ -54,7 +54,7 @@ data:extend(
 {
 	type = "item",
 	name = "logistic-robot-2",
-	icon = "__xander-mod__/graphics/item/logistic/robot/logistic-robot-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/robot/logistic-robot-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "logistic-network",

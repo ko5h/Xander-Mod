@@ -5,12 +5,12 @@ data.raw["mining-tool"]["iron-axe"].order = "01"
 data.raw["mining-tool"]["iron-axe"].speed = 5
 
 --Base "steel-axe"
-data.raw["mining-tool"]["steel-axe"].icon = "__xander-mod__/graphics/item/production/tool/axe-3.png"
+data.raw["mining-tool"]["steel-axe"].icon = "__xander-mod-v1__/graphics/item/production/tool/axe-3.png"
 data.raw["mining-tool"]["steel-axe"].order = "02"
 data.raw["mining-tool"]["steel-axe"].speed = 6
 
 --Base "repair-pack"
-data.raw["repair-tool"]["repair-pack"].icon = "__xander-mod__/graphics/item/production/tool/repair-pack-1.png"
+data.raw["repair-tool"]["repair-pack"].icon = "__xander-mod-v1__/graphics/item/production/tool/repair-pack-1.png"
 data.raw["repair-tool"]["repair-pack"].order = "06"
 data.raw["repair-tool"]["repair-pack"].speed = 0.5
 
@@ -22,7 +22,7 @@ data:extend(
 {
 	type = "mining-tool",
 	name = "axe-1",
-	icon = "__xander-mod__/graphics/item/production/tool/axe-1.png",
+	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
@@ -52,7 +52,7 @@ data:extend(
 {
 	type = "mining-tool",
 	name = "axe-4",
-	icon = "__xander-mod__/graphics/item/production/tool/axe-4.png",
+	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-4.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
@@ -78,7 +78,7 @@ data:extend(
 {
 	type = "mining-tool",
 	name = "axe-5",
-	icon = "__xander-mod__/graphics/item/production/tool/axe-5.png",
+	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-5.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
@@ -104,7 +104,7 @@ data:extend(
 {
 	type = "mining-tool",
 	name = "axe-6",
-	icon = "__xander-mod__/graphics/item/production/tool/axe-6.png",
+	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-6.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
@@ -132,7 +132,7 @@ data:extend(
 {
 	type = "repair-tool",
 	name = "repair-pack-2",
-	icon = "__xander-mod__/graphics/item/production/tool/repair-pack-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/tool/repair-pack-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "tool",
@@ -145,7 +145,7 @@ data:extend(
 {
 	type = "repair-tool",
 	name = "repair-pack-3",
-	icon = "__xander-mod__/graphics/item/production/tool/repair-pack-3.png",
+	icon = "__xander-mod-v1__/graphics/item/production/tool/repair-pack-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "tool",

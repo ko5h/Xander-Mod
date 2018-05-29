@@ -37,7 +37,7 @@ data:extend(
 {
 	type = "technology",
 	name = "parts_1",
-	icon = "__xander-mod__/graphics/technology/part/parts_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/parts_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -86,7 +86,7 @@ data:extend(
 {
 	type = "technology",
 	name = "parts_2",
-	icon = "__xander-mod__/graphics/technology/part/parts_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/parts_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -132,7 +132,7 @@ data:extend(
 {
 	type = "technology",
 	name = "parts_3",
-	icon = "__xander-mod__/graphics/technology/part/parts_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/parts_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -174,7 +174,7 @@ data:extend(
 {
 	type = "technology",
 	name = "fiber-carbon",
-	icon = "__xander-mod__/graphics/technology/part/fiber-carbon.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/fiber-carbon.png",
 	icon_size = 128,
 	effects =
 	{
@@ -203,7 +203,7 @@ data:extend(
 {
 	type = "technology",
 	name = "tungsten-cermet",
-	icon = "__xander-mod__/graphics/technology/part/tungsten-cermet.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/tungsten-cermet.png",
 	icon_size = 128,
 	effects =
 	{
@@ -257,7 +257,7 @@ data:extend(
 {
 	type = "technology",
 	name = "tooling_1",
-	icon = "__xander-mod__/graphics/technology/part/tooling_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/tooling_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -283,7 +283,7 @@ data:extend(
 {
 	type = "technology",
 	name = "tooling_2",
-	icon = "__xander-mod__/graphics/technology/part/tooling_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/tooling_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -313,7 +313,7 @@ data:extend(
 {
 	type = "technology",
 	name = "tooling_3",
-	icon = "__xander-mod__/graphics/technology/part/tooling_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/tooling_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -349,7 +349,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machines_1",
-	icon = "__xander-mod__/graphics/technology/production/automation-1.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/automation-1.png",
 	icon_size = 128,
 	prerequisites = {"electric-engine"},--"parts_1"
 	unit =
@@ -367,7 +367,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machines_2",
-	icon = "__xander-mod__/graphics/technology/production/automation-3.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/automation-3.png",
 	icon_size = 128,
 	prerequisites = {"machines_1", "motor_2", "tooling_2", "forging-stainless"},
 	unit =
@@ -386,7 +386,7 @@ data:extend(
 {
 	type = "technology",
 	name = "machines_3",
-	icon = "__xander-mod__/graphics/technology/production/automation-4.png",
+	icon = "__xander-mod-v1__/graphics/technology/production/automation-4.png",
 	icon_size = 128,
 	prerequisites = {"machines_2", "motor_3", "tooling_3", "forging-superalloy"},
 	unit =
@@ -407,7 +407,7 @@ data:extend(
 {
 	type = "technology",
 	name = "electricity",
-	icon = "__xander-mod__/graphics/technology/part/electricity.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/electricity.png",
 	icon_size = 128,
 	effects =
 	{
@@ -440,7 +440,7 @@ data:extend(
 {
 	type = "technology",
 	name = "induction_1",
-	icon = "__xander-mod__/graphics/technology/part/induction.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/induction.png",
 	icon_size = 128,
 	effects =
 	{
@@ -473,7 +473,7 @@ data:extend(
 {
 	type = "technology",
 	name = "induction_2",
-	icon = "__xander-mod__/graphics/technology/part/induction.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/induction.png",
 	icon_size = 128,
 	effects =
 	{
@@ -507,7 +507,7 @@ data:extend(
 {
 	type = "technology",
 	name = "induction_3",
-	icon = "__xander-mod__/graphics/technology/part/induction.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/induction.png",
 	icon_size = 128,
 	effects =
 	{
@@ -604,7 +604,7 @@ data:extend(
 {
 	type = "technology",
 	name = "insulator_2",
-	icon = "__xander-mod__/graphics/technology/part/insulator_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/insulator_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -634,7 +634,7 @@ data:extend(
 {
 	type = "technology",
 	name = "insulator_3",
-	icon = "__xander-mod__/graphics/technology/part/insulator_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/insulator_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -740,7 +740,7 @@ data:extend(
 {
 	type = "technology",
 	name = "laser_2",
-	icon = "__xander-mod__/graphics/technology/part/laser_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/laser_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -768,7 +768,7 @@ data:extend(
 {
 	type = "technology",
 	name = "laser_3",
-	icon = "__xander-mod__/graphics/technology/part/laser_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/laser_3.png",
 	icon_size = 128,
 	effects =
 	{
@@ -799,7 +799,7 @@ data:extend(
 {
 	type = "technology",
 	name = "battery_2",
-	icon = "__xander-mod__/graphics/technology/part/battery_2.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/battery_2.png",
 	icon_size = 128,
 	effects =
 	{
@@ -862,7 +862,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rocket-fuel",
-	icon = "__xander-mod__/graphics/technology/part/rocket-fuel.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/rocket-fuel.png",
 	icon_size = 128,
 	effects =
 	{
@@ -890,7 +890,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rocket-structure",
-	icon = "__xander-mod__/graphics/technology/part/rocket-structure.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/rocket-structure.png",
 	icon_size = 128,
 	effects =
 	{
@@ -918,7 +918,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rocket-control",
-	icon = "__xander-mod__/graphics/technology/part/rocket-control.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/rocket-control.png",
 	icon_size = 128,
 	effects =
 	{
@@ -947,7 +947,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rocket-engine",
-	icon = "__xander-mod__/graphics/technology/part/rocket-engine.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/rocket-engine.png",
 	icon_size = 128,
 	effects =
 	{
@@ -976,7 +976,7 @@ data:extend(
 {
 	type = "technology",
 	name = "rocket-mechanism",
-	icon = "__xander-mod__/graphics/technology/part/rocket-mechanism.png",
+	icon = "__xander-mod-v1__/graphics/technology/part/rocket-mechanism.png",
 	icon_size = 128,
 	effects =
 	{

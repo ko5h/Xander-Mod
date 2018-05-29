@@ -14,7 +14,7 @@ data:extend(
 {
 	type = "item",
 	name = "charcoal",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/charcoal.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/charcoal.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	fuel_value = "4MJ",
@@ -27,7 +27,7 @@ data:extend(
 {
 	type = "item",
 	name = "coke",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/coke.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/coke.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	fuel_value = "4MJ",
@@ -40,7 +40,7 @@ data:extend(
 {
 	type = "item",
 	name = "graphite-powder",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/graphite-powder.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/graphite-powder.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
@@ -51,7 +51,7 @@ data:extend(
 {
 	type = "item",
 	name = "graphite-block",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/graphite-block.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/graphite-block.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
@@ -62,7 +62,7 @@ data:extend(
 {
 	type = "item",
 	name = "activated-carbon",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/activated-carbon.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/activated-carbon.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	fuel_value = "4MJ",
@@ -75,7 +75,7 @@ data:extend(
 {
 	type = "item",
 	name = "metallurgical-plate",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/metallurgical-plate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/metallurgical-plate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
@@ -86,7 +86,7 @@ data:extend(
 {
 	type = "item",
 	name = "metallurgical-powder",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/metallurgical-powder.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/metallurgical-powder.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
@@ -97,7 +97,7 @@ data:extend(
 {
 	type = "item",
 	name = "ultrapure-powder",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/ultrapure-powder.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/ultrapure-powder.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
@@ -108,7 +108,7 @@ data:extend(
 {
 	type = "item",
 	name = "phosphorus",
-	icon = "__xander-mod__/graphics/item/material/nonmetal/phosphorus.png",
+	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/phosphorus.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",

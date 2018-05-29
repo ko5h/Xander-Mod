@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "capsule",
 	name = "first-aid-1",
-	icon = "__xander-mod__/graphics/item/combat/capsule/first-aid-1.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/capsule/first-aid-1.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "capsule",
@@ -88,7 +88,7 @@ data:extend(
 {
 	type = "capsule",
 	name = "first-aid-2",
-	icon = "__xander-mod__/graphics/item/combat/capsule/first-aid-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/capsule/first-aid-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "capsule",

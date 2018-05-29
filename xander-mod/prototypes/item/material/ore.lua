@@ -17,7 +17,7 @@ data.raw.item["copper-ore"].order = "07"
 
 --Iron Ore
 data.raw.item["iron-ore"].stack_size = 200
-data.raw.item["iron-ore"].icon = "__xander-mod__/graphics/item/material/resource/iron.png"
+data.raw.item["iron-ore"].icon = "__xander-mod-v1__/graphics/item/material/resource/iron.png"
 data.raw.item["iron-ore"].subgroup = "raw-resource"
 data.raw.item["iron-ore"].order = "14"
 
@@ -40,7 +40,7 @@ data:extend(
 {
 	type = "item",
 	name = "apatite",
-	icon = "__xander-mod__/graphics/item/material/resource/apatite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/apatite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -51,7 +51,7 @@ data:extend(
 {
 	type = "item",
 	name = "bauxite",
-	icon = "__xander-mod__/graphics/item/material/resource/bauxite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/bauxite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -62,7 +62,7 @@ data:extend(
 {
 	type = "item",
 	name = "cassiterite",
-	icon = "__xander-mod__/graphics/item/material/resource/cassiterite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/cassiterite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -73,7 +73,7 @@ data:extend(
 {
 	type = "item",
 	name = "chalcocite",
-	icon = "__xander-mod__/graphics/item/material/resource/chalcocite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/chalcocite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -84,7 +84,7 @@ data:extend(
 {
 	type = "item",
 	name = "chalcopyrite",
-	icon = "__xander-mod__/graphics/item/material/resource/chalcopyrite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/chalcopyrite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -95,7 +95,7 @@ data:extend(
 {
 	type = "item",
 	name = "chromite",
-	icon = "__xander-mod__/graphics/item/material/resource/chromite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/chromite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -110,7 +110,7 @@ data:extend(
 {
 	type = "item",
 	name = "fluorite",
-	icon = "__xander-mod__/graphics/item/material/resource/fluorite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/fluorite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -121,7 +121,7 @@ data:extend(
 {
 	type = "item",
 	name = "galena",
-	icon = "__xander-mod__/graphics/item/material/resource/galena.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/galena.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -132,7 +132,7 @@ data:extend(
 {
 	type = "item",
 	name = "garnierite",
-	icon = "__xander-mod__/graphics/item/material/resource/garnierite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/garnierite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -143,7 +143,7 @@ data:extend(
 {
 	type = "item",
 	name = "granitic-ore",
-	icon = "__xander-mod__/graphics/item/material/resource/granitic.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/granitic.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -154,7 +154,7 @@ data:extend(
 {
 	type = "item",
 	name = "heavy-sand",
-	icon = "__xander-mod__/graphics/item/material/resource/heavy.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/heavy.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -165,7 +165,7 @@ data:extend(
 {
 	type = "item",
 	name = "hematite",
-	icon = "__xander-mod__/graphics/item/material/resource/hematite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/hematite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -178,7 +178,7 @@ data:extend(
 {
 	type = "item",
 	name = "lead-ore",
-	icon = "__xander-mod__/graphics/item/material/resource/lead.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/lead.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -189,7 +189,7 @@ data:extend(
 {
 	type = "item",
 	name = "monazite",
-	icon = "__xander-mod__/graphics/item/material/resource/monazite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/monazite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -200,7 +200,7 @@ data:extend(
 {
 	type = "item",
 	name = "phosphate-rock",
-	icon = "__xander-mod__/graphics/item/material/resource/phosphate-rock.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/phosphate-rock.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -211,7 +211,7 @@ data:extend(
 {
 	type = "item",
 	name = "rutile",
-	icon = "__xander-mod__/graphics/item/material/resource/rutile.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/rutile.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -222,7 +222,7 @@ data:extend(
 {
 	type = "item",
 	name = "scheelite",
-	icon = "__xander-mod__/graphics/item/material/resource/scheelite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/scheelite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -233,7 +233,7 @@ data:extend(
 {
 	type = "item",
 	name = "sphalerite",
-	icon = "__xander-mod__/graphics/item/material/resource/sphalerite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/sphalerite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -246,7 +246,7 @@ data:extend(
 {
 	type = "item",
 	name = "sulfidic-ore",
-	icon = "__xander-mod__/graphics/item/material/resource/sulfidic.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/sulfidic.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -259,7 +259,7 @@ data:extend(
 {
 	type = "item",
 	name = "vanadium-magnetite",
-	icon = "__xander-mod__/graphics/item/material/resource/vanadium-magnetite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/vanadium-magnetite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",
@@ -270,7 +270,7 @@ data:extend(
 {
 	type = "item",
 	name = "zirconia",
-	icon = "__xander-mod__/graphics/item/material/resource/zirconia.png",
+	icon = "__xander-mod-v1__/graphics/item/material/resource/zirconia.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-resource",

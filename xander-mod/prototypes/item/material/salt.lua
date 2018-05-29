@@ -6,7 +6,7 @@ data:extend(
 {
 	type = "item",
 	name = "calcium-chloride",
-	icon = "__xander-mod__/graphics/item/material/salt/calcium-chloride.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/calcium-chloride.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -17,7 +17,7 @@ data:extend(
 {
 	type = "item",
 	name = "calcium-sulfate",
-	icon = "__xander-mod__/graphics/item/material/salt/calcium-sulfate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/calcium-sulfate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -28,7 +28,7 @@ data:extend(
 {
 	type = "item",
 	name = "cryolite-mixture",
-	icon = "__xander-mod__/graphics/item/material/salt/cryolite-mixture.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/cryolite-mixture.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -39,7 +39,7 @@ data:extend(
 {
 	type = "item",
 	name = "lithium-perchlorate",
-	icon = "__xander-mod__/graphics/item/material/salt/lithium-perchlorate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/lithium-perchlorate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -50,7 +50,7 @@ data:extend(
 {
 	type = "item",
 	name = "lithium-tetrafluoroborate",
-	icon = "__xander-mod__/graphics/item/material/salt/lithium-tetrafluoroborate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/lithium-tetrafluoroborate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -61,7 +61,7 @@ data:extend(
 {
 	type = "item",
 	name = "lithium-titanate",
-	icon = "__xander-mod__/graphics/item/material/salt/lithium-titanate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/lithium-titanate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -72,7 +72,7 @@ data:extend(
 {
 	type = "item",
 	name = "magnesium-chloride",
-	icon = "__xander-mod__/graphics/item/material/salt/magnesium-chloride.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/magnesium-chloride.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -83,7 +83,7 @@ data:extend(
 {
 	type = "item",
 	name = "salt",
-	icon = "__xander-mod__/graphics/item/material/salt/salt.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/salt.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -94,7 +94,7 @@ data:extend(
 {
 	type = "item",
 	name = "sodium-sulfate",
-	icon = "__xander-mod__/graphics/item/material/salt/sodium-sulfate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/sodium-sulfate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -105,7 +105,7 @@ data:extend(
 {
 	type = "item",
 	name = "saltpeter",
-	icon = "__xander-mod__/graphics/item/material/salt/saltpeter.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/saltpeter.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -116,7 +116,7 @@ data:extend(
 {
 	type = "item",
 	name = "silicon-carbide",
-	icon = "__xander-mod__/graphics/item/material/salt/silicon-carbide.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/silicon-carbide.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -127,7 +127,7 @@ data:extend(
 {
 	type = "item",
 	name = "silicon-nitride",
-	icon = "__xander-mod__/graphics/item/material/salt/silicon-nitride.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/silicon-nitride.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -138,7 +138,7 @@ data:extend(
 {
 	type = "item",
 	name = "soda",
-	icon = "__xander-mod__/graphics/item/material/salt/soda.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/soda.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -149,7 +149,7 @@ data:extend(
 {
 	type = "item",
 	name = "sodium-chromate",
-	icon = "__xander-mod__/graphics/item/material/salt/sodium-chromate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/sodium-chromate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -160,7 +160,7 @@ data:extend(
 {
 	type = "item",
 	name = "ammonium-vanadate",
-	icon = "__xander-mod__/graphics/item/material/salt/ammonium-vanadate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/ammonium-vanadate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -171,7 +171,7 @@ data:extend(
 {
 	type = "item",
 	name = "tungsten-carbide",
-	icon = "__xander-mod__/graphics/item/material/salt/tungsten-carbide.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/tungsten-carbide.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -182,7 +182,7 @@ data:extend(
 {
 	type = "item",
 	name = "uranyl-nitrate",
-	icon = "__xander-mod__/graphics/item/material/salt/uranyl-nitrate.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/uranyl-nitrate.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -193,7 +193,7 @@ data:extend(
 {
 	type = "item",
 	name = "natural-uf6",
-	icon = "__xander-mod__/graphics/item/material/salt/natural-uf6.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/natural-uf6.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -204,7 +204,7 @@ data:extend(
 {
 	type = "item",
 	name = "238-uf6",
-	icon = "__xander-mod__/graphics/item/material/salt/238-uf6.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/238-uf6.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -215,7 +215,7 @@ data:extend(
 {
 	type = "item",
 	name = "fuel-uf6",
-	icon = "__xander-mod__/graphics/item/material/salt/fuel-uf6.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/fuel-uf6.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -226,7 +226,7 @@ data:extend(
 {
 	type = "item",
 	name = "weapons-uf6",
-	icon = "__xander-mod__/graphics/item/material/salt/weapons-uf6.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/weapons-uf6.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
@@ -237,7 +237,7 @@ data:extend(
 {
 	type = "item",
 	name = "zirconium-tetrachloride",
-	icon = "__xander-mod__/graphics/item/material/salt/zirconium-tetrachloride.png",
+	icon = "__xander-mod-v1__/graphics/item/material/salt/zirconium-tetrachloride.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",

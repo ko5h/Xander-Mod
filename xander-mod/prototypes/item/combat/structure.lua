@@ -32,7 +32,7 @@ data:extend(
 {
 	type = "item",
 	name = "wall-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/wall-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -44,7 +44,7 @@ data:extend(
 {
 	type = "item",
 	name = "wall-3",
-	icon = "__xander-mod__/graphics/item/combat/structure/wall-3.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -56,7 +56,7 @@ data:extend(
 {
 	type = "item",
 	name = "wall-4",
-	icon = "__xander-mod__/graphics/item/combat/structure/wall-4.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-4.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -68,7 +68,7 @@ data:extend(
 {
 	type = "item",
 	name = "wall-5",
-	icon = "__xander-mod__/graphics/item/combat/structure/wall-5.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-5.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -82,7 +82,7 @@ data:extend(
 {
 	type = "item",
 	name = "gate-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/gate-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/gate-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -94,7 +94,7 @@ data:extend(
 {
 	type = "item",
 	name = "gate-3",
-	icon = "__xander-mod__/graphics/item/combat/structure/gate-3.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/gate-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -112,7 +112,7 @@ data:extend(
 {
 	type = "item",
 	name = "radar-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/radar-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/radar-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -124,7 +124,7 @@ data:extend(
 {
 	type = "item",
 	name = "radar-3",
-	icon = "__xander-mod__/graphics/item/combat/structure/radar-3.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/radar-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -138,7 +138,7 @@ data:extend(
 {
 	type = "item",
 	name = "laser-turret-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/laser-turret-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/laser-turret-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -150,7 +150,7 @@ data:extend(
 {
 	type = "item",
 	name = "laser-turret-3",
-	icon = "__xander-mod__/graphics/item/combat/structure/laser-turret-3.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/laser-turret-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -166,7 +166,7 @@ data:extend(
 {
 	type = "item",
 	name = "artillery-crawler",
-	icon = "__xander-mod__/graphics/item/combat/structure/artillery-crawler.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/artillery-crawler.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",
@@ -178,7 +178,7 @@ data:extend(
 {
 	type = "item",
 	name = "tank-2",
-	icon = "__xander-mod__/graphics/item/combat/structure/tank-2.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/structure/tank-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "defensive-structure",

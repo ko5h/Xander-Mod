@@ -17,7 +17,7 @@ data:extend(
 {
     type = "item",
     name = "storage-tank-2",
-    icon = "__xander-mod__/graphics/item/logistic/plumbing/storage-tank-2.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/plumbing/storage-tank-2.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "plumbing",
@@ -31,7 +31,7 @@ data:extend(
 {
 	type = "item",
 	name = "pump-2",
-	icon = "__xander-mod__/graphics/item/logistic/plumbing/pump-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/plumbing/pump-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "plumbing",
@@ -43,7 +43,7 @@ data:extend(
 {
 	type = "item",
 	name = "pump-3",
-	icon = "__xander-mod__/graphics/item/logistic/plumbing/pump-3.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/plumbing/pump-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "plumbing",

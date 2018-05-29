@@ -2,7 +2,7 @@
 --Base Overrides
 
 --Base "solar-panel-equipment"
-data.raw.item["solar-panel-equipment"].icon = "__xander-mod__/graphics/item/combat/equipment/solar-panel-equipment-1.png"
+data.raw.item["solar-panel-equipment"].icon = "__xander-mod-v1__/graphics/item/combat/equipment/solar-panel-equipment-1.png"
 data.raw.item["solar-panel-equipment"].order = "00"
 --Base "fusion-reactor-equipment"
 data.raw.item["fusion-reactor-equipment"].order = "03"
@@ -51,7 +51,7 @@ data:extend(
 {
 	type = "item",
 	name = "fission-reactor-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/fission-reactor-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/fission-reactor-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "fission-reactor-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -69,7 +69,7 @@ data:extend(
 {
 	type = "item",
 	name = "energy-shield-mk3-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/energy-shield-mk3-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/energy-shield-mk3-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "energy-shield-mk3-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -82,7 +82,7 @@ data:extend(
 {
 	type = "item",
 	name = "energy-shield-mk4-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/energy-shield-mk4-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/energy-shield-mk4-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "energy-shield-mk4-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -99,7 +99,7 @@ data:extend(
 {
 	type = "item",
 	name = "battery-mk3-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/battery-mk3-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/battery-mk3-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "battery-mk3-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -114,7 +114,7 @@ data:extend(
 {
 	type = "item",
 	name = "personal-laser-defense-mk2-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/personal-laser-defense-mk2-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/personal-laser-defense-mk2-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "personal-laser-defense-mk2-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -126,7 +126,7 @@ data:extend(
 {
 	type = "item",
 	name = "personal-laser-defense-mk3-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/personal-laser-defense-mk3-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/personal-laser-defense-mk3-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "personal-laser-defense-mk3-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -142,7 +142,7 @@ data:extend(
 {
 	type = "item",
 	name = "exoskeleton-mk2-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/exoskeleton-mk2-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/exoskeleton-mk2-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "exoskeleton-mk2-equipment",
 	flags = {"goes-to-main-inventory"},
@@ -158,7 +158,7 @@ data:extend(
 {
 	type = "item",
 	name = "personal-roboport-mk3-equipment",
-	icon = "__xander-mod__/graphics/item/combat/equipment/personal-roboport-mk3-equipment.png",
+	icon = "__xander-mod-v1__/graphics/item/combat/equipment/personal-roboport-mk3-equipment.png",
 	icon_size = 32,
 	placed_as_equipment_result = "personal-roboport-mk3-equipment",
 	flags = {"goes-to-main-inventory"},

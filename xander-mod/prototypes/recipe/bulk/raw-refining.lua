@@ -7,7 +7,7 @@ data.raw.recipe["coal-liquefaction"].energy_required = 40
 data.raw.recipe["coal-liquefaction"].ingredients = {{"coal", 18}, {type = "fluid", name = "heavy-oil", amount = 10}, 
 	{type = "fluid", name = "hydrogen", amount = 120}}
 data.raw.recipe["coal-liquefaction"].results = {{type = "fluid", name = "heavy-naptha", amount = 30}, {type = "fluid", name = "benzene", amount = 20}}
-data.raw.recipe["coal-liquefaction"].icon = "__xander-mod__/graphics/recipe/refining/bergius-process.png"
+data.raw.recipe["coal-liquefaction"].icon = "__xander-mod-v1__/graphics/recipe/refining/bergius-process.png"
 
 --Base "copper-plate"
 data.raw.recipe["copper-plate"].category = "kiln"
@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "recipe",
     name = "hydrogen-fluoride",
-	icon = "__xander-mod__/graphics/recipe/refining/hydrogen-fluoride.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/hydrogen-fluoride.png",
 	icon_size = 32,
 	category = "chemistry",
 	crafting_machine_tint =
@@ -67,7 +67,7 @@ data:extend(
 {
 	type = "recipe",
     name = "phosphoric-acid",
-	icon = "__xander-mod__/graphics/recipe/refining/phosphoric-acid.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/phosphoric-acid.png",
 	icon_size = 32,
 	category = "chemistry",
 	crafting_machine_tint =
@@ -86,7 +86,7 @@ data:extend(
 {
 	type = "recipe",
     name = "phosphorus-smelting",
-	icon = "__xander-mod__/graphics/recipe/refining/phosphorus-smelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/phosphorus-smelting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 20,
@@ -101,7 +101,7 @@ data:extend(
 {
 	type = "recipe",
     name = "gibbsite-calcining",
-	icon = "__xander-mod__/graphics/recipe/refining/gibbsite-calcining.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/gibbsite-calcining.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 4,
@@ -114,7 +114,7 @@ data:extend(
 {
 	type = "recipe",
     name = "hall-heroult",
-	icon = "__xander-mod__/graphics/recipe/refining/hall-heroult.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/hall-heroult.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 800,
@@ -127,7 +127,7 @@ data:extend(
 {
 	type = "recipe",
     name = "acheson-silicon",
-	icon = "__xander-mod__/graphics/recipe/refining/acheson-silicon.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/acheson-silicon.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 100,
@@ -140,7 +140,7 @@ data:extend(
 {
 	type = "recipe",
     name = "acheson-carbide",
-	icon = "__xander-mod__/graphics/recipe/refining/acheson-carbide.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/acheson-carbide.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 100,
@@ -153,7 +153,7 @@ data:extend(
 {
 	type = "recipe",
     name = "acheson-graphite",
-	icon = "__xander-mod__/graphics/recipe/refining/acheson-graphite.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/acheson-graphite.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 200,
@@ -203,7 +203,7 @@ data:extend(
 {
 	type = "recipe",
     name = "chalcocite-roasting",
-	icon = "__xander-mod__/graphics/recipe/refining/chalcocite-roasting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/chalcocite-roasting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 20,
@@ -216,7 +216,7 @@ data:extend(
 {
 	type = "recipe",
     name = "copper-smelting",
-	icon = "__xander-mod__/graphics/recipe/refining/copper-smelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/copper-smelting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 100,
@@ -229,7 +229,7 @@ data:extend(
 {
 	type = "recipe",
     name = "copper-cobalt",
-	icon = "__xander-mod__/graphics/recipe/refining/copper-cobalt.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/copper-cobalt.png",
 	icon_size = 32,
 	category = "ore-plant",
 	energy_required = 400,
@@ -243,7 +243,7 @@ data:extend(
 {
 	type = "recipe",
     name = "cobalt-electrowinning",
-	icon = "__xander-mod__/graphics/recipe/refining/cobalt-electrowinning.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/cobalt-electrowinning.png",
 	icon_size = 32,
 	category = "electrolysis",
 	crafting_machine_tint =
@@ -277,7 +277,7 @@ data:extend(
 {
 	type = "recipe",
     name = "nickel-smelting",
-	icon = "__xander-mod__/graphics/recipe/refining/nickel-smelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/nickel-smelting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 50,
@@ -290,7 +290,7 @@ data:extend(
 {
 	type = "recipe",
     name = "nickel-platinum",
-	icon = "__xander-mod__/graphics/recipe/refining/nickel-platinum.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/nickel-platinum.png",
 	icon_size = 32,
 	category = "electrolysis",
 	crafting_machine_tint =
@@ -309,7 +309,7 @@ data:extend(
 {
 	type = "recipe",
     name = "platinum-smelting",
-	icon = "__xander-mod__/graphics/recipe/refining/platinum-smelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/platinum-smelting.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 100,
@@ -333,7 +333,7 @@ data:extend(
 {
 	type = "recipe",
     name = "tin-smelting",
-	icon = "__xander-mod__/graphics/recipe/refining/tin-smelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/tin-smelting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 100,
@@ -346,7 +346,7 @@ data:extend(
 {
 	type = "recipe",
     name = "tungsten-reduction",
-	icon = "__xander-mod__/graphics/recipe/refining/tungsten-reduction.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/tungsten-reduction.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -369,7 +369,7 @@ data:extend(
 {
 	type = "recipe",
     name = "miller-process",
-	icon = "__xander-mod__/graphics/recipe/refining/miller-process.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/miller-process.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 50,
@@ -382,7 +382,7 @@ data:extend(
 {
 	type = "recipe",
     name = "scheelite-dissolution",
-	icon = "__xander-mod__/graphics/recipe/refining/scheelite-dissolution.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/scheelite-dissolution.png",
 	icon_size = 32,
 	category = "sluice",
 	energy_required = 5,
@@ -396,7 +396,7 @@ data:extend(
 {
 	type = "recipe",
     name = "cassiterite-gold",
-	icon = "__xander-mod__/graphics/recipe/refining/cassiterite-gold.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/cassiterite-gold.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 200,
@@ -411,7 +411,7 @@ data:extend(
 {
 	type = "recipe",
     name = "chromite-slagging",
-	icon = "__xander-mod__/graphics/recipe/refining/chromite-slagging.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/chromite-slagging.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 80,
@@ -424,7 +424,7 @@ data:extend(
 {
 	type = "recipe",
     name = "chromate-leaching",
-	icon = "__xander-mod__/graphics/recipe/refining/chromate-leaching.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/chromate-leaching.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 10,
@@ -437,7 +437,7 @@ data:extend(
 {
 	type = "recipe",
     name = "chromium-reduction",
-	icon = "__xander-mod__/graphics/recipe/refining/chromium-reduction.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/chromium-reduction.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 10,
@@ -450,7 +450,7 @@ data:extend(
 {
 	type = "recipe",
     name = "rutile-chlorination",
-	icon = "__xander-mod__/graphics/recipe/refining/rutile-chlorination.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/rutile-chlorination.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -463,7 +463,7 @@ data:extend(
 {
 	type = "recipe",
     name = "titanium-oxide",
-	icon = "__xander-mod__/graphics/recipe/refining/titanium-oxide.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/titanium-oxide.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 2,
@@ -476,7 +476,7 @@ data:extend(
 {
 	type = "recipe",
     name = "kroll-titanium",
-	icon = "__xander-mod__/graphics/recipe/refining/kroll-titanium.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/kroll-titanium.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -489,7 +489,7 @@ data:extend(
 {
 	type = "recipe",
     name = "titanium-remelting",
-	icon = "__xander-mod__/graphics/recipe/refining/titanium-remelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/titanium-remelting.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 200,
@@ -502,7 +502,7 @@ data:extend(
 {
 	type = "recipe",
     name = "zirconia-chlorination",
-	icon = "__xander-mod__/graphics/recipe/refining/zirconia-chlorination.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/zirconia-chlorination.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -515,7 +515,7 @@ data:extend(
 {
 	type = "recipe",
     name = "zirconium-oxide",
-	icon = "__xander-mod__/graphics/recipe/refining/zirconium-oxide.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/zirconium-oxide.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 2,
@@ -528,7 +528,7 @@ data:extend(
 {
 	type = "recipe",
     name = "kroll-zirconium",
-	icon = "__xander-mod__/graphics/recipe/refining/kroll-zirconium.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/kroll-zirconium.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -541,7 +541,7 @@ data:extend(
 {
 	type = "recipe",
     name = "zirconium-remelting",
-	icon = "__xander-mod__/graphics/recipe/refining/zirconium-remelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/zirconium-remelting.png",
 	icon_size = 32,
 	category = "forge",
 	energy_required = 200,
@@ -568,7 +568,7 @@ data:extend(
 {
 	type = "recipe",
     name = "raw-iron",
-	icon = "__xander-mod__/graphics/recipe/refining/raw-iron.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/raw-iron.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 100,
@@ -581,7 +581,7 @@ data:extend(
 {
 	type = "recipe",
     name = "magnetite-vanadium-slagging",
-	icon = "__xander-mod__/graphics/recipe/refining/magnetite-vanadium.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/magnetite-vanadium.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 40,
@@ -594,7 +594,7 @@ data:extend(
 {
 	type = "recipe",
     name = "oil-vanadium-slagging",
-	icon = "__xander-mod__/graphics/recipe/refining/oil-vanadium.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/oil-vanadium.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 40,
@@ -607,7 +607,7 @@ data:extend(
 {
 	type = "recipe",
     name = "iron-vanadium",
-	icon = "__xander-mod__/graphics/recipe/refining/iron-vanadium.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/iron-vanadium.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 200,
@@ -620,7 +620,7 @@ data:extend(
 {
 	type = "recipe",
     name = "vanadium-leaching",
-	icon = "__xander-mod__/graphics/recipe/refining/vanadium-leaching.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/vanadium-leaching.png",
 	icon_size = 32,
 	category = "sluice",
 	crafting_machine_tint =
@@ -639,7 +639,7 @@ data:extend(
 {
 	type = "recipe",
     name = "vanadate-decomposition",
-	icon = "__xander-mod__/graphics/recipe/refining/vanadate-decomposition.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/vanadate-decomposition.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 10,
@@ -652,7 +652,7 @@ data:extend(
 {
 	type = "recipe",
     name = "vanadium-reduction",
-	icon = "__xander-mod__/graphics/recipe/refining/vanadium-reduction.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/vanadium-reduction.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 10,
@@ -676,7 +676,7 @@ data:extend(
 {
 	type = "recipe",
     name = "galena-roasting",
-	icon = "__xander-mod__/graphics/recipe/refining/galena-roasting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/galena-roasting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 10,
@@ -689,7 +689,7 @@ data:extend(
 {
 	type = "recipe",
     name = "lead-smelting",
-	icon = "__xander-mod__/graphics/recipe/refining/lead-smelting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/lead-smelting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 50,
@@ -702,7 +702,7 @@ data:extend(
 {
 	type = "recipe",
     name = "parkes-process",
-	icon = "__xander-mod__/graphics/recipe/refining/parkes-process.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/parkes-process.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 100,
@@ -715,7 +715,7 @@ data:extend(
 {
 	type = "recipe",
     name = "silver-electrowinning",
-	icon = "__xander-mod__/graphics/recipe/refining/silver-electrowinning.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/silver-electrowinning.png",
 	icon_size = 32,
 	category = "electrolysis",
 	crafting_machine_tint =
@@ -736,7 +736,7 @@ data:extend(
 {
 	type = "recipe",
     name = "boron-oxide",
-	icon = "__xander-mod__/graphics/recipe/refining/boron-oxide.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/boron-oxide.png",
 	icon_size = 32,
 	category = "chemistry",
 	crafting_machine_tint =
@@ -757,7 +757,7 @@ data:extend(
 {
 	type = "recipe",
     name = "gas-distillation",
-	icon = "__xander-mod__/graphics/recipe/refining/gas-distillation.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/gas-distillation.png",
 	icon_size = 32,
 	category = "oil-processing",
 	energy_required = 20,
@@ -771,7 +771,7 @@ data:extend(
 {
 	type = "recipe",
     name = "advanced-gas-distillation",
-	icon = "__xander-mod__/graphics/recipe/refining/advanced-gas-distillation.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/advanced-gas-distillation.png",
 	icon_size = 32,
 	category = "chemical-plant",
 	energy_required = 40,
@@ -787,7 +787,7 @@ data:extend(
 {
 	type = "recipe",
     name = "limestone-calcining",
-	icon = "__xander-mod__/graphics/recipe/refining/limestone-calcining.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/limestone-calcining.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -800,7 +800,7 @@ data:extend(
 {
 	type = "recipe",
     name = "magnesite-calcining",
-	icon = "__xander-mod__/graphics/recipe/refining/magnesite-calcining.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/magnesite-calcining.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -813,7 +813,7 @@ data:extend(
 {
 	type = "recipe",
     name = "magnesia-dissolution",
-	icon = "__xander-mod__/graphics/recipe/refining/magnesia-dissolution.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/magnesia-dissolution.png",
 	icon_size = 32,
 	category = "chemistry",
 	crafting_machine_tint =
@@ -833,7 +833,7 @@ data:extend(
 {
 	type = "recipe",
     name = "sphalerite-roasting",
-	icon = "__xander-mod__/graphics/recipe/refining/sphalerite-roasting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/sphalerite-roasting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 10,
@@ -846,7 +846,7 @@ data:extend(
 {
 	type = "recipe",
     name = "zinc-electrowinning",
-	icon = "__xander-mod__/graphics/recipe/refining/zinc-electrowinning.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/zinc-electrowinning.png",
 	icon_size = 32,
 	category = "electrolysis",
 	crafting_machine_tint =
@@ -865,7 +865,7 @@ data:extend(
 {
 	type = "recipe",
     name = "chalcopyrite-roasting",
-	icon = "__xander-mod__/graphics/recipe/refining/chalcopyrite-roasting.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/chalcopyrite-roasting.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 20,
@@ -878,7 +878,7 @@ data:extend(
 {
 	type = "recipe",
     name = "fayalite-cracking",
-	icon = "__xander-mod__/graphics/recipe/refining/fayalite-cracking.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/fayalite-cracking.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 20,
@@ -893,7 +893,7 @@ data:extend(
 {
 	type = "recipe",
     name = "monazite-conversion",
-	icon = "__xander-mod__/graphics/recipe/refining/monazite-conversion.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/monazite-conversion.png",
 	icon_size = 32,
 	category = "chemistry",
 	crafting_machine_tint =
@@ -912,7 +912,7 @@ data:extend(
 {
 	type = "recipe",
     name = "re-reduction",
-	icon = "__xander-mod__/graphics/recipe/refining/re-reduction.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/re-reduction.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -925,7 +925,7 @@ data:extend(
 {
 	type = "recipe",
     name = "uranium-hexafluoride",
-	icon = "__xander-mod__/graphics/recipe/refining/uranium-hexafluoride.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/uranium-hexafluoride.png",
 	icon_size = 32,
 	category = "chemistry",
 	crafting_machine_tint =
@@ -945,7 +945,7 @@ data:extend(
 {
 	type = "recipe",
     name = "weapons-enrichment",
-	icon = "__xander-mod__/graphics/recipe/refining/weapons-enrichment.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/weapons-enrichment.png",
 	icon_size = 32,
 	category = "centrifuging",
 	energy_required = 500,
@@ -959,7 +959,7 @@ data:extend(
 {
 	type = "recipe",
     name = "fuel-hydrolysis",
-	icon = "__xander-mod__/graphics/recipe/refining/fuel-hydrolysis.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/fuel-hydrolysis.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 2,
@@ -972,7 +972,7 @@ data:extend(
 {
 	type = "recipe",
     name = "238-hydrolysis",
-	icon = "__xander-mod__/graphics/recipe/refining/238-hydrolysis.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/238-hydrolysis.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 2,
@@ -985,7 +985,7 @@ data:extend(
 {
 	type = "recipe",
     name = "weapons-hydrolysis",
-	icon = "__xander-mod__/graphics/recipe/refining/weapons-hydrolysis.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/weapons-hydrolysis.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -998,7 +998,7 @@ data:extend(
 {
 	type = "recipe",
     name = "238-reduction",
-	icon = "__xander-mod__/graphics/recipe/refining/238-reduction.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/238-reduction.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -1011,7 +1011,7 @@ data:extend(
 {
 	type = "recipe",
     name = "weapons-reduction",
-	icon = "__xander-mod__/graphics/recipe/refining/weapons-reduction.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/weapons-reduction.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 5,
@@ -1026,7 +1026,7 @@ data:extend(
 {
 	type = "recipe",
     name = "magnesium-electrolysis",
-	icon = "__xander-mod__/graphics/recipe/refining/magnesium-electrolysis.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/magnesium-electrolysis.png",
 	icon_size = 32,
 	category = "refining",
 	energy_required = 800,
@@ -1041,7 +1041,7 @@ data:extend(
 {
 	type = "recipe",
     name = "air-distillation-a",
-	icon = "__xander-mod__/graphics/recipe/refining/air-distillation-a.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/air-distillation-a.png",
 	icon_size = 32,
 	category = "oil-processing",
 	energy_required = 10,
@@ -1054,7 +1054,7 @@ data:extend(
 {
 	type = "recipe",
     name = "air-distillation-b",
-	icon = "__xander-mod__/graphics/recipe/refining/air-distillation-b.png",
+	icon = "__xander-mod-v1__/graphics/recipe/refining/air-distillation-b.png",
 	icon_size = 32,
 	category = "oil-processing",
 	energy_required = 200,

@@ -14,7 +14,7 @@ data:extend(
 {
     type = "item",
     name = "pipe-copper",
-    icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-copper.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-copper.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pipe",
@@ -26,7 +26,7 @@ data:extend(
 {
     type = "item",
     name = "pipe-steel",
-    icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-steel.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-steel.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pipe",
@@ -38,7 +38,7 @@ data:extend(
 {
     type = "item",
     name = "pipe-monel",
-    icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-monel.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-monel.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pipe",
@@ -50,7 +50,7 @@ data:extend(
 {
     type = "item",
     name = "pipe-stainless",
-    icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-stainless.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-stainless.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pipe",
@@ -62,7 +62,7 @@ data:extend(
 {
     type = "item",
     name = "pipe-superalloy",
-    icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-superalloy.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-superalloy.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pipe",
@@ -74,7 +74,7 @@ data:extend(
 {
     type = "item",
     name = "pipe-plastic",
-    icon = "__xander-mod__/graphics/item/logistic/pipe/pipe-plastic.png",
+    icon = "__xander-mod-v1__/graphics/item/logistic/pipe/pipe-plastic.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pipe",

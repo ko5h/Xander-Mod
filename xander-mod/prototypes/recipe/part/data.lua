@@ -66,7 +66,7 @@ data:extend(
 {
 	type = "recipe",
     name = "etched-2-a",
-	icon = "__xander-mod__/graphics/recipe/board/etched-2-a.png",
+	icon = "__xander-mod-v1__/graphics/recipe/board/etched-2-a.png",
 	icon_size = 32,
 	category = "chemistry",
 	energy_required = 4,
@@ -79,7 +79,7 @@ data:extend(
 {
 	type = "recipe",
     name = "etched-2-b",
-	icon = "__xander-mod__/graphics/recipe/board/etched-2-b.png",
+	icon = "__xander-mod-v1__/graphics/recipe/board/etched-2-b.png",
 	icon_size = 32,
 	category = "chemistry",
 	energy_required = 8,
@@ -92,7 +92,7 @@ data:extend(
 {
 	type = "recipe",
     name = "etched-3",
-	icon = "__xander-mod__/graphics/recipe/board/etched-3.png",
+	icon = "__xander-mod-v1__/graphics/recipe/board/etched-3.png",
 	icon_size = 32,
 	category = "chemistry",
 	energy_required = 10,

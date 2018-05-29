@@ -34,7 +34,7 @@ data:extend(
 {
 	type = "item-with-entity-data",
 	name = "cargo-wagon-2",
-	icon = "__xander-mod__/graphics/item/logistic/transport/cargo-wagon-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/transport/cargo-wagon-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "transport",
@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "item-with-entity-data",
 	name = "fluid-wagon-2",
-	icon = "__xander-mod__/graphics/item/logistic/transport/fluid-wagon-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/transport/fluid-wagon-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "transport",
@@ -62,7 +62,7 @@ data:extend(
 {
 	type = "item-with-entity-data",
 	name = "locomotive-2",
-	icon = "__xander-mod__/graphics/item/logistic/transport/locomotive-2.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/transport/locomotive-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "transport",
@@ -74,7 +74,7 @@ data:extend(
 {
 	type = "item-with-entity-data",
 	name = "locomotive-3",
-	icon = "__xander-mod__/graphics/item/logistic/transport/locomotive-3.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/transport/locomotive-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "transport",

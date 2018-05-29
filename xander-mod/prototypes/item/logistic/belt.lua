@@ -40,7 +40,7 @@ data:extend(
 {
 	type = "item",
 	name = "slow-transport-belt",
-	icon = "__xander-mod__/graphics/item/logistic/belt/slow-transport-belt.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/slow-transport-belt.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",
@@ -56,7 +56,7 @@ data:extend(
 {
 	type = "item",
 	name = "expedited-transport-belt",
-	icon = "__xander-mod__/graphics/item/logistic/belt/expedited-transport-belt.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/expedited-transport-belt.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",
@@ -71,7 +71,7 @@ data:extend(
 {
 	type = "item",
 	name = "slow-underground-belt",
-	icon = "__xander-mod__/graphics/item/logistic/belt/slow-underground-belt.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/slow-underground-belt.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",
@@ -87,7 +87,7 @@ data:extend(
 {
 	type = "item",
 	name = "expedited-underground-belt",
-	icon = "__xander-mod__/graphics/item/logistic/belt/expedited-underground-belt.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/expedited-underground-belt.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",
@@ -102,7 +102,7 @@ data:extend(
 {
 	type = "item",
 	name = "slow-splitter",
-	icon = "__xander-mod__/graphics/item/logistic/belt/slow-splitter.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/slow-splitter.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",
@@ -118,7 +118,7 @@ data:extend(
 {
 	type = "item",
 	name = "expedited-splitter",
-	icon = "__xander-mod__/graphics/item/logistic/belt/expedited-splitter.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/expedited-splitter.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",
@@ -137,7 +137,7 @@ data:extend(
 {
 	type = "item",
 	name = "expedited-loader",
-	icon = "__xander-mod__/graphics/item/logistic/belt/expedited-loader.png",
+	icon = "__xander-mod-v1__/graphics/item/logistic/belt/expedited-loader.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "belt",

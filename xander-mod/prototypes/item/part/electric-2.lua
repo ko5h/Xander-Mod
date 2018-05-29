@@ -1,7 +1,7 @@
 --Base Overrides
 
 --Electric engine unit: renamed to Brushed Electric Motor-Generator
-data.raw.item["electric-engine-unit"].icon = "__xander-mod__/graphics/item/part/electric-2/motor-1.png"
+data.raw.item["electric-engine-unit"].icon = "__xander-mod-v1__/graphics/item/part/electric-2/motor-1.png"
 data.raw.item["electric-engine-unit"].subgroup = "electric-2"
 data.raw.item["electric-engine-unit"].order = "03"
 
@@ -13,7 +13,7 @@ data:extend(
 {
 	type = "item",
 	name = "coil-1",
-	icon = "__xander-mod__/graphics/item/part/electric-2/coil-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/coil-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -24,7 +24,7 @@ data:extend(
 {
 	type = "item",
 	name = "coil-2",
-	icon = "__xander-mod__/graphics/item/part/electric-2/coil-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/coil-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -35,7 +35,7 @@ data:extend(
 {
 	type = "item",
 	name = "coil-3",
-	icon = "__xander-mod__/graphics/item/part/electric-2/coil-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/coil-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "item",
 	name = "motor-2",
-	icon = "__xander-mod__/graphics/item/part/electric-2/motor-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/motor-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -59,7 +59,7 @@ data:extend(
 {
 	type = "item",
 	name = "motor-3",
-	icon = "__xander-mod__/graphics/item/part/electric-2/motor-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/motor-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -70,7 +70,7 @@ data:extend(
 {
 	type = "item",
 	name = "transformer-1",
-	icon = "__xander-mod__/graphics/item/part/electric-2/transformer-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/transformer-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -81,7 +81,7 @@ data:extend(
 {
 	type = "item",
 	name = "transformer-2",
-	icon = "__xander-mod__/graphics/item/part/electric-2/transformer-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/transformer-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",
@@ -92,7 +92,7 @@ data:extend(
 {
 	type = "item",
 	name = "transformer-3",
-	icon = "__xander-mod__/graphics/item/part/electric-2/transformer-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/electric-2/transformer-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-2",

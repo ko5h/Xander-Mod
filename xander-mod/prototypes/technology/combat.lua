@@ -244,7 +244,7 @@ data:extend(
 {
 	type = "technology",
 	name = "powder_1",
-	icon = "__xander-mod__/graphics/technology/combat/powder_1.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/powder_1.png",
 	icon_size = 128,
 	effects =
 	{
@@ -269,7 +269,7 @@ data:extend(
 {
 	type = "technology",
 	name = "basic-firearms",
-	icon = "__xander-mod__/graphics/technology/combat/basic-firearms.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/basic-firearms.png",
 	icon_size = 128,
 	effects =
 	{
@@ -326,7 +326,7 @@ data:extend(
 {
 	type = "technology",
 	name = "grenade-b",
-	icon = "__xander-mod__/graphics/technology/combat/grenade-b.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/grenade-b.png",
 	icon_size = 128,
 	effects =
 	{
@@ -619,7 +619,7 @@ data:extend(
 {
 	type = "technology",
 	name = "radar_1",
-	icon = "__xander-mod__/graphics/technology/combat/radar.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/radar.png",
 	icon_size = 128,
 	effects =
 	{
@@ -644,7 +644,7 @@ data:extend(
 {
 	type = "technology",
 	name = "radar_2",
-	icon = "__xander-mod__/graphics/technology/combat/radar.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/radar.png",
 	icon_size = 128,
 	effects =
 	{
@@ -670,7 +670,7 @@ data:extend(
 {
 	type = "technology",
 	name = "radar_3",
-	icon = "__xander-mod__/graphics/technology/combat/radar.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/radar.png",
 	icon_size = 128,
 	effects =
 	{
@@ -703,7 +703,7 @@ data:extend(
 {
 	type = "technology",
 	name = "artillery-crawler",
-	icon = "__xander-mod__/graphics/technology/combat/artillery-crawler.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/artillery-crawler.png",
 	icon_size = 128,
 	effects =
 	{
@@ -762,7 +762,7 @@ data:extend(
 {
 	type = "technology",
 	name = "first-aid_1",
-	icon = "__xander-mod__/graphics/technology/combat/first-aid.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/first-aid.png",
 	icon_size = 128,
 	effects =
 	{
@@ -788,7 +788,7 @@ data:extend(
 {
 	type = "technology",
 	name = "first-aid_2",
-	icon = "__xander-mod__/graphics/technology/combat/first-aid.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/first-aid.png",
 	icon_size = 128,
 	effects =
 	{
@@ -825,7 +825,7 @@ data:extend(
 {
 	type = "technology",
 	name = "energy-shield-mk3-equipment",
-	icon = "__xander-mod__/graphics/technology/combat/energy-shield-mk3-equipment.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/energy-shield-mk3-equipment.png",
 	icon_size = 128,
 	effects =
 	{
@@ -854,7 +854,7 @@ data:extend(
 {
 	type = "technology",
 	name = "energy-shield-mk4-equipment",
-	icon = "__xander-mod__/graphics/technology/combat/energy-shield-mk4-equipment.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/energy-shield-mk4-equipment.png",
 	icon_size = 128,
 	effects =
 	{
@@ -886,7 +886,7 @@ data:extend(
 {
 	type = "technology",
 	name = "exoskeleton-mk2-equipment",
-	icon = "__xander-mod__/graphics/technology/combat/exoskeleton-mk2-equipment.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/exoskeleton-mk2-equipment.png",
 	icon_size = 128,
 	effects =
 	{
@@ -950,7 +950,7 @@ data:extend(
 {
 	type = "technology",
 	name = "personal-laser-defense-mk2-equipment",
-	icon = "__xander-mod__/graphics/technology/combat/personal-laser-defense-mk2-equipment.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/personal-laser-defense-mk2-equipment.png",
 	icon_size = 128,
 	effects =
 	{
@@ -978,7 +978,7 @@ data:extend(
 {
 	type = "technology",
 	name = "personal-laser-defense-mk3-equipment",
-	icon = "__xander-mod__/graphics/technology/combat/personal-laser-defense-mk3-equipment.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/personal-laser-defense-mk3-equipment.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1073,7 +1073,7 @@ data:extend(
 {
 	type = "technology",
 	name = "fission-reactor-equipment",
-	icon = "__xander-mod__/graphics/technology/combat/fission-reactor-equipment.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/fission-reactor-equipment.png",
 	icon_size = 128,
 	effects =
 	{
@@ -1136,7 +1136,7 @@ data:extend(
 {
 	type = "technology",
 	name = "power-armor_3",
-	icon = "__xander-mod__/graphics/technology/combat/power-armor_3.png",
+	icon = "__xander-mod-v1__/graphics/technology/combat/power-armor_3.png",
 	icon_size = 128,
 	effects =
 	{

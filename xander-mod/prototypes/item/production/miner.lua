@@ -19,7 +19,7 @@ data:extend(
 {
 	type = "item",
 	name = "offshore-pump-1",
-	icon = "__xander-mod__/graphics/item/production/miner/offshore-pump-1.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/offshore-pump-1.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -31,7 +31,7 @@ data:extend(
 {
 	type = "item",
 	name = "logging-camp",
-	icon = "__xander-mod__/graphics/item/production/miner/logging-camp.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/logging-camp.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -47,7 +47,7 @@ data:extend(
 {
 	type = "item",
 	name = "mining-drill-3",
-	icon = "__xander-mod__/graphics/item/production/miner/mining-drill-3.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/mining-drill-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -59,7 +59,7 @@ data:extend(
 {
 	type = "item",
 	name = "mining-drill-4",
-	icon = "__xander-mod__/graphics/item/production/miner/mining-drill-4.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/mining-drill-4.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -73,7 +73,7 @@ data:extend(
 {
 	type = "item",
 	name = "pumpjack-2",
-	icon = "__xander-mod__/graphics/item/production/miner/pumpjack-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/pumpjack-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -84,7 +84,7 @@ data:extend(
 {
 	type = "item",
 	name = "ore-processor-0",
-	icon = "__xander-mod__/graphics/item/production/miner/ore-processor-0.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/ore-processor-0.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -96,7 +96,7 @@ data:extend(
 {
 	type = "item",
 	name = "ore-processor-1",
-	icon = "__xander-mod__/graphics/item/production/miner/ore-processor-1.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/ore-processor-1.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",
@@ -108,7 +108,7 @@ data:extend(
 {
 	type = "item",
 	name = "ore-processor-2",
-	icon = "__xander-mod__/graphics/item/production/miner/ore-processor-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/miner/ore-processor-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "extraction-machine",

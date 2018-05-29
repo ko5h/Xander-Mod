@@ -2,7 +2,7 @@
 --Base Overrides
 
 --Landfill
-data.raw.item["landfill"].icon = "__xander-mod__/graphics/item/material/build/landfill.png"
+data.raw.item["landfill"].icon = "__xander-mod-v1__/graphics/item/material/build/landfill.png"
 data.raw.item["landfill"].order = "00"
 data.raw.item["landfill"].stack_size = 200
 data.raw.item["landfill"].place_as_tile = {result = "gravel", condition_size = 1, condition = {"ground-tile"}}
@@ -31,7 +31,7 @@ data:extend(
 {
 	type = "item",
 	name = "brick-clay",
-	icon = "__xander-mod__/graphics/item/material/build/brick-clay.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/brick-clay.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -48,7 +48,7 @@ data:extend(
 {
 	type = "item",
 	name = "brick-clay-graphite",
-	icon = "__xander-mod__/graphics/item/material/build/brick-clay-graphite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/brick-clay-graphite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -59,7 +59,7 @@ data:extend(
 {
 	type = "item",
 	name = "glass",
-	icon = "__xander-mod__/graphics/item/material/build/glass.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/glass.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -70,7 +70,7 @@ data:extend(
 {
 	type = "item",
 	name = "cement-powder",
-	icon = "__xander-mod__/graphics/item/material/build/cement-powder.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/cement-powder.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -85,7 +85,7 @@ data:extend(
 {
 	type = "item",
 	name = "fused-basalt",
-	icon = "__xander-mod__/graphics/item/material/build/fused-basalt.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/fused-basalt.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -102,7 +102,7 @@ data:extend(
 {
 	type = "item",
 	name = "fused-quartz",
-	icon = "__xander-mod__/graphics/item/material/build/fused-quartz.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/fused-quartz.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -119,7 +119,7 @@ data:extend(
 {
 	type = "item",
 	name = "brick-spinel",
-	icon = "__xander-mod__/graphics/item/material/build/brick-spinel.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/brick-spinel.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",
@@ -130,7 +130,7 @@ data:extend(
 {
 	type = "item",
 	name = "brick-zirconia",
-	icon = "__xander-mod__/graphics/item/material/build/brick-zirconia.png",
+	icon = "__xander-mod-v1__/graphics/item/material/build/brick-zirconia.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "terrain",

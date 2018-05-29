@@ -33,12 +33,12 @@ xmutil.clone("inserter", "burner-inserter",
 	{
 		{
 			"__base__/graphics/entity/burner-inserter/burner-inserter-",
-			"__xander-mod__/graphics/entity/logistic/inserter-chemical-burner/",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-chemical-burner/",
 		},
 	},
 	{
 		name = "inserter-chemical-burner",
-		icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-chemical-burner.png",
+		icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-chemical-burner.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "inserter-chemical-burner"},
 		energy_source = { fuel_category = "chemical" },
 	}
@@ -48,12 +48,12 @@ xmutil.clone("inserter", "inserter",
 	{
 		{
 			"__base__/graphics/entity/inserter/inserter-",
-			"__xander-mod__/graphics/entity/logistic/inserter-slow/",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-slow/",
 		},
 	},
 	{
 		name = "inserter-slow",
-		icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-slow.png",
+		icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-slow.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "inserter-slow"},
 		max_health = 50,
 		energy_per_movement = 20000,
@@ -71,12 +71,12 @@ xmutil.clone("inserter", "fast-inserter",
 	{
 		{
 			"__base__/graphics/entity/fast-inserter/fast-inserter-",
-			"__xander-mod__/graphics/entity/logistic/inserter-long-fast/",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-long-fast/",
 		},
 	},
 	{
 		name = "inserter-long-fast",
-		icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-long-fast.png",
+		icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-long-fast.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "inserter-long-fast"},
 		energy_per_movement = 10000,
 		energy_per_rotation = 10000,
@@ -92,12 +92,12 @@ xmutil.clone("inserter", "stack-inserter",
 	{
 		{
 			"__base__/graphics/entity/stack-inserter/stack-inserter-",
-			"__xander-mod__/graphics/entity/logistic/inserter-long-stack/",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-long-stack/",
 		},
 	},
 	{
 		name = "inserter-long-stack",
-		icon = "__xander-mod__/graphics/item/logistic/inserter/inserter-long-stack.png",
+		icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-long-stack.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "inserter-long-stack"},
 		max_health = 200,
 		energy_per_movement = 40000,

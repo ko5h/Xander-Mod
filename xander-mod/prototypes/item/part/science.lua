@@ -24,7 +24,7 @@ data:extend(
 {
 	type = "tool",
 	name = "science-pack-0",
-	icon = "__xander-mod__/graphics/item/part/science/science-pack-0.png",
+	icon = "__xander-mod-v1__/graphics/item/part/science/science-pack-0.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "science-pack",

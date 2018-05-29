@@ -30,7 +30,7 @@ data:extend(
 {
 	type = "item",
 	name = "boiler-2",
-	icon = "__xander-mod__/graphics/item/production/energy/boiler-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/boiler-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",
@@ -44,7 +44,7 @@ data:extend(
 {
 	type = "item",
 	name = "boiler-4",
-	icon = "__xander-mod__/graphics/item/production/energy/boiler-4.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/boiler-4.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",
@@ -60,7 +60,7 @@ data:extend(
 {
 	type = "item",
 	name = "steam-turbine-2",
-	icon = "__xander-mod__/graphics/item/production/energy/steam-turbine-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/steam-turbine-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",
@@ -78,7 +78,7 @@ data:extend(
 {
 	type = "item",
 	name = "solar-panel-2",
-	icon = "__xander-mod__/graphics/item/production/energy/solar-panel-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/solar-panel-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",
@@ -90,7 +90,7 @@ data:extend(
 {
 	type = "item",
 	name = "solar-panel-3",
-	icon = "__xander-mod__/graphics/item/production/energy/solar-panel-3.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/solar-panel-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",
@@ -104,7 +104,7 @@ data:extend(
 {
 	type = "item",
 	name = "accumulator-2",
-	icon = "__xander-mod__/graphics/item/production/energy/accumulator-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/accumulator-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",
@@ -118,7 +118,7 @@ data:extend(
 {
 	type = "item",
 	name = "lamp-2",
-	icon = "__xander-mod__/graphics/item/production/energy/lamp-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/energy/lamp-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "energy",

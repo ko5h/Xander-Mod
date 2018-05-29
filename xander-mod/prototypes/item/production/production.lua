@@ -3,13 +3,13 @@
 
 --Assembling Machine 1
 data.raw.item["assembling-machine-1"].order = "04"
-data.raw.item["assembling-machine-1"].icon = "__xander-mod__/graphics/item/production/production/assembling-machine-1.png"
+data.raw.item["assembling-machine-1"].icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-1.png"
 --Assembling Machine 2
 data.raw.item["assembling-machine-2"].order = "05"
-data.raw.item["assembling-machine-2"].icon = "__xander-mod__/graphics/item/production/production/assembling-machine-2.png"
+data.raw.item["assembling-machine-2"].icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-2.png"
 --Assembling Machine 3
 data.raw.item["assembling-machine-3"].order = "06"
-data.raw.item["assembling-machine-3"].icon = "__xander-mod__/graphics/item/production/production/assembling-machine-3.png"
+data.raw.item["assembling-machine-3"].icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-3.png"
 --Lab
 data.raw.item["lab"].order = "09"
 
@@ -21,7 +21,7 @@ data:extend(
 {
 	type = "item",
 	name = "machine-tool-0",
-	icon = "__xander-mod__/graphics/item/production/production/machine-tool-0.png",
+	icon = "__xander-mod-v1__/graphics/item/production/production/machine-tool-0.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "production-machine",
@@ -33,7 +33,7 @@ data:extend(
 {
 	type = "item",
 	name = "machine-tool-1",
-	icon = "__xander-mod__/graphics/item/production/production/machine-tool-1.png",
+	icon = "__xander-mod-v1__/graphics/item/production/production/machine-tool-1.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "production-machine",
@@ -45,7 +45,7 @@ data:extend(
 {
 	type = "item",
 	name = "machine-tool-2",
-	icon = "__xander-mod__/graphics/item/production/production/machine-tool-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/production/machine-tool-2.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "production-machine",
@@ -57,7 +57,7 @@ data:extend(
 {
 	type = "item",
 	name = "machine-tool-3",
-	icon = "__xander-mod__/graphics/item/production/production/machine-tool-3.png",
+	icon = "__xander-mod-v1__/graphics/item/production/production/machine-tool-3.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "production-machine",
@@ -87,7 +87,7 @@ data:extend(
 {
 	type = "item",
 	name = "assembling-machine-4",
-	icon = "__xander-mod__/graphics/item/production/production/assembling-machine-4.png",
+	icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-4.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "production-machine",
@@ -99,7 +99,7 @@ data:extend(
 {
 	type = "item",
 	name = "lab-1",
-	icon = "__xander-mod__/graphics/item/production/production/lab-1.png",
+	icon = "__xander-mod-v1__/graphics/item/production/production/lab-1.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
 	subgroup = "production-machine",

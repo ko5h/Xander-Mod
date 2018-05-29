@@ -18,7 +18,7 @@ data:extend(
 {
 	type = "item",
 	name = "mechanical-steam-engine",
-	icon = "__xander-mod__/graphics/item/part/assembly/mechanical-steam-engine.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanical-steam-engine.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -29,7 +29,7 @@ data:extend(
 {
 	type = "item",
 	name = "piston-cylinder",
-	icon = "__xander-mod__/graphics/item/part/assembly/piston-cylinder.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/piston-cylinder.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -40,7 +40,7 @@ data:extend(
 {
 	type = "item",
 	name = "mechanism-0",
-	icon = "__xander-mod__/graphics/item/part/assembly/mechanism-0.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-0.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -51,7 +51,7 @@ data:extend(
 {
 	type = "item",
 	name = "mechanism-1",
-	icon = "__xander-mod__/graphics/item/part/assembly/mechanism-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -62,7 +62,7 @@ data:extend(
 {
 	type = "item",
 	name = "mechanism-2",
-	icon = "__xander-mod__/graphics/item/part/assembly/mechanism-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -73,7 +73,7 @@ data:extend(
 {
 	type = "item",
 	name = "mechanism-3",
-	icon = "__xander-mod__/graphics/item/part/assembly/mechanism-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -86,7 +86,7 @@ data:extend(
 {
 	type = "item",
 	name = "wheel-1",
-	icon = "__xander-mod__/graphics/item/part/assembly/wheel-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/wheel-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -97,7 +97,7 @@ data:extend(
 {
 	type = "item",
 	name = "wheel-2",
-	icon = "__xander-mod__/graphics/item/part/assembly/wheel-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/wheel-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -110,7 +110,7 @@ data:extend(
 {
 	type = "item",
 	name = "flying-robot-frame-2",
-	icon = "__xander-mod__/graphics/item/part/assembly/flying-robot-frame-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/flying-robot-frame-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -121,7 +121,7 @@ data:extend(
 {
 	type = "item",
 	name = "tooling-1",
-	icon = "__xander-mod__/graphics/item/part/assembly/tooling-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/tooling-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -132,7 +132,7 @@ data:extend(
 {
 	type = "item",
 	name = "tooling-2",
-	icon = "__xander-mod__/graphics/item/part/assembly/tooling-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/tooling-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -143,7 +143,7 @@ data:extend(
 {
 	type = "item",
 	name = "tooling-3",
-	icon = "__xander-mod__/graphics/item/part/assembly/tooling-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/tooling-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -154,7 +154,7 @@ data:extend(
 {
 	type = "item",
 	name = "control-1",
-	icon = "__xander-mod__/graphics/item/part/assembly/control-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/control-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -165,7 +165,7 @@ data:extend(
 {
 	type = "item",
 	name = "control-2",
-	icon = "__xander-mod__/graphics/item/part/assembly/control-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/control-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -176,7 +176,7 @@ data:extend(
 {
 	type = "item",
 	name = "control-3",
-	icon = "__xander-mod__/graphics/item/part/assembly/control-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/control-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -187,7 +187,7 @@ data:extend(
 {
 	type = "item",
 	name = "lasing-1",
-	icon = "__xander-mod__/graphics/item/part/assembly/lasing-1.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/lasing-1.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -198,7 +198,7 @@ data:extend(
 {
 	type = "item",
 	name = "lasing-2",
-	icon = "__xander-mod__/graphics/item/part/assembly/lasing-2.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/lasing-2.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
@@ -209,7 +209,7 @@ data:extend(
 {
 	type = "item",
 	name = "lasing-3",
-	icon = "__xander-mod__/graphics/item/part/assembly/lasing-3.png",
+	icon = "__xander-mod-v1__/graphics/item/part/assembly/lasing-3.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",

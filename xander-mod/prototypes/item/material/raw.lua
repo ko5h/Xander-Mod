@@ -6,7 +6,7 @@ data:extend(
 {
 	type = "item",
 	name = "borax",
-	icon = "__xander-mod__/graphics/item/material/raw/borax.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/borax.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -17,7 +17,7 @@ data:extend(
 {
 	type = "item",
 	name = "clay",
-	icon = "__xander-mod__/graphics/item/material/raw/clay.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/clay.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -28,7 +28,7 @@ data:extend(
 {
 	type = "item",
 	name = "fayalite-slag",
-	icon = "__xander-mod__/graphics/item/material/raw/fayalite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/fayalite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -39,7 +39,7 @@ data:extend(
 {
 	type = "item",
 	name = "gravel",
-	icon = "__xander-mod__/graphics/item/material/raw/gravel.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/gravel.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -50,7 +50,7 @@ data:extend(
 {
 	type = "item",
 	name = "limestone",
-	icon = "__xander-mod__/graphics/item/material/raw/limestone.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/limestone.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -61,7 +61,7 @@ data:extend(
 {
 	type = "item",
 	name = "magnesite",
-	icon = "__xander-mod__/graphics/item/material/raw/magnesite.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/magnesite.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -72,7 +72,7 @@ data:extend(
 {
 	type = "item",
 	name = "modified",
-	icon = "__xander-mod__/graphics/item/material/raw/modified.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/modified.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -89,7 +89,7 @@ data:extend(
 {
 	type = "item",
 	name = "sand",
-	icon = "__xander-mod__/graphics/item/material/raw/sand.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/sand.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -106,7 +106,7 @@ data:extend(
 {
 	type = "item",
 	name = "slag",
-	icon = "__xander-mod__/graphics/item/material/raw/slag.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/slag.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -117,7 +117,7 @@ data:extend(
 {
 	type = "item",
 	name = "sludge",
-	icon = "__xander-mod__/graphics/item/material/raw/sludge.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/sludge.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -128,7 +128,7 @@ data:extend(
 {
 	type = "item",
 	name = "inert-waste",
-	icon = "__xander-mod__/graphics/item/material/raw/inert-waste.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/inert-waste.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",
@@ -139,7 +139,7 @@ data:extend(
 {
 	type = "item",
 	name = "vanadium-slag",
-	icon = "__xander-mod__/graphics/item/material/raw/vanadium-slag.png",
+	icon = "__xander-mod-v1__/graphics/item/material/raw/vanadium-slag.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "raw-material",

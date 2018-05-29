@@ -20,7 +20,7 @@ data.raw.item["solid-fuel"].fuel_value = "32MJ"
 data.raw.item["solid-fuel"].stack_size = 200
 
 --Explosives
-data.raw.item["explosives"].icon = "__xander-mod__/graphics/item/material/organic/trinitrotoluene.png"
+data.raw.item["explosives"].icon = "__xander-mod-v1__/graphics/item/material/organic/trinitrotoluene.png"
 data.raw.item["explosives"].subgroup = "organic"
 data.raw.item["explosives"].order = "12"
 data.raw.item["explosives"].stack_size = 200
@@ -38,7 +38,7 @@ data:extend(
 {
 	type = "item",
 	name = "cotton",
-	icon = "__xander-mod__/graphics/item/material/organic/cotton.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/cotton.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -49,7 +49,7 @@ data:extend(
 {
 	type = "item",
 	name = "wood-resin",
-	icon = "__xander-mod__/graphics/item/material/organic/wood-resin.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/wood-resin.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -60,7 +60,7 @@ data:extend(
 {
 	type = "item",
 	name = "latex",
-	icon = "__xander-mod__/graphics/item/material/organic/latex.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/latex.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -71,7 +71,7 @@ data:extend(
 {
 	type = "item",
 	name = "sbr",
-	icon = "__xander-mod__/graphics/item/material/organic/sbr.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/sbr.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -82,7 +82,7 @@ data:extend(
 {
 	type = "item",
 	name = "rubber",
-	icon = "__xander-mod__/graphics/item/material/organic/rubber.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/rubber.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -93,7 +93,7 @@ data:extend(
 {
 	type = "item",
 	name = "plastic-pellets",
-	icon = "__xander-mod__/graphics/item/material/organic/plastic-pellets.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/plastic-pellets.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -104,7 +104,7 @@ data:extend(
 {
 	type = "item",
 	name = "phenol",
-	icon = "__xander-mod__/graphics/item/material/organic/phenol.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/phenol.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -117,7 +117,7 @@ data:extend(
 {
 	type = "item",
 	name = "optimal-fuel",
-	icon = "__xander-mod__/graphics/item/material/organic/optimal-fuel.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/optimal-fuel.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	fuel_category = "chemical",
@@ -132,7 +132,7 @@ data:extend(
 {
 	type = "item",
 	name = "nitrocellulose",
-	icon = "__xander-mod__/graphics/item/material/organic/nitrocellulose.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/nitrocellulose.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -143,7 +143,7 @@ data:extend(
 {
 	type = "item",
 	name = "unstable-explosives",
-	icon = "__xander-mod__/graphics/item/material/organic/unstable-explosives.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/unstable-explosives.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -156,7 +156,7 @@ data:extend(
 {
 	type = "item",
 	name = "surfactant",
-	icon = "__xander-mod__/graphics/item/material/organic/surfactant.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/surfactant.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -167,7 +167,7 @@ data:extend(
 {
 	type = "item",
 	name = "solder-flux",
-	icon = "__xander-mod__/graphics/item/material/organic/solder-flux.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/solder-flux.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
@@ -178,7 +178,7 @@ data:extend(
 {
 	type = "item",
 	name = "synthetic-drugs",
-	icon = "__xander-mod__/graphics/item/material/organic/synthetic-drugs.png",
+	icon = "__xander-mod-v1__/graphics/item/material/organic/synthetic-drugs.png",
 	icon_size = 32,
 	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
