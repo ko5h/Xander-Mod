@@ -31,7 +31,7 @@ data.raw.technology["automation-2"].icon = "__xander-mod-v1__/graphics/technolog
 data.raw.technology["automation-2"].icon_size = 128
 data.raw.technology["automation-2"].effects = {{type = "unlock-recipe", recipe = "assembling-machine-2"}, 
 	{type = "unlock-recipe", recipe = "production-science-pack"}}
-data.raw.technology["automation-2"].prerequisites = {"automation", "machines_1", "inserter-fast"}
+data.raw.technology["automation-2"].prerequisites = {"automation", "inserter-fast"}
 data.raw.technology["automation-2"].unit = {count = 100, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}}, time = 30}
 data.raw.technology["automation-2"].order = "07-23"
 
@@ -52,14 +52,14 @@ data.raw.technology["effect-transmission"].order = "07-27"
 --Base "nuclear-power"
 data.raw.technology["nuclear-power"].effects = {{type = "unlock-recipe", recipe = "nuclear-reactor"}, {type = "unlock-recipe", recipe = "fuel-pellet"}, 
 	{type = "unlock-recipe", recipe = "uranium-fuel-cell"}}
-data.raw.technology["nuclear-power"].prerequisites = {"machines_2", "boiler_3", "forging-zirconium", "fuel-enrichment"}
+data.raw.technology["nuclear-power"].prerequisites = {"boiler_3", "forging-zirconium", "fuel-enrichment"}
 data.raw.technology["nuclear-power"].order = "07-32"
 
 --Base "solar-energy"
 data.raw.technology["solar-energy"].icon = "__xander-mod-v1__/graphics/technology/production/solar-energy_1.png"
 data.raw.technology["solar-energy"].icon_size = 128
 data.raw.technology["solar-energy"].effects = {{type = "unlock-recipe", recipe = "wafer-solar"}, {type = "unlock-recipe", recipe = "solar-panel"}}
-data.raw.technology["solar-energy"].prerequisites = {"advanced-electronics", "forging-steel", "glass-a", "rubber-a", "semiconductors_1"}
+data.raw.technology["solar-energy"].prerequisites = {"advanced-electronics", "forging-steel", "semiconductors_1"}
 data.raw.technology["solar-energy"].order = "07-33"
 
 --Base "electric-energy-accumulators-1"
@@ -69,7 +69,7 @@ data.raw.technology["electric-energy-accumulators-1"].order = "07-36"
 data.raw.technology["modules"].order = "07-43"
 
 --Base "speed-module"
-data.raw.technology["speed-module"].prerequisites = {"modules", "machines_1", "forging-aluminum"}
+data.raw.technology["speed-module"].prerequisites = {"modules", "forging-aluminum"}
 data.raw.technology["speed-module"].order = "07-44"
 
 --Base "speed-module-2"
@@ -89,11 +89,11 @@ data.raw.technology["productivity-module-2"].prerequisites = {"productivity-modu
 data.raw.technology["productivity-module-2"].order = "07-48"
 
 --Base "productivity-module-3"
-data.raw.technology["productivity-module-3"].prerequisites = {"productivity-module-2", "machines_3", "pump_3", "laser_3"}
+data.raw.technology["productivity-module-3"].prerequisites = {"productivity-module-2", "pump_3", "laser_3"}
 data.raw.technology["productivity-module-3"].order = "07-49"
 
 --Base "effectivity-module"
-data.raw.technology["effectivity-module"].prerequisites = {"modules", "machines_1", "forging-aluminum", "battery"}
+data.raw.technology["effectivity-module"].prerequisites = {"modules", "forging-aluminum", "battery"}
 data.raw.technology["effectivity-module"].order = "07-50"
 
 --Base "effectivity-module-2"
@@ -101,7 +101,7 @@ data.raw.technology["effectivity-module-2"].prerequisites = {"effectivity-module
 data.raw.technology["effectivity-module-2"].order = "07-51"
 
 --Base "effectivity-module-3"
-data.raw.technology["effectivity-module-3"].prerequisites = {"effectivity-module-2", "machines_3", "silver-refining", "battery_3"}
+data.raw.technology["effectivity-module-3"].prerequisites = {"effectivity-module-2", "machines_3", "battery_3"}
 data.raw.technology["effectivity-module-3"].order = "07-52"
 
 --Base "rocket-silo"
@@ -380,7 +380,7 @@ data:extend(
 			recipe = "ore-processor-2"
 		}
 	},
-	prerequisites = {"ore-processor_1", "flotation_1", "pump_2"},
+	prerequisites = {"ore-processor_1", "pump_2"},
 	unit =
 	{
 		count = 450,
@@ -442,7 +442,7 @@ data:extend(
 			recipe = "furnace-6"
 		}
 	},
-	prerequisites = {"furnace_4", "advanced-material-processing-2", "brick-zirconia", "machines_3"},
+	prerequisites = {"advanced-material-processing-2", "brick-zirconia", "machines_3"},
 	unit =
 	{
 		count = 800,
@@ -640,7 +640,7 @@ data:extend(
 			recipe = "oil-refinery"
 		}
 	},
-	prerequisites = {"reactor_1", "machines_1", "concrete"},
+	prerequisites = {"reactor_1", "concrete"},
 	unit =
 	{
 		count = 100,
@@ -666,7 +666,7 @@ data:extend(
 			recipe = "reactor-3"
 		}
 	},
-	prerequisites = {"reactor_2", "distillation-column", "machines_3"},
+	prerequisites = {"reactor_2", "machines_3"},
 	unit =
 	{
 		count = 800,
@@ -775,7 +775,7 @@ data:extend(
 			recipe = "machine-tool-3"
 		}
 	},
-	prerequisites = {"machine-tool_2", "machines_3", "laser_2"},
+	prerequisites = {"machine-tool_2", "laser_2"},
 	unit =
 	{
 		count = 400,
@@ -834,7 +834,7 @@ data:extend(
 			recipe = "assembling-machine-4"
 		}
 	},
-	prerequisites = {"automation-3", "machines_3", "laser_2"},
+	prerequisites = {"automation-3", "laser_2"},
 	unit =
 	{
 		count = 400,
@@ -1065,7 +1065,7 @@ data:extend(
 			recipe = "solar-panel-3"
 		}
 	},
-	prerequisites = {"solar-energy_2", "silver-refining", "glass-b", "advanced-electronics-2"},
+	prerequisites = {"solar-energy_2", "advanced-electronics-2"},
 	unit =
 	{
 		count = 650,
@@ -1123,7 +1123,7 @@ data:extend(
 			recipe = "small-lamp"
 		}
 	},
-	prerequisites = {"smelting-graphite", "glass-a", "electronics"},
+	prerequisites = {"smelting-graphite", "electronics"},
 	unit =
 	{
 		count = 20,

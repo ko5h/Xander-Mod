@@ -70,7 +70,7 @@ data:extend(
 			recipe = "steel-axe"
 		}
 	},
-	prerequisites = {"machine-tool_0", "smelting-graphite"},
+	prerequisites = {"smelting-graphite"},
 	unit =
 	{
 		count = 20,
@@ -115,7 +115,7 @@ data:extend(
 			recipe = "wheel-2"
 		}
 	},
-	prerequisites = {"parts_1", "forging-alloy-a", "oil-processing", "lead-brass"},
+	prerequisites = {"parts_1", "forging-alloy-a", "lead-brass"},
 	unit =
 	{
 		count = 200,
@@ -266,7 +266,7 @@ data:extend(
 			recipe = "tooling-1-b"
 		}
 	},
-	prerequisites = {"steel-processing", "acheson-process", "phenolic-resin"},
+	prerequisites = {"acheson-process", "phenolic-resin"},
 	unit =
 	{
 		count = 20,
@@ -749,7 +749,7 @@ data:extend(
 			recipe = "lasing-2"
 		}
 	},
-	prerequisites = {"laser", "optics_2", "machines_3", "lamp_2"},
+	prerequisites = {"laser", "machines_3", "lamp_2"},
 	unit =
 	{
 		count = 500,
@@ -871,7 +871,7 @@ data:extend(
 			recipe = "rocket-fuel"
 		}
 	},
-	prerequisites = {"advanced-oil-processing", "haber-process", "electrolysis-water-b", "advanced-lithium"},
+	prerequisites = {"advanced-oil-processing", "electrolysis-water-b", "advanced-lithium"},
 	unit =
 	{
 		count = 1000,
@@ -927,7 +927,7 @@ data:extend(
 			recipe = "rocket-control-unit"
 		}
 	},
-	prerequisites = {"machines_3", "speed-module", "effectivity-module", "laser_3"},
+	prerequisites = {"speed-module", "effectivity-module", "laser_3"},
 	unit =
 	{
 		count = 1000,

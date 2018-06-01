@@ -2,7 +2,7 @@
 --Base Overrides
 
 --Base "electric-energy-distribution-1"
-data.raw.technology["electric-energy-distribution-1"].prerequisites = {"electronics", "steel-processing", "rubber-a"}
+data.raw.technology["electric-energy-distribution-1"].prerequisites = {"electronics", "rubber-a"}
 data.raw.technology["electric-energy-distribution-1"].order = "06-00"
 
 --Base "electric-energy-distribution-2"
@@ -18,7 +18,7 @@ data.raw.technology["logistics"].prerequisites = {"parts_1", "logistics_0", "ins
 data.raw.technology["logistics"].order = "06-04"
 
 --Base "logistics-2"
-data.raw.technology["logistics-2"].prerequisites = {"logistics", "machines_1", "lead-brass"}
+data.raw.technology["logistics-2"].prerequisites = {"logistics", "lead-brass"}
 data.raw.technology["logistics-2"].order = "06-05"
 
 --Base "logistics-3"
@@ -36,7 +36,7 @@ data.raw.technology["stack-inserter"].unit = {count = 150, ingredients = {{"scie
 data.raw.technology["stack-inserter"].order = "06-17"
 
 --Base "railway"
-data.raw.technology["railway"].prerequisites = {"logistics", "plumbing-steel", "ore-processor_1"}
+data.raw.technology["railway"].prerequisites = {"logistics", "ore-processor_1"}
 data.raw.technology["railway"].unit = {count = 100, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}}, time = 30}
 data.raw.technology["railway"].order = "06-20"
 
@@ -110,7 +110,7 @@ data:extend(
 			recipe = "substation"
 		}
 	},
-	prerequisites = {"electric-energy-distribution-1", "motor_2", "machines_2"},
+	prerequisites = {"electric-energy-distribution-1", "machines_2"},
 	unit =
 	{
 		count = 200,
@@ -137,7 +137,7 @@ data:extend(
 			recipe = "substation-2"
 		}
 	},
-	prerequisites = {"substation_1", "motor_3", "machines_3"},
+	prerequisites = {"substation_1", "machines_3"},
 	unit =
 	{
 		count = 300,
@@ -207,7 +207,7 @@ data:extend(
 			recipe = "express-splitter"
 		}
 	},
-	prerequisites = {"logistics-3", "parts_3", "forging-stainless", "advanced-electronics-2"},
+	prerequisites = {"logistics-3", "parts_3", "advanced-electronics-2"},
 	unit =
 	{
 		count = 500,
@@ -621,7 +621,7 @@ data:extend(
 			recipe = "fluid-wagon-2"
 		}
 	},
-	prerequisites = {"cargo-wagon_2", "plumbing-stainless", "fluid-handling_2"},
+	prerequisites = {"cargo-wagon_2", "fluid-handling_2"},
 	unit =
 	{
 		count = 300,
@@ -740,7 +740,7 @@ data:extend(
 			recipe = "construction-robot-2"
 		}
 	},
-	prerequisites = {"construction-robotics", "robotics_2", "tooling_3", "laser_2"},
+	prerequisites = {"construction-robotics", "robotics_2", "laser_2"},
 	unit =
 	{
 		count = 500,
@@ -839,7 +839,7 @@ data:extend(
 			recipe = "pipe-to-ground-monel"
 		}
 	},
-	prerequisites = {"machine-tool_0", "monel-metal", "forging-steel"},
+	prerequisites = {"monel-metal", "forging-steel"},
 	unit =
 	{
 		count = 100,
@@ -869,7 +869,7 @@ data:extend(
 			recipe = "pipe-to-ground-stainless"
 		}
 	},
-	prerequisites = {"machine-tool_1", "forging-stainless", "forging-alloy-a"},
+	prerequisites = {"forging-stainless", "forging-alloy-a"},
 	unit =
 	{
 		count = 200,
@@ -900,7 +900,7 @@ data:extend(
 			recipe = "pipe-to-ground-superalloy"
 		}
 	},
-	prerequisites = {"machine-tool_1", "forging-superalloy", "forging-alloy-a"},
+	prerequisites = {"forging-superalloy", "forging-alloy-a"},
 	unit =
 	{
 		count = 300,
@@ -932,7 +932,7 @@ data:extend(
 			recipe = "pipe-to-ground-plastic"
 		}
 	},
-	prerequisites = {"machine-tool_1", "plastics", "forging-alloy-a"},
+	prerequisites = {"plastics", "forging-alloy-a"},
 	unit =
 	{
 		count = 200,

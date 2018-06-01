@@ -11,7 +11,7 @@ data.raw.technology["military"].order = "08-01"
 --Base "military-2"
 data.raw.technology["military-2"].effects = {{type = "unlock-recipe", recipe = "bullet-2"}, {type = "unlock-recipe", recipe = "casing-2"}, 
 	{type = "unlock-recipe", recipe = "piercing-rounds-magazine"}, {type = "unlock-recipe", recipe = "military-science-pack"}}
-data.raw.technology["military-2"].prerequisites = {"military", "steel-processing", "powder_2"}
+data.raw.technology["military-2"].prerequisites = {"military", "powder_2"}
 data.raw.technology["military-2"].unit = {count = 50, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}}, time = 15}
 data.raw.technology["military-2"].order = "08-02"
 
@@ -32,13 +32,13 @@ data.raw.technology["military-4"].order = "08-04"
 --Base "uranium-ammo"
 data.raw.technology["uranium-ammo"].effects = {{type = "unlock-recipe", recipe = "bullet-3"}, {type = "unlock-recipe", recipe = "uranium-rounds-magazine"}, 
 	{type = "unlock-recipe", recipe = "uranium-cannon-shell"}, {type = "unlock-recipe", recipe = "explosive-uranium-cannon-shell"}}
-data.raw.technology["uranium-ammo"].prerequisites = {"military-3", "fuel-enrichment", "tanks"}
+data.raw.technology["uranium-ammo"].prerequisites = {"fuel-enrichment", "tanks"}
 --null
 data.raw.technology["uranium-ammo"].order = "08-05"
 
 --Base "rocketry"
 --null
-data.raw.technology["rocketry"].prerequisites = {"electronics", "flammables", "military-2", "parts_2"}
+data.raw.technology["rocketry"].prerequisites = {"military-2", "parts_2"}
 --null
 data.raw.technology["rocketry"].order = "08-06"
 
@@ -51,7 +51,7 @@ data.raw.technology["explosive-rocketry"].order = "08-07"
 --Base "atomic-bomb"
 data.raw.technology["atomic-bomb"].effects = {{type = "unlock-recipe", recipe = "weapons-hydrolysis"}, {type = "unlock-recipe", recipe = "weapons-reduction"}, 
 	{type = "unlock-recipe", recipe = "atomic-bomb"}}
-data.raw.technology["atomic-bomb"].prerequisites = {"weapons-enrichment", "magnesium-refining", "military-4", "explosive-rocketry"}
+data.raw.technology["atomic-bomb"].prerequisites = {"weapons-enrichment", "military-4", "explosive-rocketry"}
 --null
 data.raw.technology["atomic-bomb"].order = "08-08"
 
@@ -63,7 +63,7 @@ data.raw.technology["land-mine"].order = "08-09"
 
 --Base "flamethrower"
 data.raw.technology["flamethrower"].effects = {{type = "unlock-recipe", recipe = "flamethrower"}, {type = "unlock-recipe", recipe = "flamethrower-ammo"}}
-data.raw.technology["flamethrower"].prerequisites = {"flammables", "military-2", "parts_2"}
+data.raw.technology["flamethrower"].prerequisites = {"military-2", "parts_2"}
 data.raw.technology["flamethrower"].unit = {count = 100, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, 	{"military-science-pack", 1}}, 
 	time = 30}
 data.raw.technology["flamethrower"].order = "08-10"
@@ -112,7 +112,7 @@ data.raw.technology["laser-turrets"].order = "08-26"
 
 --Base "automobilism"
 --null
-data.raw.technology["automobilism"].prerequisites = {"machines_1", "engine", "glass-a", "rubber-a"}
+data.raw.technology["automobilism"].prerequisites = {"machines_1", "engine", "rubber-a"}
 --null
 data.raw.technology["automobilism"].order = "08-32"
 
@@ -131,14 +131,14 @@ data.raw.technology["energy-shield-equipment"].order = "08-38"
 
 --Base "energy-shield-mk2-equipment"
 --null
-data.raw.technology["energy-shield-mk2-equipment"].prerequisites = {"energy-shield-equipment", "battery", "fission-reactor-equipment"}
+data.raw.technology["energy-shield-mk2-equipment"].prerequisites = {"energy-shield-equipment", "fission-reactor-equipment"}
 data.raw.technology["energy-shield-mk2-equipment"].unit = {count = 250, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}, 
 	{"military-science-pack", 1}}, time = 30}
 data.raw.technology["energy-shield-mk2-equipment"].order = "08-39"
 
 --Base "exoskeleton-equipment"
 --null
-data.raw.technology["exoskeleton-equipment"].prerequisites = {"modular-armor", "solar-panel-equipment"}
+data.raw.technology["exoskeleton-equipment"].prerequisites = {"solar-panel-equipment"}
 --null
 data.raw.technology["exoskeleton-equipment"].order = "08-42"
 
@@ -741,7 +741,7 @@ data:extend(
 			recipe = "tank-2"
 		}
 	},
-	prerequisites = {"artillery-crawler", "military-4", "machines_3", "laser-turrets_3"},
+	prerequisites = {"artillery-crawler", "military-4", "laser-turrets_3"},
 	unit =
 	{
 		count = 2000,

@@ -61,7 +61,7 @@ data:extend(
 			recipe = "surfactant-a"
 		}
 	},
-	prerequisites = {"ore-processor_1", "sulfur-processing", "organics_1"},
+	prerequisites = {"sulfur-processing", "organics_1"},
 	unit =
 	{
 		count = 200,
@@ -87,7 +87,7 @@ data:extend(
 			recipe = "surfactant-b"
 		}
 	},
-	prerequisites = {"flotation_1", "electrolysis-salt-water", "sulfur-processing", "organics_2"},
+	prerequisites = {"flotation_1", "electrolysis-salt-water", "organics_2"},
 	unit =
 	{
 		count = 200,
@@ -310,7 +310,7 @@ data:extend(
 			recipe = "powder-2"
 		}
 	},
-	prerequisites = {"nitrocellulose", "explosives", "magnesium-processing"},
+	prerequisites = {"explosives", "magnesium-processing"},
 	unit =
 	{
 		count = 300,
@@ -336,7 +336,7 @@ data:extend(
 			recipe = "blasting-fluid"
 		}
 	},
-	prerequisites = {"mining-drill_2", "ore-processor_1", "explosives"},
+	prerequisites = {"mining-drill_2", "explosives"},
 	unit =
 	{
 		count = 150,

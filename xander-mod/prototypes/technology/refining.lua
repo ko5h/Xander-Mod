@@ -117,7 +117,7 @@ data:extend(
 			recipe = "hall-heroult"
 		}
 	},
-	prerequisites = {"ore-processor_1", "electrolysis-salt-water", "carbon-processing", "fluorine-processing"},
+	prerequisites = {"electrolysis-salt-water", "carbon-processing", "fluorine-processing"},
 	unit =
 	{
 		count = 300,
@@ -368,7 +368,7 @@ data:extend(
 			recipe = "cobalt-electrowinning"
 		}
 	},
-	prerequisites = {"ore-processor_1", "electrolyzer_1", "calcium-processing", "haber-process"},
+	prerequisites = {"haber-process"},
 	unit =
 	{
 		count = 200,
@@ -457,7 +457,7 @@ data:extend(
 			recipe = "nickel-smelting"
 		}
 	},
-	prerequisites = {"ore-processor_1", "calcium-processing"}, --"blasting", 
+	prerequisites = {"calcium-processing"}, --"blasting", 
 	unit =
 	{
 		count = 250,
@@ -584,7 +584,7 @@ data:extend(
 			recipe = "tungsten-sintering"
 		}
 	},
-	prerequisites = {"flotation_1", "furnace_4", "electrolysis-salt-water", "advanced-material-processing-2"},
+	prerequisites = {"flotation_1", "electrolysis-salt-water", "advanced-material-processing-2"},
 	unit =
 	{
 		count = 300,
@@ -708,7 +708,7 @@ data:extend(
 			recipe = "chromium-reduction"
 		}
 	},
-	prerequisites = {"flotation_1", "electrolysis-salt-water", "magnesium-refining"},
+	prerequisites = {"flotation_1", "magnesium-refining"},
 	unit =
 	{
 		count = 400,
@@ -746,7 +746,7 @@ data:extend(
 			recipe = "kroll-titanium"
 		}
 	},
-	prerequisites = {"flotation_1", "electrolysis-salt-water", "magnesium-refining"},
+	prerequisites = {"flotation_1", "magnesium-refining"},
 	unit =
 	{
 		count = 500,
@@ -846,7 +846,7 @@ data:extend(
 			recipe = "raw-iron"
 		}
 	},
-	prerequisites = {"ore-processor_1", "calcium-processing", "bessemer-process"},
+	prerequisites = {"calcium-processing", "bessemer-process"},
 	unit =
 	{
 		count = 75,
@@ -888,7 +888,7 @@ data:extend(
 			recipe = "vanadium-reduction"
 		}
 	},
-	prerequisites = {"ore-processor_1", "calcium-processing", "haber-process", "magnesium-refining"},
+	prerequisites = {"haber-process", "magnesium-refining"},
 	unit =
 	{
 		count = 200,
@@ -1089,7 +1089,7 @@ data:extend(
 			recipe = "boron-oxide"
 		}
 	},
-	prerequisites = {"pumpjack", "furnace_4", "electrolysis-salt-water"},
+	prerequisites = {"pumpjack", "electrolysis-salt-water"},
 	unit =
 	{
 		count = 150,
@@ -1169,7 +1169,7 @@ data:extend(
 			recipe = "advanced-gas-distillation"
 		}
 	},
-	prerequisites = {"reactor_3", "gas-distillation", "light-cracking", "light-reforming"},
+	prerequisites = {"reactor_3", "gas-distillation", "light-reforming"},
 	unit =
 	{
 		count = 200,
@@ -1360,7 +1360,7 @@ data:extend(
 			recipe = "chalcopyrite-sphalerite"
 		}
 	},
-	prerequisites = {"zinc-refining", "chalcopyrite-processing", "ore-processor_2"},
+	prerequisites = {"chalcopyrite-processing", "ore-processor_2"},
 	unit =
 	{
 		count = 500,
@@ -1428,7 +1428,7 @@ data:extend(
 			recipe = "uranium-hexafluoride"
 		}
 	},
-	prerequisites = {"ore-processor_1", "nitric-acid-b", "fluorine-processing"}, --"blasting", 
+	prerequisites = {"nitric-acid-b", "fluorine-processing"}, --"blasting", 
 	unit =
 	{
 		count = 300,
@@ -1534,7 +1534,7 @@ data:extend(
 			recipe = "sodium-hydroxide"
 		}
 	},
-	prerequisites = {"furnace_4", "leblanc-process", "calcium-processing"},
+	prerequisites = {"leblanc-process", "calcium-processing"},
 	unit =
 	{
 		count = 100,
@@ -1572,7 +1572,7 @@ data:extend(
 			recipe = "water-condensation"
 		}
 	},
-	prerequisites = {"furnace_4", "reactor_1", "calcium-processing"},
+	prerequisites = {"reactor_1", "calcium-processing"},
 	unit =
 	{
 		count = 150,

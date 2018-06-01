@@ -633,7 +633,7 @@ data:extend(
 			recipe = "basalt-a"
 		}
 	},
-	prerequisites = {"aluminum-refining", "magnesium-processing", "calcium-processing", "forging-alloy-a"},
+	prerequisites = {"aluminum-refining", "magnesium-processing", "forging-alloy-a"},
 	unit =
 	{
 		count = 200,
@@ -908,7 +908,7 @@ data:extend(
 			recipe = "graphite-powder"
 		}
 	},
-	prerequisites = {"furnace_4", "coke-a", "smelting-graphite"},
+	prerequisites = {"furnace_4", "smelting-graphite"},
 	unit =
 	{
 		count = 250,
@@ -1272,7 +1272,7 @@ data:extend(
 			recipe = "gas-scrubbing"
 		}
 	},
-	prerequisites = {"advanced-material-processing-2", "calcium-processing", "sulfur-processing"},
+	prerequisites = {"advanced-material-processing-2", "sulfur-processing"},
 	unit =
 	{
 		count = 250,
