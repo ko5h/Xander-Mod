@@ -67,7 +67,7 @@ data.raw.recipe["atomic-bomb"].ingredients = {{"uranium-235", 30}, {"explosives"
 	{"control-3", 5}, {"battery-3", 5}, {"rocket", 10}}
 
 --Base "flamethrower-ammo"
-data.raw.recipe["flamethrower-ammo"].category = "crafting-with-fluid"
+data.raw.recipe["flamethrower-ammo"].category = "chemistry"
 data.raw.recipe["flamethrower-ammo"].energy_required = 2
 data.raw.recipe["flamethrower-ammo"].ingredients = {{"forging-steel", 5}, {type = "fluid", name = "light-oil", amount = 50}, 
 	{type = "fluid", name = "heavy-oil", amount = 50}}
