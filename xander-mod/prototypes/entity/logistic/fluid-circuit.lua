@@ -481,6 +481,9 @@ xmutil.clone("storage-tank", "storage-tank",
 		icon = "__xander-mod-v1__/graphics/item/logistic/plumbing/storage-tank-2.png",
 		minable = {mining_time = 1.5, result = "storage-tank-2"},
 		max_health = 1000,
+		fluid_box = {
+			base_area = 500,
+		},
 		pictures = {
 			picture = {
 				sheets = {
