@@ -456,7 +456,7 @@ data:extend(
 	energy_required = 5,
 	enabled = false,
 	ingredients = {{"rutile", 1}, {"coke", 1}, {type = "fluid", name = "chlorine", amount = 20}},
-	results = {{type = "fluid", name = "titanium-tetrachloride", amount = 10}, {type = "fluid", name = "flue-gas", amount = 10}},
+	results = {{type = "fluid", name = "titanium-tetrachloride", amount = 10}}, --[removed #code<{type = "fluid", name = "flue-gas", amount = 10}> from table]
 	subgroup = "raw-material"
 },
 --Pure Titanium Dioxide via Titanium Tetrachloride Hydrolysis
@@ -465,7 +465,7 @@ data:extend(
     name = "titanium-oxide",
 	icon = "__xander-mod-v1__/graphics/recipe/refining/titanium-oxide.png",
 	icon_size = 32,
-	category = "refining",
+	category = "chemistry", --[changed from #code<"refining">]
 	energy_required = 2,
 	enabled = false,
 	ingredients = {{type = "fluid", name = "titanium-tetrachloride", amount = 10}, {type = "fluid", name = "water", amount = 40}},
