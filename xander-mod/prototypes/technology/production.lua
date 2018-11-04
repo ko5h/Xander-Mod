@@ -411,6 +411,14 @@ data:extend(
 		},
 		{
 			type = "unlock-recipe",
+			recipe = "furnace-4-2p-a"
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "furnace-4-2p-convert"
+		},
+		{
+			type = "unlock-recipe",
 			recipe = "production-science-pack"
 		}
 	},
@@ -440,7 +448,15 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "furnace-6"
-		}
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "furnace-6-2p"
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "furnace-6-2p-convert"
+		},
 	},
 	prerequisites = {"advanced-material-processing-2", "brick-zirconia", "machines_3"},
 	unit =

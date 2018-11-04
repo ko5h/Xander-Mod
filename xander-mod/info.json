@@ -3,7 +3,7 @@
   "version": "1.5.4",
   "factorio_version": "0.16",
   "title": "Xander Mod Version 1",
-  "author": "Repofme1",
+  "author": "Repofme1 and Mathematics7",
   "homepage": "https://mods.factorio.com/mod/xander-mod-v1",
   "dependencies": ["base", "? LoaderRedux"],
   "description": "An extensive overhaul, emphasizing detailed and realistic chemistry, materials, and production.  Extends the base game to marathon-style scope and difficulty."

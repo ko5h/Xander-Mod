@@ -483,6 +483,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "furnace-4-b"
 		},
+        {
+			type = "unlock-recipe",
+			recipe = "furnace-4-2p-b"
+		},
 		{
 			type = "unlock-recipe",
 			recipe = "furnace-5-b"

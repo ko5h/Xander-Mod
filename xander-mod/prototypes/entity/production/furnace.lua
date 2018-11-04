@@ -159,5 +159,139 @@ xmutil.clone("furnace", "electric-furnace",
 	}
 ),
 
+--Electric Refining Furnace with 2 pipes
+xmutil.clone("furnace", "electric-furnace",
+	{
+		{
+			"__base__/graphics/entity/electric-furnace/electric-furnace-base.png",
+			"__xander-mod-v1__/graphics/entity/production/furnace-4/4.png",
+		},
+		{
+			"__base__/graphics/entity/electric-furnace/hr-electric-furnace-base.png",
+			"__xander-mod-v1__/graphics/entity/production/furnace-4/hr-4.png",
+		},
+	},
+	{
+		type = "assembling-machine",
+		name = "furnace-4-2p",
+		icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-4.png",
+		minable = {mining_time = 1, result = "furnace-4"},
+		max_health = 500,
+		fluid_boxes = {
+			{
+				production_type = "input",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-3"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = -1,
+				pipe_connections = {{type="input", position = {-1, -2}}},
+				secondary_draw_orders = {north = -1}
+			},
+			{
+				production_type = "input",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-3"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = -1,
+				pipe_connections = {{type="input", position = {1, -2}}},
+				secondary_draw_orders = {north = -1}
+			},
+			{
+				production_type = "output",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-3"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = 1,
+				pipe_connections = {{type = "output", position = {-1, 2}}},
+				secondary_draw_orders = { north = -1 }
+			},
+			{
+				production_type = "output",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-3"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = 1,
+				pipe_connections = {{type = "output", position = {1, 2}}},
+				secondary_draw_orders = { north = -1 }
+			},
+			off_when_no_fluid_recipe = true
+		},
+		crafting_categories = {"refining"},
+		crafting_speed = 2,
+		energy_source = { emissions = 0.002 },
+		energy_usage = "1MW",
+		ingredient_count = 6,
+	}
+),
+--Arc Furnace with 2 pipes
+xmutil.clone("furnace", "electric-furnace",
+	{
+		{
+			"__base__/graphics/entity/electric-furnace/electric-furnace-base.png",
+			"__xander-mod-v1__/graphics/entity/production/furnace-6/6.png",
+		},
+		{
+			"__base__/graphics/entity/electric-furnace/hr-electric-furnace-base.png",
+			"__xander-mod-v1__/graphics/entity/production/furnace-6/hr-6.png",
+		},
+		{
+			"__base__/graphics/entity/electric-furnace/electric-furnace-heater.png",
+			"__xander-mod-v1__/graphics/entity/production/furnace-6/heater.png",
+		},
+	},
+	{
+		type = "assembling-machine",
+		name = "furnace-6-2p",
+		icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-6.png",
+		minable = {mining_time = 1, result = "furnace-6"},
+		max_health = 1000,
+		fluid_boxes = {
+			{
+				production_type = "input",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-4"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = -1,
+				pipe_connections = {{type="input", position = {-1, -2}}},
+				secondary_draw_orders = {north = -1}
+			},
+			{
+				production_type = "input",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-4"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = -1,
+				pipe_connections = {{type="input", position = {1, -2}}},
+				secondary_draw_orders = {north = -1}
+			},
+			{
+				production_type = "output",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-4"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = 1,
+				pipe_connections = {{type = "output", position = {-1, 2}}},
+				secondary_draw_orders = { north = -1 }
+			},
+			{
+				production_type = "output",
+				pipe_picture = xmutil.assembler_pipes("assembling-machine-4"),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = 1,
+				pipe_connections = {{type = "output", position = {1, 2}}},
+				secondary_draw_orders = { north = -1 }
+			},
+			off_when_no_fluid_recipe = true
+		},
+		crafting_categories = {"refining", "forge"},
+		crafting_speed = 4,
+		energy_source = { emissions = 0.0008 },
+		energy_usage = "2MW",
+		ingredient_count = 8,
+		module_specification = { module_slots = 4 },
+	}
+),
+
 }
 )

@@ -70,9 +70,60 @@ data:extend(
 	category = "crafting",
 	energy_required = 20,
 	enabled = false,
-	ingredients = {{"furnace-4", 2}, {"electric-furnace", 2}, {"brick-zirconia", 100}, {"tungsten-block", 50}, {"mechanism-3", 20}, {"forging-alloy", 50}, 
-		{"transformer-3", 20}, {"control-3", 20}},
+	ingredients = {{"furnace-4", 2}, {"electric-furnace", 2}, {"brick-zirconia", 100}, {"tungsten-block", 50}, {"mechanism-3", 20}, {"forging-alloy", 50}, {"transformer-3", 20}, {"control-3", 20}},
 	result = "furnace-6"
-}
+},
+
+--Electric Refining Furnace A (Clay-Graphite) with 2 pipes
+{
+	type = "recipe",
+    name = "furnace-4-2p-a",
+	category = "crafting",
+	energy_required = 10,
+	enabled = false,
+	ingredients = {{"brick-clay-graphite", 40}, {"graphite-block", 10}, {"forging-steel", 20}, {"transformer-1", 2}, {"control-1", 2}, {"pump", 2}},
+	result = "furnace-4-2p"
+},
+--Electric Refining Furnace B (Chromia-Magnesia Spinel) with 2 pipes
+{
+	type = "recipe",
+    name = "furnace-4-2p-b",
+	category = "crafting",
+	energy_required = 10,
+	enabled = false,
+	ingredients = {{"brick-spinel", 40}, {"monel-plate", 20}, {"forging-steel", 10}, {"transformer-2", 1}, {"control-1", 1}, {"pump", 1}},
+	result = "furnace-4-2p"
+},
+--Arc Furnace with 2 pipes
+{
+	type = "recipe",
+    name = "furnace-6-2p",
+	category = "crafting",
+	energy_required = 20,
+	enabled = false,
+	ingredients = {{"furnace-4-2p", 2}, {"electric-furnace", 2}, {"brick-zirconia", 100}, {"tungsten-block", 50}, {"mechanism-3", 20}, {"forging-alloy", 50}, {"transformer-3", 20}, {"control-3", 20}},
+	result = "furnace-6-2p"
+},
+-- converting electric furnaceses to the 2 pipes version
+--Electric Refining Furnace convert to 2-pipe
+{
+	type = "recipe",
+    name = "furnace-4-2p-convert",
+	category = "crafting",
+	energy_required = 0.5,
+	enabled = false,
+	ingredients = {{"furnace-4", 1}},
+	result = "furnace-4-2p"
+},
+--Arc Furnace with 2 pipes
+{
+	type = "recipe",
+    name = "furnace-6-2p-convert",
+	category = "crafting",
+	energy_required = 0.5,
+	enabled = false,
+	ingredients = {{"furnace-6", 1}},
+	result = "furnace-6-2p"
+},
 
 })
