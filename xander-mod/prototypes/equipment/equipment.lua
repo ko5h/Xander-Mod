@@ -292,7 +292,7 @@ data:extend(
 {
 	type = "roboport-equipment",
 	name = "personal-roboport-mk3-equipment",
-	take_result = "personal-roboport-equipment",
+	take_result = "personal-roboport-mk3-equipment",
 	sprite =
 	{
 		filename = "__base__/graphics/equipment/personal-roboport-mk2-equipment.png",
