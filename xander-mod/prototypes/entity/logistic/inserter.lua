@@ -4,8 +4,8 @@ local xmutil = require("xmutil")
 
 --Base "burner-inserter"
 data.raw.inserter["burner-inserter"].max_health = 50
-data.raw.inserter["burner-inserter"].energy_per_movement = 50000
-data.raw.inserter["burner-inserter"].energy_per_rotation = 50000
+data.raw.inserter["burner-inserter"].energy_per_movement = "50KJ"
+data.raw.inserter["burner-inserter"].energy_per_rotation = "50KJ"
 data.raw.inserter["burner-inserter"].energy_source.fuel_category = "crude"
 
 --Base "inserter"
@@ -56,8 +56,8 @@ xmutil.clone("inserter", "inserter",
 		icon = "__xander-mod-v1__/graphics/item/logistic/inserter/inserter-slow.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "inserter-slow"},
 		max_health = 50,
-		energy_per_movement = 20000,
-		energy_per_rotation = 20000,
+		energy_per_movement = "20KJ",
+		energy_per_rotation = "20KJ",
 		energy_source = { drain = "1kW" },
 		extension_speed = 0.0214,
 		rotation_speed = 0.01,
@@ -80,8 +80,8 @@ xmutil.clone("inserter", "fast-inserter",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "inserter-long-fast"},
     pickup_position = {0, -2},
     insert_position = {0, 2.2},
-		energy_per_movement = 10000,
-		energy_per_rotation = 10000,
+		energy_per_movement = "10KJ",
+		energy_per_rotation = "10KJ",
 		energy_source = { drain = "1kW" },
 		extension_speed = 0.07,
 		rotation_speed = 0.0457,
@@ -104,8 +104,8 @@ xmutil.clone("inserter", "stack-inserter",
 		max_health = 200,
     pickup_position = {0, -2},
     insert_position = {0, 2.2},
-		energy_per_movement = 40000,
-		energy_per_rotation = 40000,
+		energy_per_movement = "40KJ",
+		energy_per_rotation = "40KJ",
 		energy_source = { drain = "2kW" },
 		extension_speed = 0.07,
 		rotation_speed = 0.0457,
