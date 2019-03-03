@@ -15,7 +15,7 @@ data.raw.recipe["submachine-gun"].ingredients = {{"forging-iron", 2}, {"mechanis
 --Base "shotgun"
 data.raw.recipe["shotgun"].category = "crafting"
 data.raw.recipe["shotgun"].energy_required = 2
-data.raw.recipe["shotgun"].ingredients = {{"forging-iron", 2}, {"mechanism-1", 2}, {"bronze-plate", 10}, {"wood", 4}}
+data.raw.recipe["shotgun"].ingredients = {{"forging-iron", 2}, {"mechanism-1", 2}, {"bronze-plate", 10}, {"wood", 2}}
 
 --Base "combat-shotgun"
 data.raw.recipe["combat-shotgun"].category = "crafting"

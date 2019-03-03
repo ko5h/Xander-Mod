@@ -1,15 +1,9 @@
 
 --Base Overrides
 
---Raw Wood
-data.raw.item["raw-wood"].subgroup = "organic"
-data.raw.item["raw-wood"].fuel_category = "crude"
-data.raw.item["raw-wood"].order = "00"
-data.raw.item["raw-wood"].stack_size = 200
-
 --Wood
 data.raw.item["wood"].subgroup = "organic"
-data.raw.item["wood"].order = "01"
+data.raw.item["wood"].order = "00"
 data.raw.item["wood"].fuel_category = "crude"
 data.raw.item["wood"].stack_size = 200
 
@@ -29,11 +23,8 @@ data.raw.item["explosives"].stack_size = 200
 data:extend(
 {
 
-
---Base "raw-wood" placeholder
-	--order = "00"
 --Base "wood" placeholder
-	--order = "01"
+	--order = "00"
 --Cotton (Gauze)
 {
 	type = "item",

@@ -120,7 +120,7 @@ data:extend(
 	category = "basic-machine",
 	energy_required = 2,
 	enabled = false,
-	ingredients = {{"steel-plate", 4}, {"stone-brick", 10}, {"wood", 4}},
+	ingredients = {{"steel-plate", 4}, {"stone-brick", 10}, {"wood", 2}},
 	result = "tooling-1"
 },
 --Steel Tooling B

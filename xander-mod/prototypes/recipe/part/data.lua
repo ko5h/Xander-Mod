@@ -36,7 +36,7 @@ data:extend(
 	category = "crafting",
 	energy_required = 4,
 	enabled = false,
-	ingredients = {{"wood", 2}, {"wood-resin", 1}, {"copper-cable", 4}},
+	ingredients = {{"wood", 1}, {"wood-resin", 1}, {"copper-cable", 4}},
 	result = "metallized-1",
 	result_count = 4
 },

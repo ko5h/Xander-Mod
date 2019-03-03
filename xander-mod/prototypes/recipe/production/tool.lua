@@ -4,12 +4,12 @@
 --Base "iron-axe"
 data.raw.recipe["iron-axe"].category = "crafting"
 data.raw.recipe["iron-axe"].energy_required = 1
-data.raw.recipe["iron-axe"].ingredients = {{"wood", 4}, {"iron-plate", 5}}
+data.raw.recipe["iron-axe"].ingredients = {{"wood", 2}, {"iron-plate", 5}}
 
 --Base "steel-axe"
 data.raw.recipe["steel-axe"].category = "crafting"
 data.raw.recipe["steel-axe"].energy_required = 2
-data.raw.recipe["steel-axe"].ingredients = {{"rod-2", 1}, {"forging-steel", 5}, {"wood", 4}}
+data.raw.recipe["steel-axe"].ingredients = {{"rod-2", 1}, {"forging-steel", 5}, {"wood", 2}}
 
 --Base "repair-pack"
 data.raw.recipe["repair-pack"].category = "crafting"
@@ -32,7 +32,7 @@ data:extend(
     name = "axe-1",
 	category = "crafting",
 	energy_required = 1,
-	ingredients = {{"wood", 4}, {"bronze-plate", 5}},
+	ingredients = {{"wood", 2}, {"bronze-plate", 5}},
 	result = "axe-1"
 },
 --Base "iron-axe" placeholder

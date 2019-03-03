@@ -94,9 +94,6 @@ data.raw.recipe["lubricant"].energy_required = 10
 data.raw.recipe["lubricant"].ingredients = {{type = "fluid", name = "heavy-oil", amount = 90}, {type = "fluid", name = "light-oil", amount = 20}}
 data.raw.recipe["lubricant"].results = {{type = "fluid", name = "lubricant", amount = 100}}
 
---Base "wood"
-data.raw.recipe["wood"].energy_required = 1
-
 --Base "heavy-oil-cracking"
 data.raw.recipe["heavy-oil-cracking"].energy_required = 4
 data.raw.recipe["heavy-oil-cracking"].ingredients = {{type = "fluid", name = "heavy-oil", amount = 10}, {type = "fluid", name = "steam", amount = 10}}
@@ -957,8 +954,8 @@ data:extend(
 	category = "temp-logging",
 	energy_required = 5,
 	enabled = false,
-	ingredients = {{"raw-wood", 10}, {type = "fluid", name = "water", amount = 50}},
-	result = "raw-wood",
+	ingredients = {{"wood", 10}, {type = "fluid", name = "water", amount = 50}},
+	result = "wood",
 	result_count = 11
 },
 --Cotton
@@ -968,7 +965,7 @@ data:extend(
 	category = "basic-machine",
 	energy_required = 2,
 	enabled = false,
-	ingredients = {{"wood", 2}},
+	ingredients = {{"wood", 1}},
 	result = "cotton"
 },
 --Wood Resin
@@ -980,7 +977,7 @@ data:extend(
 	category = "basic-chemistry",
 	energy_required = 10,
 	enabled = false,
-	ingredients = {{"raw-wood", 20}, {type = "fluid", name = "steam", amount = 10}},
+	ingredients = {{"wood", 20}, {type = "fluid", name = "steam", amount = 10}},
 	result = "wood-resin",
 	result_count = 10,
 	crafting_machine_tint =
@@ -999,7 +996,7 @@ data:extend(
 	category = "basic-chemistry",
 	energy_required = 4,
 	enabled = false,
-	ingredients = {{"wood", 4}},
+	ingredients = {{"wood", 2}},
 	results = {{type = "fluid", name = "methanol", amount = 10}},
 	subgroup = "carbohydrate",
 	crafting_machine_tint =
@@ -1037,7 +1034,7 @@ data:extend(
 	category = "basic-chemistry",
 	energy_required = 10,
 	enabled = false,
-	ingredients = {{"raw-wood", 4}, {type = "fluid", name = "water", amount = 20}, {"granitic-ore", 1}, {"iron-ore", 1}},
+	ingredients = {{"wood", 4}, {type = "fluid", name = "water", amount = 20}, {"granitic-ore", 1}, {"iron-ore", 1}},
 	results = {{type = "fluid", name = "formic-acid", amount = 20}},
 	subgroup = "carbohydrate",
 	crafting_machine_tint =
@@ -1054,7 +1051,7 @@ data:extend(
 	category = "chemistry",
 	energy_required = 10,
 	enabled = false,
-	ingredients = {{"raw-wood", 10}, {type = "fluid", name = "formic-acid", amount = 10}},
+	ingredients = {{"wood", 10}, {type = "fluid", name = "formic-acid", amount = 10}},
 	result = "latex",
 	crafting_machine_tint =
 	{

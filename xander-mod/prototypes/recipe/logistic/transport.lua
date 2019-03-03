@@ -4,7 +4,7 @@
 --Base "rail"
 data.raw.recipe["rail"].category = "basic-machine"
 data.raw.recipe["rail"].energy_required = 1
-data.raw.recipe["rail"].ingredients = {{"steel-plate", 4}, {"wood", 4}, {"gravel", 2}}
+data.raw.recipe["rail"].ingredients = {{"steel-plate", 4}, {"wood", 2}, {"gravel", 2}}
 data.raw.recipe["rail"].result_count = 1
 
 --Base "train-stop"

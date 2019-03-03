@@ -40,7 +40,7 @@ data.raw.recipe["logistic-chest-requester"].ingredients = {{"steel-chest", 1}, {
 --Base "wooden-chest"
 data.raw.recipe["wooden-chest"].category = "crafting"
 data.raw.recipe["wooden-chest"].energy_required = 1
-data.raw.recipe["wooden-chest"].ingredients = {{"wood", 4}}
+data.raw.recipe["wooden-chest"].ingredients = {{"wood", 2}}
 
 --Base "iron-chest"
 data.raw.recipe["iron-chest"].category = "crafting"
