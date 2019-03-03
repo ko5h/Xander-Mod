@@ -5,9 +5,9 @@
 data.raw.technology["engine"].effects = {{type = "unlock-recipe", recipe = "engine-unit"}}
 data.raw.technology["engine"].prerequisites = {"parts_1", "plumbing-steel", "rubber-a"}
 data.raw.technology["engine"].order = "04-03"
---Base "flying"
-data.raw.technology["flying"].prerequisites = {"parts_2", "battery_2", "forging-aluminum"}
-data.raw.technology["flying"].order = "04-06"
+--Base "robotics"
+data.raw.technology["robotics"].prerequisites = {"parts_2", "battery_2", "forging-aluminum"}
+data.raw.technology["robotics"].order = "04-06"
 --Base "electric-engine"
 data.raw.technology["electric-engine"].prerequisites = {"induction_1", "parts_1", "electronics"}
 data.raw.technology["electric-engine"].effects = {{type = "unlock-recipe", recipe = "motor-1-b"}, {type = "unlock-recipe", recipe = "transformer-1"}}
@@ -230,15 +230,15 @@ data:extend(
 	},
 	order = "04-05"
 },
---Base "flying" placeholder
+--Base "robotics" placeholder
 	--order = "04-06"
---Flying 2
+--Robotics 2
 {
 	type = "technology",
-	name = "flying_2",
-	icon = "__base__/graphics/technology/flying.png",
+	name = "robotics_2",
+	icon = "__base__/graphics/technology/robotics.png",
 	icon_size = 128,
-	prerequisites = {"flying", "battery_3", "fiber-carbon", "machines_3"},
+	prerequisites = {"robotics", "battery_3", "fiber-carbon", "machines_3"},
 	unit =
 	{
 		count = 500,

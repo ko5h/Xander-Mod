@@ -56,7 +56,7 @@ data.raw.technology["rail-signals"].order = "06-24"
 --Base "robotics"
 data.raw.technology["robotics"].effects = {{type = "unlock-recipe", recipe = "flying-robot-frame"}, {type = "unlock-recipe", recipe = "roboport"}, 
 	{type = "unlock-recipe", recipe = "logistic-chest-passive-provider"}, {type = "unlock-recipe", recipe = "logistic-chest-storage"}}
-data.raw.technology["robotics"].prerequisites = {"flying", "radar_1"}
+data.raw.technology["robotics"].prerequisites = {"robotics", "radar_1"}
 data.raw.technology["robotics"].order = "06-29"
 
 --Base "construction-robotics"
@@ -710,7 +710,7 @@ data:extend(
 			recipe = "roboport-2"
 		}
 	},
-	prerequisites = {"robotics", "flying_2", "radar_3"},
+	prerequisites = {"robotics", "robotics_2", "radar_3"},
 	unit =
 	{
 		count = 400,
