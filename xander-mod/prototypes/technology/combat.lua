@@ -222,20 +222,20 @@ data.raw.technology["night-vision-equipment"].prerequisites = {"modular-armor", 
 --null
 data.raw.technology["night-vision-equipment"].order = "08-63"
 
---Base "cannon-shell-damage"
-data.raw.technology["cannon-shell-damage-1"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.2}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.2}}
-data.raw.technology["cannon-shell-damage-2"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.2}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.2}}
-data.raw.technology["cannon-shell-damage-3"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.3}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.3}}
-data.raw.technology["cannon-shell-damage-4"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.5}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.5}}
-data.raw.technology["cannon-shell-damage-5"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
-data.raw.technology["cannon-shell-damage-6"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
+--Base "physical-projectile-damage"
+data.raw.technology["physical-projectile-damage-1"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.2}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.2}}
+data.raw.technology["physical-projectile-damage-2"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.2}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.2}}
+data.raw.technology["physical-projectile-damage-3"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.3}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.3}}
+data.raw.technology["physical-projectile-damage-4"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.5}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.5}}
+data.raw.technology["physical-projectile-damage-5"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
+data.raw.technology["physical-projectile-damage-6"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
 
---Base "cannon-shell-speed"
-data.raw.technology["cannon-shell-speed-1"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.2}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.2}}
-data.raw.technology["cannon-shell-speed-2"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.2}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.2}}
-data.raw.technology["cannon-shell-speed-3"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.3}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.3}}
-data.raw.technology["cannon-shell-speed-4"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.6}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.6}}
-data.raw.technology["cannon-shell-speed-5"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 1}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 1}}
+--Base "weapon-shooting-speed"
+data.raw.technology["weapon-shooting-speed-1"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.2}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.2}}
+data.raw.technology["weapon-shooting-speed-2"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.2}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.2}}
+data.raw.technology["weapon-shooting-speed-3"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.3}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.3}}
+data.raw.technology["weapon-shooting-speed-4"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.6}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.6}}
+data.raw.technology["weapon-shooting-speed-5"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 1}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 1}}
 
 data:extend(
 {
