@@ -5,23 +5,23 @@
 data.raw.technology["electronics"].effects = {{type = "unlock-recipe", recipe = "components-1-a"}, {type = "unlock-recipe", recipe = "electronic-circuit"}, 
 	{type = "unlock-recipe", recipe = "control-1"}}
 data.raw.technology["electronics"].prerequisites = {"wire_1"}
-data.raw.technology["electronics"].unit = {count = 50, ingredients = {{"science-pack-1", 1}}, time = 20}
+data.raw.technology["electronics"].unit = {count = 50, ingredients = {{"automation-science-pack", 1}}, time = 20}
 data.raw.technology["electronics"].order = "05-05"
 
 --Base "advanced-electronics"
 data.raw.technology["advanced-electronics"].effects = {{type = "unlock-recipe", recipe = "components-2-a"}, 
 	{type = "unlock-recipe", recipe = "advanced-circuit"}, {type = "unlock-recipe", recipe = "control-2"}, 
-	{type = "unlock-recipe", recipe = "science-pack-3"}}
+	{type = "unlock-recipe", recipe = "chemical-science-pack"}}
 data.raw.technology["advanced-electronics"].prerequisites = {"electronics", "substrate_2", "tungsten-refining"}
-data.raw.technology["advanced-electronics"].unit = {count = 200, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}}, time = 30}
+data.raw.technology["advanced-electronics"].unit = {count = 200, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 30}
 data.raw.technology["advanced-electronics"].order = "05-06"
 
 --Base "advanced-electronics-2"
 data.raw.technology["advanced-electronics-2"].effects = {{type = "unlock-recipe", recipe = "components-3"}, 
 	{type = "unlock-recipe", recipe = "components-2-b"}, {type = "unlock-recipe", recipe = "processing-unit"}, 
-	{type = "unlock-recipe", recipe = "control-3"}, {type = "unlock-recipe", recipe = "high-tech-science-pack"}}
+	{type = "unlock-recipe", recipe = "control-3"}, {type = "unlock-recipe", recipe = "utility-science-pack"}}
 data.raw.technology["advanced-electronics-2"].prerequisites = {"advanced-electronics", "substrate_3", "semiconductors_2", "soldering_2"}
-data.raw.technology["advanced-electronics-2"].unit = {count = 400, ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}}, 
+data.raw.technology["advanced-electronics-2"].unit = {count = 400, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}}, 
 	time = 45}
 data.raw.technology["advanced-electronics-2"].order = "05-07"
 
@@ -60,7 +60,7 @@ data:extend(
 		count = 30,
 		ingredients =
 		{
-			{"science-pack-1", 1}
+			{"automation-science-pack", 1}
 		},
 		time = 15
 	},
@@ -93,8 +93,8 @@ data:extend(
 		count = 150,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1}
 		},
 		time = 30
 	},
@@ -119,7 +119,7 @@ data:extend(
 		count = 20,
 		ingredients =
 		{
-			{"science-pack-1", 1}
+			{"automation-science-pack", 1}
 		},
 		time = 15
 	},
@@ -156,8 +156,8 @@ data:extend(
 		count = 200,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1}
 		},
 		time = 30
 	},
@@ -186,9 +186,9 @@ data:extend(
 		count = 500,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1},
-			{"science-pack-3", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1},
+			{"chemical-science-pack", 1}
 		},
 		time = 60
 	},
@@ -219,7 +219,7 @@ data:extend(
 		count = 10,
 		ingredients =
 		{
-			{"science-pack-1", 1}
+			{"automation-science-pack", 1}
 		},
 		time = 10
 	},
@@ -248,9 +248,9 @@ data:extend(
 		count = 150,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1},
-			{"science-pack-3", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1},
+			{"chemical-science-pack", 1}
 		},
 		time = 30
 	},
@@ -279,9 +279,9 @@ data:extend(
 		count = 300,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1},
-			{"science-pack-3", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1},
+			{"chemical-science-pack", 1}
 		},
 		time = 30
 	},
@@ -310,8 +310,8 @@ data:extend(
 		count = 200,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1}
 		},
 		time = 30
 	},
@@ -336,9 +336,9 @@ data:extend(
 		count = 500,
 		ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1},
-			{"science-pack-3", 1}
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1},
+			{"chemical-science-pack", 1}
 		},
 		time = 60
 	},
