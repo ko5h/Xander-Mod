@@ -169,10 +169,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "blank-4"
 		},
-		{
-			type = "unlock-recipe",
-			recipe = "axe-4"
-		}
+--		{
+--			type = "unlock-recipe",
+--			recipe = "axe-4"
+--		}
 	},
 	prerequisites = {"forging-steel", "nickel-refining", "tungsten-refining"},
 	unit =

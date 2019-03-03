@@ -1,7 +1,7 @@
 
 --Base Overrides
 
---Base "iron-axe"
+--[[Base "iron-axe"
 data.raw.recipe["iron-axe"].category = "crafting"
 data.raw.recipe["iron-axe"].energy_required = 1
 data.raw.recipe["iron-axe"].ingredients = {{"wood", 2}, {"iron-plate", 5}}
@@ -9,7 +9,7 @@ data.raw.recipe["iron-axe"].ingredients = {{"wood", 2}, {"iron-plate", 5}}
 --Base "steel-axe"
 data.raw.recipe["steel-axe"].category = "crafting"
 data.raw.recipe["steel-axe"].energy_required = 2
-data.raw.recipe["steel-axe"].ingredients = {{"rod-2", 1}, {"forging-steel", 5}, {"wood", 2}}
+data.raw.recipe["steel-axe"].ingredients = {{"rod-2", 1}, {"forging-steel", 5}, {"wood", 2}}]]
 
 --Base "repair-pack"
 data.raw.recipe["repair-pack"].category = "crafting"
@@ -21,7 +21,7 @@ data.raw.recipe["repair-pack"].result_count = 2
 
 data:extend(
 {
-
+--[[
 --
 --TOOLS
 --
@@ -66,7 +66,7 @@ data:extend(
 	enabled = false,
 	ingredients = {{"rod-4", 1}, {"forging-alloy", 5}, {"rubber", 4}, {"nitride-block", 5}},
 	result = "axe-6"
-},
+},]]
 --
 --REPAIR PACK
 --Base "repair-pack" placeholder

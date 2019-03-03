@@ -65,10 +65,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "wheel-1"
 		},
-		{
+--[[		{
 			type = "unlock-recipe",
 			recipe = "steel-axe"
-		}
+		}]]
 	},
 	prerequisites = {"smelting-graphite"},
 	unit =
@@ -291,10 +291,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "tooling-2"
 		},
-		{
-			type = "unlock-recipe",
-			recipe = "axe-5"
-		}
+		-- {
+		-- 	type = "unlock-recipe",
+		-- 	recipe = "axe-5"
+		-- }
 	},
 	prerequisites = {"tooling_1", "forging-alloy-a", "tungsten-cermet"},
 	unit =
@@ -325,10 +325,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "tooling-1-c"
 		},
-		{
-			type = "unlock-recipe",
-			recipe = "axe-6"
-		}
+		-- {
+		-- 	type = "unlock-recipe",
+		-- 	recipe = "axe-6"
+		-- }
 	},
 	prerequisites = {"tooling_2", "optics_3", "epoxy-resin"},
 	unit =

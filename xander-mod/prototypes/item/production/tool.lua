@@ -1,6 +1,6 @@
 --Base Overrides
 
---Base "iron-axe"
+--[[Base "iron-axe"
 data.raw["mining-tool"]["iron-axe"].order = "01"
 data.raw["mining-tool"]["iron-axe"].speed = 5
 
@@ -8,7 +8,7 @@ data.raw["mining-tool"]["iron-axe"].speed = 5
 data.raw["mining-tool"]["steel-axe"].icon = "__xander-mod-v1__/graphics/item/production/tool/axe-3.png"
 data.raw["mining-tool"]["steel-axe"].order = "02"
 data.raw["mining-tool"]["steel-axe"].speed = 6
-
+]]
 --Base "repair-pack"
 data.raw["repair-tool"]["repair-pack"].icon = "__xander-mod-v1__/graphics/item/production/tool/repair-pack-1.png"
 data.raw["repair-tool"]["repair-pack"].order = "06"
@@ -17,7 +17,7 @@ data.raw["repair-tool"]["repair-pack"].speed = 0.5
 
 data:extend(
 {
-
+--[[
 --Bronze Axe
 {
 	type = "mining-tool",
@@ -125,7 +125,7 @@ data:extend(
 	order = "05",
 	speed = 12,
 	stack_size = 20
-},
+},]]
 --Base "repair-pack" placeholder
 	--order = "06"
 --Improved Repair Pack
