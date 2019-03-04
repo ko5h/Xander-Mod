@@ -28,7 +28,10 @@ data.raw.technology["laser"].order = "04-24"
 data.raw.technology["battery"].effects = {{type = "unlock-recipe", recipe = "battery"}, {type = "unlock-recipe", recipe = "battery-1"}}
 data.raw.technology["battery"].prerequisites = {"plastics", "lead-refining", "sulfuric-acid-a", "electronics"}
 data.raw.technology["battery"].order = "04-27"
-
+--Base "steel-axe"
+data.raw.technology["steel-axe"].prerequisites = { "axe_2", "steel-processing", "parts_1" }
+data.raw.technology["steel-axe"].effects = {{ type = "character-mining-speed", modifier = 3 }}
+data.raw.technology["steel-axe"].icon = "__xander-mod-v1__/graphics/technology/production/axe-3.png"
 
 data:extend(
 {
@@ -65,10 +68,6 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "wheel-1"
 		},
---[[		{
-			type = "unlock-recipe",
-			recipe = "steel-axe"
-		}]]
 	},
 	prerequisites = {"smelting-graphite"},
 	unit =
@@ -264,9 +263,13 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "tooling-1-b"
-		}
+		},
+		{
+      modifier = 2,
+      type = "character-mining-speed"
+    }
 	},
-	prerequisites = {"acheson-process", "phenolic-resin"},
+	prerequisites = {"acheson-process", "phenolic-resin", "steel-axe"},
 	unit =
 	{
 		count = 20,
@@ -291,10 +294,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "tooling-2"
 		},
-		-- {
-		-- 	type = "unlock-recipe",
-		-- 	recipe = "axe-5"
-		-- }
+		{
+      modifier = 2,
+      type = "character-mining-speed"
+    }
 	},
 	prerequisites = {"tooling_1", "forging-alloy-a", "tungsten-cermet"},
 	unit =
@@ -325,10 +328,10 @@ data:extend(
 			type = "unlock-recipe",
 			recipe = "tooling-1-c"
 		},
-		-- {
-		-- 	type = "unlock-recipe",
-		-- 	recipe = "axe-6"
-		-- }
+		{
+      modifier = 2,
+      type = "character-mining-speed"
+    }
 	},
 	prerequisites = {"tooling_2", "optics_3", "epoxy-resin"},
 	unit =
@@ -999,6 +1002,120 @@ data:extend(
 		time = 45
 	},
 	order = "04-34"
-}
+},
 
+--axe 1
+{
+	type = "technology",
+	name = "axe_1",
+	icon = "__xander-mod-v1__/graphics/technology/production/axe-1.png",
+	icon_size = 32,
+  effects = {
+    {
+      modifier = 1,
+      type = "character-mining-speed"
+    }
+  },
+  unit = {
+    count = 10,
+    ingredients = {
+			{"basic-science-pack", 1},
+    },
+    time = 10
+  },
+  order = "04-34",
+},
+--axe 2
+{
+	type = "technology",
+	name = "axe_2",
+	icon = "__xander-mod-v1__/graphics/technology/production/axe-2.png",
+	icon_size = 32,
+  effects = {
+    {
+      modifier = 2,
+      type = "character-mining-speed"
+    }
+  },
+  prerequisites = { "axe_1" },
+  unit = {
+    count = 10,
+    ingredients = {
+			{"automation-science-pack", 1},
+    },
+    time = 30
+  },
+  order = "04-35",
+},
+--axe 4
+{
+	type = "technology",
+	name = "axe_4",
+	icon = "__xander-mod-v1__/graphics/technology/production/axe-2.png",
+	icon_size = 32,
+  effects = {
+    {
+      modifier = 2,
+      type = "character-mining-speed"
+    }
+  },
+  prerequisites = { "steel-axe", "tooling_1" },
+  unit = {
+    count = 50,
+    ingredients = {
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1}
+    },
+    time = 30
+  },
+  order = "04-35",
+},
+--axe 5
+{
+	type = "technology",
+	name = "axe_5",
+	icon = "__xander-mod-v1__/graphics/technology/production/axe-2.png",
+	icon_size = 32,
+  effects = {
+    {
+      modifier = 2,
+      type = "character-mining-speed"
+    }
+  },
+  prerequisites = { "axe_4", "tooling_2" },
+  unit = {
+    count = 200,
+    ingredients = {
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1}
+    },
+    time = 45
+  },
+  order = "04-35",
+},
+--axe 6
+{
+	type = "technology",
+	name = "axe_6",
+	icon = "__xander-mod-v1__/graphics/technology/production/axe-2.png",
+	icon_size = 32,
+  effects = {
+    {
+      modifier = 3,
+      type = "character-mining-speed"
+    }
+  },
+  prerequisites = { "axe_5", "tooling_3" },
+  unit = {
+    count = 300,
+    ingredients = {
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1},
+			{"chemical-science-pack", 1},
+			{"production-science-pack", 1}
+		},
+		time = 60
+  },
+  order = "04-35",
+},
 })
