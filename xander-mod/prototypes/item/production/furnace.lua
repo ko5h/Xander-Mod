@@ -6,8 +6,8 @@ data.raw.item["stone-furnace"].icon = "__xander-mod-v1__/graphics/item/productio
 data.raw.item["stone-furnace"].place_result = "furnace-1"
 
 --Base "steel-furnace" -> XM "Blast Furnace"
-data.raw.item["steel-furnace"].order = "2"
-data.raw.item["steel-furnace"].place_result = "furnace-3"
+--data.raw.item["steel-furnace"].order = "2"
+--data.raw.item["steel-furnace"].place_result = "furnace-3"
 
 --Base "electric-furnace" -> XM "Foundry Forge"
 data.raw.item["electric-furnace"].order = "3"
@@ -43,7 +43,7 @@ data:extend(
 },
 --Base "steel-furnace" - replaced by XM "Blast Furnace"
 	--order = "2"
---[[Blast Furnace (XM re-write of base "steel-furnace")
+--Blast Furnace (XM re-write of base "steel-furnace")
 {
 	type = "item",
 	name = "furnace-3",
@@ -53,7 +53,7 @@ data:extend(
 	order = "2",
 	place_result = "furnace-3",
 	stack_size = 50
-},]]--
+},
 --Electric Refining Furnace
 {
 	type = "item",
