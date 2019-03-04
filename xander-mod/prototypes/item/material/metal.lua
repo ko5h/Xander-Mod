@@ -34,7 +34,6 @@ data:extend(
 	name = "aluminum-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/aluminum.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "00",
 	stack_size = 200
@@ -45,7 +44,6 @@ data:extend(
 	name = "chromium-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/chromium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "01",
 	stack_size = 200
@@ -56,7 +54,6 @@ data:extend(
 	name = "cobalt-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/cobalt.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "02",
 	stack_size = 200
@@ -69,7 +66,6 @@ data:extend(
 	name = "gold-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/gold.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "04",
 	stack_size = 200
@@ -82,7 +78,6 @@ data:extend(
 	name = "lead-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/lead.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "06",
 	stack_size = 200
@@ -93,7 +88,6 @@ data:extend(
 	name = "magnesium-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/magnesium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "07",
 	stack_size = 200
@@ -104,7 +98,6 @@ data:extend(
 	name = "nickel-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/nickel.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "08",
 	stack_size = 200
@@ -115,7 +108,6 @@ data:extend(
 	name = "platinum-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/platinum.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "09",
 	stack_size = 200
@@ -126,7 +118,6 @@ data:extend(
 	name = "re-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/re.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "10",
 	stack_size = 200
@@ -137,7 +128,6 @@ data:extend(
 	name = "silver-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/silver.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "11",
 	stack_size = 200
@@ -148,7 +138,6 @@ data:extend(
 	name = "tin-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/tin.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "12",
 	stack_size = 200
@@ -159,7 +148,6 @@ data:extend(
 	name = "titanium-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/titanium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "13",
 	stack_size = 200
@@ -170,7 +158,6 @@ data:extend(
 	name = "tungsten-block",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/tungsten.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "14",
 	stack_size = 200
@@ -181,7 +168,6 @@ data:extend(
 	name = "vanadium-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/vanadium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "17",
 	stack_size = 200
@@ -192,7 +178,6 @@ data:extend(
 	name = "zinc-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/metal/zinc.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "metal",
 	order = "18",
 	stack_size = 200

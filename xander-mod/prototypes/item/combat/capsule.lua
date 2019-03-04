@@ -50,7 +50,6 @@ data:extend(
 	name = "first-aid-1",
 	icon = "__xander-mod-v1__/graphics/item/combat/capsule/first-aid-1.png",
 	icon_size = 32,
-	flags = {"goes-to-quickbar"},
 	subgroup = "capsule",
 	capsule_action =
 	{
@@ -90,7 +89,6 @@ data:extend(
 	name = "first-aid-2",
 	icon = "__xander-mod-v1__/graphics/item/combat/capsule/first-aid-2.png",
 	icon_size = 32,
-	flags = {"goes-to-quickbar"},
 	subgroup = "capsule",
 	capsule_action =
 	{

@@ -16,7 +16,6 @@ data:extend(
 	name = "charcoal",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/charcoal.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	fuel_value = "4MJ",
 	fuel_category = "chemical",
 	subgroup = "nonmetal",
@@ -29,7 +28,6 @@ data:extend(
 	name = "coke",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/coke.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	fuel_value = "4MJ",
 	fuel_category = "chemical",
 	subgroup = "nonmetal",
@@ -42,7 +40,6 @@ data:extend(
 	name = "graphite-powder",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/graphite-powder.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
 	order = "2",
 	stack_size = 200
@@ -53,7 +50,6 @@ data:extend(
 	name = "graphite-block",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/graphite-block.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
 	order = "3",
 	stack_size = 50
@@ -64,7 +60,6 @@ data:extend(
 	name = "activated-carbon",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/activated-carbon.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	fuel_value = "4MJ",
 	fuel_category = "chemical",
 	subgroup = "nonmetal",
@@ -77,7 +72,6 @@ data:extend(
 	name = "metallurgical-plate",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/metallurgical-plate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
 	order = "5",
 	stack_size = 200
@@ -88,7 +82,6 @@ data:extend(
 	name = "metallurgical-powder",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/metallurgical-powder.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
 	order = "6",
 	stack_size = 200
@@ -99,7 +92,6 @@ data:extend(
 	name = "ultrapure-powder",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/ultrapure-powder.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
 	order = "7",
 	stack_size = 200
@@ -110,7 +102,6 @@ data:extend(
 	name = "phosphorus",
 	icon = "__xander-mod-v1__/graphics/item/material/nonmetal/phosphorus.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "nonmetal",
 	order = "8",
 	stack_size = 200

@@ -8,7 +8,6 @@ data:extend(
 	name = "aluminum-hydroxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/aluminum-hydroxide.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "00",
 	stack_size = 200
@@ -19,7 +18,6 @@ data:extend(
 	name = "aluminum-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/aluminum-oxide.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "01",
 	stack_size = 200
@@ -30,7 +28,6 @@ data:extend(
 	name = "boron-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/boron.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "02",
 	stack_size = 200
@@ -41,7 +38,6 @@ data:extend(
 	name = "calcium-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/calcium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "03",
 	stack_size = 200
@@ -52,7 +48,6 @@ data:extend(
 	name = "chromium-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/chromium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "04",
 	stack_size = 200
@@ -63,7 +58,6 @@ data:extend(
 	name = "cobalt-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/cobalt.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "05",
 	stack_size = 200
@@ -74,7 +68,6 @@ data:extend(
 	name = "cuprous-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/cuprous.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "06",
 	stack_size = 200
@@ -85,7 +78,6 @@ data:extend(
 	name = "lead-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/lead.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "07",
 	stack_size = 200
@@ -96,7 +88,6 @@ data:extend(
 	name = "lithium-hydroxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/lithium-hydroxide.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "08",
 	stack_size = 200
@@ -107,7 +98,6 @@ data:extend(
 	name = "magnesium-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/magnesium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "09",
 	stack_size = 200
@@ -118,7 +108,6 @@ data:extend(
 	name = "nickel-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/nickel.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "10",
 	stack_size = 200
@@ -129,7 +118,6 @@ data:extend(
 	name = "re-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/re.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "11",
 	stack_size = 200
@@ -140,7 +128,6 @@ data:extend(
 	name = "sodium-hydroxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/sodium-hydroxide.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "12",
 	stack_size = 200
@@ -151,7 +138,6 @@ data:extend(
 	name = "titanium-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/titanium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "13",
 	stack_size = 200
@@ -162,7 +148,6 @@ data:extend(
 	name = "tungsten-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/tungsten.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "14",
 	stack_size = 200
@@ -173,7 +158,6 @@ data:extend(
 	name = "238-uo2",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/uranium-238.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "15",
 	stack_size = 200
@@ -184,7 +168,6 @@ data:extend(
 	name = "fuel-uo2",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/uranium-fuel.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "16",
 	stack_size = 200
@@ -195,7 +178,6 @@ data:extend(
 	name = "weapons-uo2",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/uranium-weapons.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "17",
 	stack_size = 200
@@ -206,7 +188,6 @@ data:extend(
 	name = "vanadium-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/vanadium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "18",
 	stack_size = 200
@@ -217,7 +198,6 @@ data:extend(
 	name = "zinc-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/zinc.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "19",
 	stack_size = 200
@@ -228,7 +208,6 @@ data:extend(
 	name = "zirconium-oxide",
 	icon = "__xander-mod-v1__/graphics/item/material/oxide/zirconium.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "oxide",
 	order = "20",
 	stack_size = 200

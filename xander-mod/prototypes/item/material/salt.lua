@@ -8,7 +8,6 @@ data:extend(
 	name = "calcium-chloride",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/calcium-chloride.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "00",
 	stack_size = 200
@@ -19,7 +18,6 @@ data:extend(
 	name = "calcium-sulfate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/calcium-sulfate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "01",
 	stack_size = 200
@@ -30,7 +28,6 @@ data:extend(
 	name = "cryolite-mixture",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/cryolite-mixture.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "02",
 	stack_size = 200
@@ -41,7 +38,6 @@ data:extend(
 	name = "lithium-perchlorate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/lithium-perchlorate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "03",
 	stack_size = 200
@@ -52,7 +48,6 @@ data:extend(
 	name = "lithium-tetrafluoroborate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/lithium-tetrafluoroborate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "04",
 	stack_size = 200
@@ -63,7 +58,6 @@ data:extend(
 	name = "lithium-titanate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/lithium-titanate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "05",
 	stack_size = 200
@@ -74,7 +68,6 @@ data:extend(
 	name = "magnesium-chloride",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/magnesium-chloride.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "06",
 	stack_size = 200
@@ -85,7 +78,6 @@ data:extend(
 	name = "salt",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/salt.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "07",
 	stack_size = 200
@@ -96,7 +88,6 @@ data:extend(
 	name = "sodium-sulfate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/sodium-sulfate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "07",
 	stack_size = 200
@@ -107,7 +98,6 @@ data:extend(
 	name = "saltpeter",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/saltpeter.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "08",
 	stack_size = 200
@@ -118,7 +108,6 @@ data:extend(
 	name = "silicon-carbide",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/silicon-carbide.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "09",
 	stack_size = 200
@@ -129,7 +118,6 @@ data:extend(
 	name = "silicon-nitride",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/silicon-nitride.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "10",
 	stack_size = 200
@@ -140,7 +128,6 @@ data:extend(
 	name = "soda",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/soda.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "11",
 	stack_size = 200
@@ -151,7 +138,6 @@ data:extend(
 	name = "sodium-chromate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/sodium-chromate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "12",
 	stack_size = 200
@@ -162,7 +148,6 @@ data:extend(
 	name = "ammonium-vanadate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/ammonium-vanadate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "13",
 	stack_size = 200
@@ -173,7 +158,6 @@ data:extend(
 	name = "tungsten-carbide",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/tungsten-carbide.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "14",
 	stack_size = 200
@@ -184,7 +168,6 @@ data:extend(
 	name = "uranyl-nitrate",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/uranyl-nitrate.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "15",
 	stack_size = 200
@@ -195,7 +178,6 @@ data:extend(
 	name = "natural-uf6",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/natural-uf6.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "16",
 	stack_size = 200
@@ -206,7 +188,6 @@ data:extend(
 	name = "238-uf6",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/238-uf6.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "17",
 	stack_size = 200
@@ -217,7 +198,6 @@ data:extend(
 	name = "fuel-uf6",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/fuel-uf6.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "18",
 	stack_size = 200
@@ -228,7 +208,6 @@ data:extend(
 	name = "weapons-uf6",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/weapons-uf6.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "19",
 	stack_size = 200
@@ -239,7 +218,6 @@ data:extend(
 	name = "zirconium-tetrachloride",
 	icon = "__xander-mod-v1__/graphics/item/material/salt/zirconium-tetrachloride.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "salt",
 	order = "20",
 	stack_size = 200

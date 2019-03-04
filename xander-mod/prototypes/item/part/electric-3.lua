@@ -17,7 +17,6 @@ data:extend(
 	name = "cell-2",
 	icon = "__xander-mod-v1__/graphics/item/part/electric-3/cell-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-3",
 	order = "01",
 	stack_size = 100
@@ -28,7 +27,6 @@ data:extend(
 	name = "cell-3",
 	icon = "__xander-mod-v1__/graphics/item/part/electric-3/cell-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-3",
 	order = "02",
 	stack_size = 100
@@ -39,7 +37,6 @@ data:extend(
 	name = "battery-1",
 	icon = "__xander-mod-v1__/graphics/item/part/electric-3/battery-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-3",
 	order = "03",
 	stack_size = 100
@@ -50,7 +47,6 @@ data:extend(
 	name = "battery-2",
 	icon = "__xander-mod-v1__/graphics/item/part/electric-3/battery-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-3",
 	order = "04",
 	stack_size = 100
@@ -61,7 +57,6 @@ data:extend(
 	name = "battery-3",
 	icon = "__xander-mod-v1__/graphics/item/part/electric-3/battery-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "electric-3",
 	order = "05",
 	stack_size = 100

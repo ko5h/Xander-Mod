@@ -24,7 +24,6 @@ data:extend(
 	name = "axe-1",
 	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
 	action =
 	{
@@ -54,7 +53,6 @@ data:extend(
 	name = "axe-4",
 	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-4.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
 	action =
 	{
@@ -80,7 +78,6 @@ data:extend(
 	name = "axe-5",
 	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-5.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
 	action =
 	{
@@ -106,7 +103,6 @@ data:extend(
 	name = "axe-6",
 	icon = "__xander-mod-v1__/graphics/item/production/tool/axe-6.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "tool",
 	action =
 	{
@@ -134,7 +130,6 @@ data:extend(
 	name = "repair-pack-2",
 	icon = "__xander-mod-v1__/graphics/item/production/tool/repair-pack-2.png",
 	icon_size = 32,
-	flags = {"goes-to-quickbar"},
 	subgroup = "tool",
 	order = "07",
 	speed = 1,
@@ -147,7 +142,6 @@ data:extend(
 	name = "repair-pack-3",
 	icon = "__xander-mod-v1__/graphics/item/production/tool/repair-pack-3.png",
 	icon_size = 32,
-	flags = {"goes-to-quickbar"},
 	subgroup = "tool",
 	order = "08",
 	speed = 2,

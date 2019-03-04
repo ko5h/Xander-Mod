@@ -31,7 +31,6 @@ data:extend(
 	name = "cotton",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/cotton.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "02",
 	stack_size = 200
@@ -42,7 +41,6 @@ data:extend(
 	name = "wood-resin",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/wood-resin.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "02",
 	stack_size = 200
@@ -53,7 +51,6 @@ data:extend(
 	name = "latex",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/latex.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "03",
 	stack_size = 200
@@ -64,7 +61,6 @@ data:extend(
 	name = "sbr",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/sbr.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "04",
 	stack_size = 200
@@ -75,7 +71,6 @@ data:extend(
 	name = "rubber",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/rubber.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "05",
 	stack_size = 200
@@ -86,7 +81,6 @@ data:extend(
 	name = "plastic-pellets",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/plastic-pellets.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "06",
 	stack_size = 200
@@ -97,7 +91,6 @@ data:extend(
 	name = "phenol",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/phenol.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "07",
 	stack_size = 200
@@ -110,7 +103,6 @@ data:extend(
 	name = "optimal-fuel",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/optimal-fuel.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	fuel_category = "chemical",
 	fuel_value = "40MJ",
 	fuel_acceleration_multiplier = 1.5,
@@ -125,7 +117,6 @@ data:extend(
 	name = "nitrocellulose",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/nitrocellulose.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "10",
 	stack_size = 200
@@ -136,7 +127,6 @@ data:extend(
 	name = "unstable-explosives",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/unstable-explosives.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "11",
 	stack_size = 200
@@ -149,7 +139,6 @@ data:extend(
 	name = "surfactant",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/surfactant.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "13",
 	stack_size = 200
@@ -160,7 +149,6 @@ data:extend(
 	name = "solder-flux",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/solder-flux.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "14",
 	stack_size = 200
@@ -171,7 +159,6 @@ data:extend(
 	name = "synthetic-drugs",
 	icon = "__xander-mod-v1__/graphics/item/material/organic/synthetic-drugs.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "organic",
 	order = "15",
 	stack_size = 200

@@ -26,7 +26,6 @@ data:extend(
 	name = "basic-science-pack",
 	icon = "__xander-mod-v1__/graphics/item/part/science/basic-science-pack.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "science-pack",
 	order = "0",
 	stack_size = 100,

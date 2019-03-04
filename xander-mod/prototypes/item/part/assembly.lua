@@ -20,7 +20,6 @@ data:extend(
 	name = "mechanical-steam-engine",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanical-steam-engine.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "00",
 	stack_size = 100
@@ -31,7 +30,6 @@ data:extend(
 	name = "piston-cylinder",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/piston-cylinder.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "00",
 	stack_size = 100
@@ -42,7 +40,6 @@ data:extend(
 	name = "mechanism-0",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-0.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "01",
 	stack_size = 100
@@ -53,7 +50,6 @@ data:extend(
 	name = "mechanism-1",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "01",
 	stack_size = 100
@@ -64,7 +60,6 @@ data:extend(
 	name = "mechanism-2",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "02",
 	stack_size = 100
@@ -75,7 +70,6 @@ data:extend(
 	name = "mechanism-3",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/mechanism-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "03",
 	stack_size = 100
@@ -88,7 +82,6 @@ data:extend(
 	name = "wheel-1",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/wheel-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "05",
 	stack_size = 100,
@@ -99,7 +92,6 @@ data:extend(
 	name = "wheel-2",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/wheel-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "06",
 	stack_size = 100,
@@ -112,7 +104,6 @@ data:extend(
 	name = "flying-robot-frame-2",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/flying-robot-frame-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "08",
 	stack_size = 100
@@ -123,7 +114,6 @@ data:extend(
 	name = "tooling-1",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/tooling-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "09",
 	stack_size = 100,
@@ -134,7 +124,6 @@ data:extend(
 	name = "tooling-2",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/tooling-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "10",
 	stack_size = 100,
@@ -145,7 +134,6 @@ data:extend(
 	name = "tooling-3",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/tooling-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "11",
 	stack_size = 100,
@@ -156,7 +144,6 @@ data:extend(
 	name = "control-1",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/control-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "12",
 	stack_size = 100
@@ -167,7 +154,6 @@ data:extend(
 	name = "control-2",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/control-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "13",
 	stack_size = 100
@@ -178,7 +164,6 @@ data:extend(
 	name = "control-3",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/control-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "14",
 	stack_size = 100
@@ -189,7 +174,6 @@ data:extend(
 	name = "lasing-1",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/lasing-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "15",
 	stack_size = 100
@@ -200,7 +184,6 @@ data:extend(
 	name = "lasing-2",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/lasing-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "16",
 	stack_size = 100
@@ -211,7 +194,6 @@ data:extend(
 	name = "lasing-3",
 	icon = "__xander-mod-v1__/graphics/item/part/assembly/lasing-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "assembly",
 	order = "17",
 	stack_size = 100

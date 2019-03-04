@@ -22,7 +22,6 @@ data:extend(
 	name = "gear-2",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/gear-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "01",
 	stack_size = 100
@@ -33,7 +32,6 @@ data:extend(
 	name = "gear-3",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/gear-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "02",
 	stack_size = 100
@@ -44,7 +42,6 @@ data:extend(
 	name = "gear-4",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/gear-4.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "03",
 	stack_size = 100
@@ -55,7 +52,6 @@ data:extend(
 	name = "bearing-1",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/bearing-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "04",
 	stack_size = 100
@@ -66,7 +62,6 @@ data:extend(
 	name = "bearing-2",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/bearing-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "05",
 	stack_size = 100
@@ -77,7 +72,6 @@ data:extend(
 	name = "bearing-3",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/bearing-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "06",
 	stack_size = 100
@@ -90,7 +84,6 @@ data:extend(
 	name = "rod-2",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/rod-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "08",
 	stack_size = 100
@@ -101,7 +94,6 @@ data:extend(
 	name = "rod-3",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/rod-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "09",
 	stack_size = 100
@@ -112,7 +104,6 @@ data:extend(
 	name = "rod-4",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/rod-4.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "10",
 	stack_size = 100
@@ -123,7 +114,6 @@ data:extend(
 	name = "shaft-0",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/shaft-0.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "11",
 	stack_size = 100
@@ -134,7 +124,6 @@ data:extend(
 	name = "shaft-1",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/shaft-1.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "11",
 	stack_size = 100
@@ -145,7 +134,6 @@ data:extend(
 	name = "shaft-2",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/shaft-2.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "12",
 	stack_size = 100
@@ -156,7 +144,6 @@ data:extend(
 	name = "shaft-3",
 	icon = "__xander-mod-v1__/graphics/item/part/mechanical/shaft-3.png",
 	icon_size = 32,
-	flags = {"goes-to-main-inventory"},
 	subgroup = "mechanical",
 	order = "13",
 	stack_size = 100
