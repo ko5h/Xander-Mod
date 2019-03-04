@@ -4,7 +4,7 @@
 --Base "coal"
 data.raw.resource["coal"].category = "basic-solid"
 data.raw.resource["coal"].order = "02"
-data.raw.resource["coal"].minable.hardness = 0.5
+data.raw.resource["coal"].minable.mining_time = 1
 data.raw.resource["coal"].autoplace.richness_multiplier = 3000
 data.raw.resource["coal"].autoplace.richness_multiplier_distance_bonus = 60
 data.raw.resource["coal"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
@@ -12,7 +12,7 @@ data.raw.resource["coal"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100
 --Base "copper-ore"
 data.raw.resource["copper-ore"].icon = "__xander-mod-v1__/graphics/item/material/resource/copper.png"
 data.raw.resource["copper-ore"].order = "03"
-data.raw.resource["copper-ore"].minable.hardness = 0.5
+data.raw.resource["copper-ore"].minable.mining_time = 1
 data.raw.resource["copper-ore"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
 data.raw.resource["copper-ore"].stages =
 {
@@ -45,7 +45,7 @@ data.raw.resource["crude-oil"].order = "04"
 data.raw.resource["iron-ore"].icon = "__xander-mod-v1__/graphics/item/material/resource/iron.png"
 data.raw.resource["iron-ore"].category = "basic-solid"
 data.raw.resource["iron-ore"].order = "08"
-data.raw.resource["iron-ore"].minable.hardness = 0.5
+data.raw.resource["iron-ore"].minable.mining_time = 1
 data.raw.resource["iron-ore"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
 data.raw.resource["iron-ore"].stages =
 {
@@ -74,15 +74,15 @@ data.raw.resource["iron-ore"].map_color = {r = 0.52, g = 0.24, b = 0.2}
 --Base "uranium-ore"
 data.raw.resource["uranium-ore"].category = "tough-solid"
 data.raw.resource["uranium-ore"].order = "12"
-data.raw.resource["uranium-ore"].minable.hardness = 2.5
+data.raw.resource["uranium-ore"].minable.mining_time = 5
 data.raw.resource["uranium-ore"].minable.fluid_amount = 20
 --data.raw.resource["uranium-ore"].minable.required_fluid = "blasting-fluid"
 data.raw.resource["uranium-ore"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
 
 --Base "stone"
 data.raw.resource["stone"].order = "13"
-data.raw.resource["stone"].minable.hardness = 0.5
-data.raw.resource["stone"].autoplace.coverage = 0.02
+data.raw.resource["stone"].minable.mining_time = 1.2
+--data.raw.resource["stone"].autoplace.coverage = 0.02
 data.raw.resource["stone"].stage_counts = {10000, 5000, 2000, 1000, 500, 200, 100, 10}
 
 
@@ -100,8 +100,7 @@ data:extend(
 	order = "00",
 	minable =
 	{
-		hardness = 1.5,
-		mining_time = 2,
+		mining_time = 3,
 		result = "apatite"--,
 		--fluid_amount = 10,
 		--required_fluid = "blasting-fluid"
@@ -161,9 +160,8 @@ data:extend(
 	order = "01",
 	minable =
 	{
-		hardness = 0.5,
 		mining_particle = "bauxite-particle",
-		mining_time = 2,
+		mining_time = 1,
 		result = "bauxite"
 	},
 	collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
@@ -229,8 +227,7 @@ data:extend(
 	order = "05",
 	minable =
 	{
-		hardness = 1.5,
-		mining_time = 2,
+		mining_time = 3,
 		result = "garnierite"--,
 		--fluid_amount = 10,
 		--required_fluid = "blasting-fluid"
@@ -290,9 +287,8 @@ data:extend(
 	order = "06",
 	minable =
 	{
-		hardness = 0.5,
 		mining_particle = "granitic-particle",
-		mining_time = 2,
+		mining_time = 1,
 		result = "granitic-ore"
 	},
 	collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
@@ -352,8 +348,7 @@ data:extend(
 	order = "07",
 	minable =
 	{
-		hardness = 2.5,
-		mining_time = 2,
+		mining_time = 5,
 		result = "heavy-sand",
 		fluid_amount = 1,
 		required_fluid = "water"
@@ -415,9 +410,8 @@ data:extend(
 	order = "09",
 	minable =
 	{
-		hardness = 0.5,
 		mining_particle = "lead-particle",
-		mining_time = 2,
+		mining_time = 1,
 		result = "lead-ore"
 	},
 	collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
@@ -483,7 +477,6 @@ data:extend(
 	resource_patch_search_radius = 12,
 	minable =
 	{
-		hardness = 1,
 		mining_time = 1,
 		results =
 		{
@@ -551,7 +544,6 @@ data:extend(
 	resource_patch_search_radius = 12,
 	minable =
 	{
-		hardness = 1,
 		mining_time = 2,
 		results =
 		{
@@ -615,8 +607,7 @@ data:extend(
 	order = "14",
 	minable =
 	{
-		hardness = 1.5,
-		mining_time = 2,
+		mining_time = 3,
 		result = "sulfidic-ore"--,
 		--fluid_amount = 20,
 		--required_fluid = "blasting-fluid"
