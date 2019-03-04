@@ -187,3 +187,7 @@ require("prototypes.equipment.equipment")
 
 --Technologies
 require("prototypes.technology.combat")
+
+--==========  Bonuses  ==========
+
+require("prototypes.technology.bonus")
