@@ -4,6 +4,7 @@ local xmutil = require("xmutil")
 
 --Base "stone-furnace"
 data.raw.furnace["stone-furnace"].flags = {"player-creation"}
+data.raw.furnace["stone-furnace"].next_upgrade = nil
 
 --Base "steel-furnace"
 data.raw.furnace["steel-furnace"].flags = {"player-creation"}
@@ -11,10 +12,8 @@ data.raw.furnace["steel-furnace"].flags = {"player-creation"}
 --Base "electric-furnace"
 data.raw.furnace["electric-furnace"].flags = {"player-creation"}
 
-
 data:extend(
 {
-
 --Base "stone-furnace" placeholder - disabled via no item to place it
 --Assembler-Type Stone Furnace - replaces base "stone-furnace"
 xmutil.clone("furnace", "stone-furnace",

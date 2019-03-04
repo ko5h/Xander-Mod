@@ -6,8 +6,8 @@ data.raw.item["stone-furnace"].icon = "__xander-mod-v1__/graphics/item/productio
 data.raw.item["stone-furnace"].place_result = "furnace-1"
 
 --Base "steel-furnace" -> XM "Blast Furnace"
---data.raw.item["steel-furnace"].order = "2"
---data.raw.item["steel-furnace"].place_result = "furnace-3"
+data.raw.item["steel-furnace"].order = "2"
+data.raw.item["steel-furnace"].place_result = "furnace-3"
 
 --Base "electric-furnace" -> XM "Foundry Forge"
 data.raw.item["electric-furnace"].order = "3"
@@ -34,7 +34,7 @@ data:extend(
 {
 	type = "item",
 	name = "furnace-2",
-	icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-2.png",
+	icon = "__xander-mod-v1__/graphics/item/production/furnace/furnace-2.png",		
 	icon_size = 32,
 	subgroup = "smelting-machine",
 	order = "1",
