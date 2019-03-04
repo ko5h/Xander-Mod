@@ -104,7 +104,7 @@ data:extend(
 {
 	type = "technology",
 	name = "organics_1",
-	icon = "__base__/graphics/technology/chemistry.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/chemistry.png",
 	icon_size = 128,
 	effects =
 	{
@@ -141,7 +141,7 @@ data:extend(
 {
 	type = "technology",
 	name = "organics_2",
-	icon = "__base__/graphics/technology/advanced-chemistry.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/advanced-chemistry.png",
 	icon_size = 128,
 	effects =
 	{
@@ -171,7 +171,7 @@ data:extend(
 {
 	type = "technology",
 	name = "organics_3",
-	icon = "__base__/graphics/technology/advanced-chemistry.png",
+	icon = "__xander-mod-v1__/graphics/technology/organic/advanced-chemistry.png",
 	icon_size = 128,
 	effects =
 	{
