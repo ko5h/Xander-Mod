@@ -108,9 +108,11 @@ expedited_belt_animation_set = {
 
 --Base "transport-belt"
 data.raw["transport-belt"]["transport-belt"].max_health = 120
+data.raw["transport-belt"]["transport-belt"].next_upgrade = "fast-transport-belt"
 
 --Base "fast-transport-belt"
 data.raw["transport-belt"]["fast-transport-belt"].max_health = 140
+data.raw["transport-belt"]["fast-transport-belt"].next_upgrade = "expedited-transport-belt"
 
 --Base "express-transport-belt"
 data.raw["transport-belt"]["express-transport-belt"].max_health = 180
@@ -118,9 +120,11 @@ data.raw["transport-belt"]["express-transport-belt"].speed = 0.15625
 
 --Base "underground-belt"
 data.raw["underground-belt"]["underground-belt"].max_health = 120
+data.raw["underground-belt"]["underground-belt"].next_upgrade = "fast-underground-belt"
 
 --Base "fast-underground-belt"
 data.raw["underground-belt"]["fast-underground-belt"].max_health = 140
+data.raw["underground-belt"]["fast-underground-belt"].next_upgrade = "expedited-underground-belt"
 
 --Base "express-underground-belt"
 data.raw["underground-belt"]["express-underground-belt"].max_health = 180
@@ -128,9 +132,11 @@ data.raw["underground-belt"]["express-underground-belt"].speed = 0.15625
 
 --Base "splitter"
 data.raw.splitter["splitter"].max_health = 240
+data.raw.splitter["splitter"].next_upgrade = "fast-splitter"
 
 --Base "fast-splitter"
 data.raw.splitter["fast-splitter"].max_health = 280
+data.raw.splitter["fast-splitter"].next_upgrade = "expedited-splitter"
 
 --Base "express-splitter"
 data.raw.splitter["express-splitter"].max_health = 360
@@ -160,6 +166,7 @@ xmutil.clone("transport-belt", "transport-belt",
 		animation_speed_coefficient = 32,
 		belt_animation_set = slow_belt_animation_set,
 		speed = 0.015625,
+		next_upgrade = "transport-belt",
 	}
 ),
 --Base "transport-belt" placeholder
@@ -175,6 +182,7 @@ xmutil.clone("transport-belt", "fast-transport-belt",
 		animation_speed_coefficient = 32,
 		belt_animation_set = expedited_belt_animation_set,
 		speed = 0.09375,
+		next_upgrade = "express-transport-belt",
 	}
 ),
 --Base "express-transport-belt" placeholder
@@ -195,6 +203,7 @@ xmutil.clone("underground-belt", "underground-belt",
 		max_health = 100,
 		max_distance = 3,
 		speed = 0.015625,
+		next_upgrade = "underground-belt",
 	}
 ),
 --Base "underground-belt" placeholder
@@ -215,6 +224,7 @@ xmutil.clone("underground-belt", "fast-underground-belt",
 		max_health = 160,
 		max_distance = 9,
 		speed = 0.09375,
+		next_upgrade = "express-underground-belt",
 	}
 ),
 --Base "express-underground-belt" placeholder
@@ -235,6 +245,7 @@ xmutil.clone("splitter", "splitter",
 		max_health = 200,
 		belt_animation_set = slow_belt_animation_set,
 		speed = 0.015625,
+		next_upgrade = "splitter",
 	}
 ),
 --Base "splitter" placeholder
@@ -254,6 +265,7 @@ xmutil.clone("splitter", "fast-splitter",
 		max_health = 320,
 		belt_animation_set = expedited_belt_animation_set,
 		speed = 0.09375,
+		next_upgrade = "express-splitter",
 	}
 ),
 --Base "express-splitter" placeholder

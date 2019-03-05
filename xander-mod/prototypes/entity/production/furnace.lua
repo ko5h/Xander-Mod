@@ -37,7 +37,8 @@ xmutil.clone("furnace", "stone-furnace",
 		crafting_speed = 0.5,
 		energy_source = { fuel_categories = {"crude", "chemical"} },
 		energy_usage = "500kW",
-		ingredient_count = 4
+		ingredient_count = 4,
+		next_upgrade = "furnace-2"
 	}
 ),
 --Clay Brick Furnace (Assembler-Type)
@@ -61,7 +62,8 @@ xmutil.clone("furnace", "stone-furnace",
 		crafting_categories = {"kiln", "smelting"},
 		crafting_speed = 1,
 		energy_usage = "1MW",
-		ingredient_count = 4
+		ingredient_count = 4,
+		next_upgrade = "furnace-3"
 	}
 ),
 --Base "steel-furnace" placeholder - disabled via no item to place it
