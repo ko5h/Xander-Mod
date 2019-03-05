@@ -281,8 +281,8 @@ xmutil.clone("lamp", "small-lamp",
 			"__xander-mod-v1__/graphics/item/production/energy/lamp-2.png",
 		},
 		{
-			"__base__/graphics/entity/small-lamp/lamp.png",
-			"__xander-mod-v1__/graphics/entity/production/lamp-2/off.png",
+			"__base__/graphics/entity/small-lamp/(h?r?-?)lamp.png",
+			"__xander-mod-v1__/graphics/entity/production/lamp-2/%1lamp.png",
 		},
 	},
 	{
@@ -291,12 +291,7 @@ xmutil.clone("lamp", "small-lamp",
 		max_health = 200,
 		energy_usage_per_tick = "10KW",
 		light = {intensity = 1.5, size = 60},
-		picture_off = {
-			layers = {
-				[1] = { hr_version = xmutil.NIL },
-				[2] = { hr_version = xmutil.NIL },
-			},
-		}
+
 	}
 ),
 }
