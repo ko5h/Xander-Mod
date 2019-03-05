@@ -263,11 +263,7 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "tooling-1-b"
-		},
-		{
-      modifier = 2,
-      type = "character-mining-speed"
-    }
+		}
 	},
 	prerequisites = {"acheson-process", "phenolic-resin", "steel-axe"},
 	unit =
@@ -293,11 +289,7 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "tooling-2"
-		},
-		{
-      modifier = 2,
-      type = "character-mining-speed"
-    }
+		}
 	},
 	prerequisites = {"tooling_1", "forging-alloy-a", "tungsten-cermet"},
 	unit =
@@ -327,11 +319,7 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "tooling-1-c"
-		},
-		{
-      modifier = 2,
-      type = "character-mining-speed"
-    }
+		}
 	},
 	prerequisites = {"tooling_2", "optics_3", "epoxy-resin"},
 	unit =
@@ -1055,7 +1043,7 @@ data:extend(
 	icon_size = 32,
   effects = {
     {
-      modifier = 2,
+      modifier = 3,
       type = "character-mining-speed"
     }
   },
@@ -1078,7 +1066,7 @@ data:extend(
 	icon_size = 32,
   effects = {
     {
-      modifier = 2,
+      modifier = 3,
       type = "character-mining-speed"
     }
   },
