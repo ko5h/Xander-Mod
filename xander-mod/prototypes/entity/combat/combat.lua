@@ -40,8 +40,40 @@ data:extend(
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-2/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1vertical.png",
 		},
 	},
 	{
@@ -55,8 +87,40 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-3/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1vertical.png",
 		},
 	},
 	{
@@ -70,8 +134,40 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-4/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1vertical.png",
 		},
 	},
 	{
@@ -85,8 +181,40 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-5/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1vertical.png",
 		},
 	},
 	{
@@ -101,8 +229,32 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("gate", "gate",
 	{
 		{
-			"__base__/graphics/entity/gate/gate-",
-			"__xander-mod-v1__/graphics/entity/combat/gate-2/",
+			"__base__/graphics/entity/gate/(h?r?-?)gate-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-horizontal-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-horizontal-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-vertical-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-vertical-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1vertical.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-wall-patch.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1wall-patch.png",
 		},
 	},
 	{
@@ -117,15 +269,39 @@ xmutil.clone("gate", "gate",
 xmutil.clone("gate", "gate",
 	{
 		{
-			"__base__/graphics/entity/gate/gate-",
-			"__xander-mod-v1__/graphics/entity/combat/gate-3/",
+			"__base__/graphics/entity/gate/(h?r?-?)gate-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-horizontal-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-horizontal-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-vertical-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-vertical-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1vertical.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-wall-patch.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1wall-patch.png",
 		},
 	},
 	{
 		name = "gate-3",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/gate-3.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "gate-3"},
-		max_health = 600,
+		max_health = 1000,
 		opening_speed = 0.08,
 	}
 ),
