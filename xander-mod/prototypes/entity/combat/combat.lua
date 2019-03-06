@@ -32,7 +32,6 @@ data.raw.radar["radar"].energy_per_nearby_scan = "200kJ"
 data.raw.car["tank"].consumption = "500kW"
 data.raw.car["tank"].turret_rotation_speed = 0.005
 
-
 data:extend(
 {
 
@@ -41,8 +40,40 @@ data:extend(
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-2/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-2/%1vertical.png",
 		},
 	},
 	{
@@ -56,8 +87,40 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-3/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-3/%1vertical.png",
 		},
 	},
 	{
@@ -71,8 +134,40 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-4/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-4/%1vertical.png",
 		},
 	},
 	{
@@ -86,8 +181,40 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("wall", "stone-wall",
 	{
 		{
-			"__base__/graphics/entity/stone-wall/wall-",
-			"__xander-mod-v1__/graphics/entity/combat/wall-5/",
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1corner-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-corner-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1corner-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1ending-left.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-ending-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1ending-right.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-gate.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1gate.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-single.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1single.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-t.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1t.png",
+		},
+		{
+			"__base__/graphics/entity/wall/(h?r?-?)wall-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/wall-5/%1vertical.png",
 		},
 	},
 	{
@@ -102,8 +229,32 @@ xmutil.clone("wall", "stone-wall",
 xmutil.clone("gate", "gate",
 	{
 		{
-			"__base__/graphics/entity/gate/gate-",
-			"__xander-mod-v1__/graphics/entity/combat/gate-2/",
+			"__base__/graphics/entity/gate/(h?r?-?)gate-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-horizontal-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-horizontal-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-vertical-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1rail-vertical-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1vertical.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-wall-patch.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-2/%1wall-patch.png",
 		},
 	},
 	{
@@ -118,15 +269,39 @@ xmutil.clone("gate", "gate",
 xmutil.clone("gate", "gate",
 	{
 		{
-			"__base__/graphics/entity/gate/gate-",
-			"__xander-mod-v1__/graphics/entity/combat/gate-3/",
+			"__base__/graphics/entity/gate/(h?r?-?)gate-horizontal.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1horizontal.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-horizontal-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-horizontal-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-horizontal-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-left.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-vertical-left.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-rail-vertical-right.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1rail-vertical-right.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-vertical.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1vertical.png",
+		},
+		{
+			"__base__/graphics/entity/gate/(h?r?-?)gate-wall-patch.png",
+			"__xander-mod-v1__/graphics/entity/combat/gate-3/%1wall-patch.png",
 		},
 	},
 	{
 		name = "gate-3",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/gate-3.png",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "gate-3"},
-		max_health = 600,
+		max_health = 1000,
 		opening_speed = 0.08,
 	}
 ),
@@ -136,6 +311,8 @@ xmutil.clone("gate", "gate",
 
 --Base "laser-turret" placeholder
 --CO2 Laser Turret
+xmutil.clone("electric-turret", "laser-turret",
+	{},
 {
 	type = "electric-turret",
 	name = "laser-turret-2",
@@ -159,154 +336,70 @@ xmutil.clone("gate", "gate",
 		drain = "60kW",
 		usage_priority = "primary-input"
 	},
-	folded_animation =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun-start.png",
-				priority = "medium",
-				width = 66,
-				height = 67,
-				frame_count = 1,
-				line_length = 1,
-				run_mode = "forward",
-				axially_symmetrical = false,
-				direction_count = 4,
-				shift = {-0.03125, -0.984375}
-			},
-			laser_turret_extension_shadow{frame_count=1, line_length=1},
-			laser_turret_extension_mask{frame_count=1, line_length=1}
-		}
-	},
-	preparing_animation =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun-start.png",
-				priority = "medium",
-				width = 66,
-				height = 67,
-				frame_count = 15,
-				line_length = 0,
-				run_mode = "forward",
-				axially_symmetrical = false,
-				direction_count = 4,
-				shift = {-0.03125, -0.984375}
-			},
-			laser_turret_extension_shadow{},
-			laser_turret_extension_mask{}
-		}
-	},
-	prepared_animation =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun.png",
-				line_length = 8,
-				width = 68,
-				height = 68,
-				frame_count = 1,
-				axially_symmetrical = false,
-				direction_count = 64,
-				shift = {-0.03125, -1}
-			},
-			{
-				filename = "__base__/graphics/entity/laser-turret/laser-turret-shooting-mask.png",
-				flags = { "mask" },
-				line_length = 8,
-				width = 46,
-				height = 42,
-				frame_count = 1,
-				apply_runtime_tint = true,
-				direction_count = 64,
-				shift = {0, -1.34375},
-			},
-			{
-				filename = "__base__/graphics/entity/laser-turret/laser-turret-shooting-shadow.png",
-				line_length = 8,
-				width = 86,
-				height = 46,
-				frame_count = 1,
-				direction_count = 64,
-				draw_as_shadow = true,
-				shift = {1.59375, 0.0625}
-			}
-		}
-	},
-	folding_animation = 
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/gun-start.png",
-				priority = "medium",
-				width = 66,
-				height = 67,
-				frame_count = 15,
-				line_length = 0,
-				run_mode = "backward",
-				axially_symmetrical = false,
-				direction_count = 4,
-				shift = {-0.03125, -0.984375}
-			},
-			laser_turret_extension_shadow{run_mode = "backward"},
-			laser_turret_extension_mask{run_mode = "backward"}
-		}
-	},
-	base_picture =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/base.png",
-				priority = "high",
-				width = 98,
-				height = 82,
-				axially_symmetrical = false,
-				direction_count = 1,
-				frame_count = 1,
-				shift = {0.015625, 0.03125}
-			},
-		}
-	},
-	vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
-	attack_parameters =
-	{
-		type = "projectile",
-		ammo_category = "electric",
-		cooldown = 15,
-		projectile_center = {-0.09375, -0.2},
-		projectile_creation_distance = 1.4,
-		range = 30,
-		damage_modifier = 6,
-		ammo_type =
-		{
-			type = "projectile",
-			category = "laser-turret",
-			energy_consumption = "1.5MJ",
-			action =
-			{
-				{
-					type = "direct",
-					action_delivery =
-					{
-						{
-							type = "projectile",
-							projectile = "laser",
-							starting_speed = 0.35
-						}
-					}
-				}
-			}
-		},
-		sound = make_laser_sounds()
-	},
+	base_picture = {
+    layers = {
+      {
+        direction_count = 1,
+        filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/base.png",
+        frame_count = 1,
+        height = 52,
+        hr_version = {
+          direction_count = 1,
+          filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-2/hr-base.png",
+          frame_count = 1,
+          height = 104,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.0625
+          },
+          width = 138
+        },
+        priority = "high",
+        shift = {
+          0,
+          0.0625
+        },
+        width = 70
+      }
+    }
+  },
+	attack_parameters = {
+    ammo_type = {
+      action = {
+        action_delivery = {
+          beam = "laser-beam",
+          duration = 20,
+          max_length = 24,
+          source_offset = {
+            0,
+            -1.3143899999999999
+          },
+          type = "beam"
+        },
+        type = "direct"
+      },
+      category = "laser-turret",
+      energy_consumption = "1.5MJ"
+    },
+    cooldown = 15,
+    damage_modifier = 6,
+    range = 30,
+    source_direction_count = 64,
+    source_offset = {
+      0,
+      -0.85587225
+    },
+    type = "beam"
+  },
+
 	call_for_help_radius = 40
-},
+}
+),
 --Nd:YAG Laser Turret
+xmutil.clone("electric-turret", "laser-turret",
+	{},
 {
 	type = "electric-turret",
 	name = "laser-turret-3",
@@ -330,153 +423,67 @@ xmutil.clone("gate", "gate",
 		drain = "120kW",
 		usage_priority = "primary-input"
 	},
-	folded_animation =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun-start.png",
-				priority = "medium",
-				width = 66,
-				height = 67,
-				frame_count = 1,
-				line_length = 1,
-				run_mode = "forward",
-				axially_symmetrical = false,
-				direction_count = 4,
-				shift = {-0.03125, -0.984375}
-			},
-			laser_turret_extension_shadow{frame_count=1, line_length=1},
-			laser_turret_extension_mask{frame_count=1, line_length=1}
-		}
-	},
-	preparing_animation =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun-start.png",
-				priority = "medium",
-				width = 66,
-				height = 67,
-				frame_count = 15,
-				line_length = 0,
-				run_mode = "forward",
-				axially_symmetrical = false,
-				direction_count = 4,
-				shift = {-0.03125, -0.984375}
-			},
-			laser_turret_extension_shadow{},
-			laser_turret_extension_mask{}
-		}
-	},
-	prepared_animation =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun.png",
-				line_length = 8,
-				width = 68,
-				height = 68,
-				frame_count = 1,
-				axially_symmetrical = false,
-				direction_count = 64,
-				shift = {-0.03125, -1}
-			},
-			{
-				filename = "__base__/graphics/entity/laser-turret/laser-turret-shooting-mask.png",
-				flags = { "mask" },
-				line_length = 8,
-				width = 46,
-				height = 42,
-				frame_count = 1,
-				apply_runtime_tint = true,
-				direction_count = 64,
-				shift = {0, -1.34375},
-			},
-			{
-				filename = "__base__/graphics/entity/laser-turret/laser-turret-shooting-shadow.png",
-				line_length = 8,
-				width = 86,
-				height = 46,
-				frame_count = 1,
-				direction_count = 64,
-				draw_as_shadow = true,
-				shift = {1.59375, 0.0625}
-			}
-		}
-	},
-	folding_animation = 
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/gun-start.png",
-				priority = "medium",
-				width = 66,
-				height = 67,
-				frame_count = 15,
-				line_length = 0,
-				run_mode = "backward",
-				axially_symmetrical = false,
-				direction_count = 4,
-				shift = {-0.03125, -0.984375}
-			},
-			laser_turret_extension_shadow{run_mode = "backward"},
-			laser_turret_extension_mask{run_mode = "backward"}
-		}
-	},
-	base_picture =
-	{
-		layers =
-		{
-			{
-				filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/base.png",
-				priority = "high",
-				width = 98,
-				height = 82,
-				axially_symmetrical = false,
-				direction_count = 1,
-				frame_count = 1,
-				shift = {0.015625, 0.03125}
-			},
-		}
-	},
-	vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
-	attack_parameters =
-	{
-		type = "projectile",
-		ammo_category = "electric",
-		cooldown = 10,
-		projectile_center = {-0.09375, -0.2},
-		projectile_creation_distance = 1.4,
-		range = 40,
-		damage_modifier = 8,
-		ammo_type =
-		{
-			type = "projectile",
-			category = "laser-turret",
-			energy_consumption = "2MJ",
-			action =
-			{
-				{
-					type = "direct",
-					action_delivery =
-					{
-						{
-							type = "projectile",
-							projectile = "laser",
-							starting_speed = 0.35
-						}
-					}
-				}
-			}
-		},
-		sound = make_laser_sounds()
-	},
+	base_picture = {
+    layers = {
+      {
+        direction_count = 1,
+        filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/base.png",
+        frame_count = 1,
+        height = 52,
+        hr_version = {
+          direction_count = 1,
+          filename = "__xander-mod-v1__/graphics/entity/combat/laser-turret-3/hr-base.png",
+          frame_count = 1,
+          height = 104,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.0625
+          },
+          width = 138
+        },
+        priority = "high",
+        shift = {
+          0,
+          0.0625
+        },
+        width = 70
+      }
+    }
+  },
+  attack_parameters = {
+    ammo_type = {
+      action = {
+        action_delivery = {
+          beam = "laser-beam",
+          duration = 20,
+          max_length = 24,
+          source_offset = {
+            0,
+            -1.3143899999999999
+          },
+          type = "beam"
+        },
+        type = "direct"
+      },
+      category = "laser-turret",
+      energy_consumption = "2MJ"
+    },
+    cooldown = 10,
+    damage_modifier = 8,
+    range = 40,
+    source_direction_count = 64,
+    source_offset = {
+      0,
+      -0.85587225
+    },
+    type = "beam"
+  },
+
 	call_for_help_radius = 40
-},
+}
+),
 
 --Base "radar" placeholder
 --Doppler Radar
@@ -492,6 +499,37 @@ xmutil.clone("radar", "radar",
 	max_distance_of_nearby_sector_revealed = 1,
 	energy_per_nearby_scan = "200kJ",
 	energy_usage = "500kW",
+	pictures = {
+    layers = {
+      {
+        apply_projection = false,
+        direction_count = 64,
+        filename = "__xander-mod-v1__/graphics/entity/combat/radar-2/radar.png",
+        height = 128,
+        hr_version = {
+          apply_projection = false,
+          direction_count = 64,
+          filename = "__xander-mod-v1__/graphics/entity/combat/radar-2/hr-radar.png",
+          height = 254,
+          line_length = 8,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.03125,
+            -0.5
+          },
+          width = 196
+        },
+        line_length = 8,
+        priority = "low",
+        shift = {
+          0.03125,
+          -0.5
+        },
+        width = 98
+      }
+    }
+  },
 }
 ),
 --LIDAR Scanning Array
@@ -507,6 +545,37 @@ xmutil.clone("radar", "radar",
 	max_distance_of_nearby_sector_revealed = 7,
 	energy_per_nearby_scan = "1MJ",
 	energy_usage = "1MW",
+	pictures = {
+    layers = {
+      {
+        apply_projection = false,
+        direction_count = 64,
+        filename = "__xander-mod-v1__/graphics/entity/combat/radar-3/radar.png",
+        height = 128,
+        hr_version = {
+          apply_projection = false,
+          direction_count = 64,
+          filename = "__xander-mod-v1__/graphics/entity/combat/radar-3/hr-radar.png",
+          height = 254,
+          line_length = 8,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.03125,
+            -0.5
+          },
+          width = 196
+        },
+        line_length = 8,
+        priority = "low",
+        shift = {
+          0.03125,
+          -0.5
+        },
+        width = 98
+      }
+    }
+  },
 }
 ),
 
