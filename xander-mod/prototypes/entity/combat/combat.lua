@@ -583,7 +583,32 @@ xmutil.clone("radar", "radar",
 --Base "tank" placeholder
 --Artillery Crawler
 xmutil.clone("car", "tank",
-	{},
+	{
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-1.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-2/%1base-1.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-2.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-2/%1base-2.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-3.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-2/%1base-3.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-4.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-2/%1base-4.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-turret.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-2/%1turret.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-turret-mask.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-2/%1turret-mask.png",
+    },
+  },
 	{
 		name = "artillery-crawler",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/artillery-crawler.png",
@@ -596,7 +621,32 @@ xmutil.clone("car", "tank",
 ),
 --Tank Mark 2
 xmutil.clone("car", "tank",
-	{},
+  {
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-1.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-3/%1base-1.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-2.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-3/%1base-2.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-3.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-3/%1base-3.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-base-4.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-3/%1base-4.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-turret.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-3/%1turret.png",
+    },
+    {
+      "__base__/graphics/entity/tank/(h?r?-?)tank-turret-mask.png",
+      "__xander-mod-v1__/graphics/entity/combat/tank-3/%1turret-mask.png",
+    },
+  },
 	{
 		name = "tank-2",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/tank-2.png",
