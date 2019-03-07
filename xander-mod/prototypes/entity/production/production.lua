@@ -194,21 +194,39 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 	light = {intensity = 0.75, size = 8, color = {r = 1.0, g = 1.0, b = 1.0}},
 	on_animation =
 	{
-		filename = "__xander-mod-v1__/graphics/entity/production/lab-1/1.png",
-		width = 113,
-		height = 91,
+		filename = "__xander-mod-v1__/graphics/entity/production/lab-1/lab-1.png",
+		width = 98,
+		height = 87,
 		frame_count = 33,
 		line_length = 11,
 		animation_speed = 1 / 3,
-		shift = {0.2, 0.15}
+		shift = {0, 0.046875},
+		hr_version = {
+						filename = "__xander-mod-v1__/graphics/entity/production/lab-1/hr-lab-1.png",
+						width = 194,
+						height = 174,
+						frame_count = 33,
+						scale = 0.5,
+						line_length = 11,
+						animation_speed = 1 / 3,
+						shift = {0, 0.046875},
+					},
 	},
 	off_animation =
 	{
-		filename = "__xander-mod-v1__/graphics/entity/production/lab-1/1.png",
-		width = 113,
-		height = 91,
+		filename = "__xander-mod-v1__/graphics/entity/production/lab-1/lab-1.png",
+		width = 98,
+		height = 87,
 		frame_count = 1,
-		shift = {0.2, 0.15}
+		shift = {0, 0.046875},
+		hr_version = {
+						filename = "__xander-mod-v1__/graphics/entity/production/lab-1/hr-lab-1.png",
+						width = 194,
+						height = 174,
+						frame_count = 1,
+						scale = 0.5,
+						shift = {0, 0.046875},
+					},
 	},
 	working_sound =
 	{
