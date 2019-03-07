@@ -156,10 +156,6 @@ xmutil.clone("assembling-machine", "assembling-machine-1",
 xmutil.clone("assembling-machine", "assembling-machine-3",
 	{
 		{
-			"__base__/graphics/entity/assembling-machine-3/assembling-machine-",
-			"__xander-mod-v1__/graphics/entity/production/assembling-machine-4/",
-		},
-		{
 			"__base__/graphics/entity/assembling-machine-3/(h?r?-?)assembling-machine-3.png",
 			"__xander-mod-v1__/graphics/entity/production/assembling-machine-4/%14.png",
 		},
