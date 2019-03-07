@@ -295,11 +295,12 @@ xmutil.clone("lamp", "small-lamp",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "lamp-2"},
 		max_health = 200,
 		energy_usage_per_tick = "10KW",
-		light = {intensity = 1.5, size = 60},
-		next_upgrade = nil
+		light = {intensity = 1.5, size = 60}
 	}
 ),
 }
 
+data.raw.boiler["boiler"].next_upgrade = "boiler-2"
+data.raw.generator["steam-turbine"].next_upgrade = "steam-turbine-2"
 data.raw.accumulator["accumulator"].next_upgrade = "accumulator-2"
 data.raw.lamp["small-lamp"].next_upgrade = "lamp-2"
