@@ -334,3 +334,5 @@ xmutil.clone("assembling-machine", "oil-refinery",
 
 }
 )
+
+data.raw["assembling-machine"]["logging-camp"].crafting_categories = {"temp-logging"}
