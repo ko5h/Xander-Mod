@@ -154,7 +154,16 @@ xmutil.clone("assembling-machine", "assembling-machine-1",
 
 --Assembling Machine 4
 xmutil.clone("assembling-machine", "assembling-machine-3",
-	{},
+	{
+		{
+			"__base__/graphics/entity/assembling-machine-3/assembling-machine-",
+			"__xander-mod-v1__/graphics/entity/production/assembling-machine-4/",
+		},
+		{
+			"__base__/graphics/entity/assembling-machine-3/(h?r?-?)assembling-machine-3.png",
+			"__xander-mod-v1__/graphics/entity/production/assembling-machine-4/%14.png",
+		},
+	},
 	{
 		name = "assembling-machine-4",
 		icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-4.png",
@@ -166,12 +175,6 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 		energy_source = { emissions = 0.002 },
 		energy_usage = "400kW",
 		ingredient_count = 8,
-		layers = {
-			{
-				filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-4/4.png",
-				hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-4/hr-4.png" },
-			},
-		},
 	}
 ),
 
@@ -293,7 +296,7 @@ data.raw["assembling-machine"]["assembling-machine-2"].ingredient_count = 6
 
 --Base "assembling-machine-3"
 data.raw["assembling-machine"]["assembling-machine-3"].icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-3.png"
-data.raw["assembling-machine"]["assembling-machine-2"].fluid_boxes = xmutil.assembler_fluid_boxes("assembling-machine-3")
+data.raw["assembling-machine"]["assembling-machine-3"].fluid_boxes = xmutil.assembler_fluid_boxes("assembling-machine-3")
 data.raw["assembling-machine"]["assembling-machine-3"].animation = xmutil.merge{
 	data.raw["assembling-machine"]["assembling-machine-3"].animation,
 	{
