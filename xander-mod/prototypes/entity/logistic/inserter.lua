@@ -32,8 +32,8 @@ data:extend(
 xmutil.clone("inserter", "burner-inserter",
 	{
 		{
-			"__base__/graphics/entity/burner-inserter/burner-inserter-",
-			"__xander-mod-v1__/graphics/entity/logistic/inserter-chemical-burner/",
+			"__base__/graphics/entity/burner-inserter/(h?r?-?)burner-inserter-",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-chemical-burner/%1",
 		},
 	},
 	{
@@ -47,8 +47,8 @@ xmutil.clone("inserter", "burner-inserter",
 xmutil.clone("inserter", "inserter",
 	{
 		{
-			"__base__/graphics/entity/inserter/inserter-",
-			"__xander-mod-v1__/graphics/entity/logistic/inserter-slow/",
+			"__base__/graphics/entity/inserter/(h?r?-?)inserter-",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-slow/%1",
 		},
 	},
 	{
@@ -70,8 +70,8 @@ xmutil.clone("inserter", "inserter",
 xmutil.clone("inserter", "fast-inserter",
 	{
 		{
-			"__base__/graphics/entity/fast-inserter/fast-inserter-",
-			"__xander-mod-v1__/graphics/entity/logistic/inserter-long-fast/",
+			"__base__/graphics/entity/fast-inserter/(h?r?-?)fast-inserter-",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-long-fast/%1",
 		},
 	},
 	{
@@ -93,8 +93,8 @@ xmutil.clone("inserter", "fast-inserter",
 xmutil.clone("inserter", "stack-inserter",
 	{
 		{
-			"__base__/graphics/entity/stack-inserter/stack-inserter-",
-			"__xander-mod-v1__/graphics/entity/logistic/inserter-long-stack/",
+			"__base__/graphics/entity/stack-inserter/(h?r?-?)stack-inserter-",
+			"__xander-mod-v1__/graphics/entity/logistic/inserter-long-stack/%1",
 		},
 	},
 	{
