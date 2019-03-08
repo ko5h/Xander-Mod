@@ -341,6 +341,8 @@ xmutil.clone("assembling-machine", "oil-refinery",
 
 --XM Logging Camp
 data.raw["assembling-machine"]["logging-camp"].crafting_categories = {"temp-logging"}
+data.raw["assembling-machine"]["logging-camp"].fast_replaceable_group = nil
+data.raw["assembling-machine"]["logging-camp"].next_upgrade = nil
 
 --Base "offshore-pump"
 data.raw["offshore-pump"]["offshore-pump"].next_upgrade = "offshore-pump-1"
