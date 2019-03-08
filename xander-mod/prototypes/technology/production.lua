@@ -5,7 +5,7 @@
 data.raw.technology["advanced-material-processing"].effects = {{type = "unlock-recipe", recipe = "brick-clay-graphite-a"}, 
 	{type = "unlock-recipe", recipe = "steel-furnace"}, {type = "unlock-recipe", recipe = "iron-plate-b"}, 
 	{type = "unlock-recipe", recipe = "forging-iron-b"}, {type = "unlock-recipe", recipe = "copper-plate-b"}}
-data.raw.technology["advanced-material-processing"].prerequisites = {"plumbing-steel"}
+data.raw.technology["advanced-material-processing"].prerequisites = {"plumbing-steel", "logistic-science-pack"}
 data.raw.technology["advanced-material-processing"].unit = {count = 20, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 30}
 data.raw.technology["advanced-material-processing"].order = "07-08"
 
@@ -14,7 +14,7 @@ data.raw.technology["advanced-material-processing-2"].icon = "__xander-mod-v1__/
 data.raw.technology["advanced-material-processing-2"].icon_size = 128
 data.raw.technology["advanced-material-processing-2"].effects = {{type = "unlock-recipe", recipe = "electric-furnace"}, 
 	{type = "unlock-recipe", recipe = "brick-clay-graphite-b"}, {type = "unlock-recipe", recipe = "fiber-glass"}}
-data.raw.technology["advanced-material-processing-2"].prerequisites = {"advanced-material-processing", "electronics", "logistics"}
+data.raw.technology["advanced-material-processing-2"].prerequisites = {"advanced-material-processing", "electronics"}
 data.raw.technology["advanced-material-processing-2"].unit = {count = 400, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 45}
 data.raw.technology["advanced-material-processing-2"].order = "07-10"
 
@@ -111,10 +111,39 @@ data.raw.technology["rocket-silo"].prerequisites = {"rocket-fuel", "rocket-struc
 --null
 data.raw.technology["rocket-silo"].order = "08-53"
 
+--Base "logistic-science-pack"
+data.raw.technology["logistic-science-pack"].prerequisites = {"automation-science-pack", "logistics"}
+
+
 
 data:extend(
 {
 
+--Automation 
+{
+	type = "technology",
+	name = "automation-science-pack",
+	icon = "__base__/graphics/technology/automation-science-pack.png",
+	icon_size = 128,
+	effects =
+	{
+		{
+			type = "unlock-recipe",
+			recipe = "automation-science-pack"
+		},
+	},
+	prerequisites = { "induction_1" },
+	unit =
+	{
+		count = 15,
+		ingredients =
+		{
+			{"basic-science-pack", 1}
+		},
+		time = 15
+	},
+	order = "07-00",
+},
 --Logging Camp
 {
 	type = "technology",
@@ -132,7 +161,7 @@ data:extend(
 			recipe = "wood-multiplication"
 		}
 	},
-	prerequisites = {"machine-tool_0"},
+	prerequisites = {"machine-tool_0", "automation-science-pack"},
 	unit =
 	{
 		count = 40,
@@ -576,7 +605,7 @@ data:extend(
 			recipe = "electrolyzer-1"
 		}
 	},
-	prerequisites = {"reactor_1", "rubber-a"},
+	prerequisites = {"reactor_1", "rubber-a", "logistic-science-pack"},
 	unit =
 	{
 		count = 80,
@@ -879,7 +908,7 @@ data:extend(
 			recipe = "lab"
 		}
 	},
-	prerequisites = {"machines_1", "logistics", "inserter-b"},
+	prerequisites = {"machines_1", "logistic-science-pack", "inserter-b"},
 	unit =
 	{
 		count = 100,

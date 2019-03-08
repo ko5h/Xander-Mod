@@ -19,7 +19,7 @@ data.raw.technology["concrete"].order = "02-20"
 --Base "landfill"
 data.raw.technology["landfill"].icon = "__xander-mod-v1__/graphics/technology/bulk/landfill.png"
 data.raw.technology["landfill"].icon_size = 128
-data.raw.technology["landfill"].prerequisites = {"bauxite-sediment"}
+data.raw.technology["landfill"].prerequisites = {"bauxite-sediment", "logistic-science-pack"}
 data.raw.technology["landfill"].effects = {{type = "unlock-recipe", recipe = "landfill"}, {type = "unlock-recipe", recipe = "modified-a"}}
 data.raw.technology["landfill"].order = "02-21"
 	
@@ -696,7 +696,7 @@ data:extend(
 			recipe = "leblanc-process"
 		}
 	},
-	prerequisites = {"sulfuric-acid-a", "reactor_1"},
+	prerequisites = {"sulfuric-acid-a", "reactor_1", "logistic-science-pack"},
 	unit =
 	{
 		count = 80,
@@ -1123,7 +1123,7 @@ data:extend(
 			recipe = "nitric-sulfuric"
 		}
 	},
-	prerequisites = {"sulfuric-acid-a"},
+	prerequisites = {"sulfuric-acid-a", "automation-science-pack"},
 	unit =
 	{
 		count = 50,

@@ -1,6 +1,6 @@
 
 --Base Overrides
-data.raw.technology["toolbelt"].prerequisites = {"military"}
+data.raw.technology["toolbelt"].prerequisites = {"military", "logistic-science-pack"}
 
 
 data:extend(

@@ -125,7 +125,7 @@ data:extend(
 			recipe = "formic-acid"
 		}
 	},
-	prerequisites = {"reactor_0", "machine-tool_0"},
+	prerequisites = {"reactor_0", "machine-tool_0", "automation-science-pack"},
 	unit =
 	{
 		count = 50,
@@ -282,7 +282,7 @@ data:extend(
 			recipe = "nitrocellulose"
 		}
 	},
-	prerequisites = {"organics_1", "nitric-acid-a"},
+	prerequisites = {"organics_1", "nitric-acid-a", "logistic-science-pack"},
 	unit =
 	{
 		count = 100,
@@ -429,7 +429,7 @@ data:extend(
 			recipe = "uncured-resol"
 		}
 	},
-	prerequisites = {"organics_1", "phenol-a"},
+	prerequisites = {"organics_1", "phenol-a", "logistic-science-pack"},
 	unit =
 	{
 		count = 200,

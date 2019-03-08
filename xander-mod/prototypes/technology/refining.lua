@@ -338,7 +338,7 @@ data:extend(
 			recipe = "copper-smelting"
 		}
 	},
-	prerequisites = {"ore-processor_1", "kiln-soda"},
+	prerequisites = {"ore-processor_1", "kiln-soda", "logistic-science-pack"},
 	unit =
 	{
 		count = 150,
@@ -978,7 +978,7 @@ data:extend(
 			recipe = "lead-smelting"
 		}
 	},
-	prerequisites = {"ore-processor_1", "kiln-soda"},
+	prerequisites = {"ore-processor_1", "kiln-soda", "logistic-science-pack"},
 	unit =
 	{
 		count = 150,

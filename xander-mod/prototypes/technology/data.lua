@@ -113,7 +113,7 @@ data:extend(
 			recipe = "metallized-1"
 		}
 	},
-	prerequisites = {"machine-tool_0", "reactor_0"},
+	prerequisites = {"machine-tool_0", "reactor_0", "automation-science-pack"},
 	unit =
 	{
 		count = 20,

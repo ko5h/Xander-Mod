@@ -3,13 +3,13 @@
 
 --Base "engine"
 data.raw.technology["engine"].effects = {{type = "unlock-recipe", recipe = "engine-unit"}}
-data.raw.technology["engine"].prerequisites = {"parts_1", "plumbing-steel", "rubber-a"}
+data.raw.technology["engine"].prerequisites = {"parts_1", "plumbing-steel", "rubber-a", "logistic-science-pack"}
 data.raw.technology["engine"].order = "04-03"
 --Base "robotics"
 data.raw.technology["robotics"].prerequisites = {"parts_2", "battery_2", "forging-aluminum"}
 data.raw.technology["robotics"].order = "04-06"
 --Base "electric-engine"
-data.raw.technology["electric-engine"].prerequisites = {"induction_1", "parts_1", "electronics"}
+data.raw.technology["electric-engine"].prerequisites = {"automation-science-pack", "parts_1", "electronics"}
 data.raw.technology["electric-engine"].effects = {{type = "unlock-recipe", recipe = "motor-1-b"}, {type = "unlock-recipe", recipe = "transformer-1"}}
 data.raw.technology["electric-engine"].unit.ingredients = {{"automation-science-pack", 1}}
 data.raw.technology["electric-engine"].order = "04-16"
@@ -69,7 +69,7 @@ data:extend(
 			recipe = "wheel-1"
 		},
 	},
-	prerequisites = {"smelting-graphite"},
+	prerequisites = {"smelting-graphite", "automation-science-pack"},
 	unit =
 	{
 		count = 20,
@@ -442,10 +442,6 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "electric-engine-unit"
-		},
-		{
-			type = "unlock-recipe",
-			recipe = "automation-science-pack"
 		}
 	},
 	prerequisites = {"reactor_0", "smelting-graphite"},
@@ -1025,7 +1021,7 @@ data:extend(
       type = "character-mining-speed"
     }
   },
-  prerequisites = { "axe_1" },
+  prerequisites = { "axe_1", "automation-science-pack" },
   unit = {
     count = 10,
     ingredients = {

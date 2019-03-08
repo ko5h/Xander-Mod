@@ -91,10 +91,11 @@ data.raw.technology["combat-robotics-3"].order = "08-15"
 --null
 --null
 data.raw.technology["stone-walls"].order = "08-16"
+data.raw.technology["stone-walls"].prerequisites = {"automation-science-pack"}
 
 --Base "gates"
 --null
-data.raw.technology["gates"].prerequisites = {"stone-walls", "military", "machines_1"}
+data.raw.technology["gates"].prerequisites = {"stone-walls", "military", "machines_1", "logistic-science-pack"}
 --null
 data.raw.technology["gates"].order = "08-21"
 
@@ -194,8 +195,8 @@ data.raw.technology["fusion-reactor-equipment"].order = "08-57"
 
 --Base "heavy-armor"
 --null
-data.raw.technology["heavy-armor"].prerequisites = {"iron-armor", "lead-brass", "rubber-a"}
---null
+data.raw.technology["heavy-armor"].prerequisites = {"iron-armor", "lead-brass", "rubber-a", "logistic-science-pack"}
+data.raw.technology["heavy-armor"].unit = {count = 50, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 30}
 data.raw.technology["heavy-armor"].order = "08-58"
 
 --Base "modular-armor"
@@ -229,6 +230,7 @@ data.raw.technology["physical-projectile-damage-3"].effects = {{type = "ammo-dam
 data.raw.technology["physical-projectile-damage-4"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 0.5}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 0.5}}
 data.raw.technology["physical-projectile-damage-5"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
 data.raw.technology["physical-projectile-damage-6"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
+table.insert(data.raw.technology["physical-projectile-damage-2"].prerequisites, "logistic-science-pack")
 
 --Base "weapon-shooting-speed"
 data.raw.technology["weapon-shooting-speed-1"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.2}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.2}}
@@ -236,6 +238,8 @@ data.raw.technology["weapon-shooting-speed-2"].effects = {{type = "gun-speed", a
 data.raw.technology["weapon-shooting-speed-3"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.3}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.3}}
 data.raw.technology["weapon-shooting-speed-4"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.6}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.6}}
 data.raw.technology["weapon-shooting-speed-5"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 1}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 1}}
+table.insert(data.raw.technology["weapon-shooting-speed-2"].prerequisites, "logistic-science-pack")
+
 
 data:extend(
 {
@@ -290,7 +294,7 @@ data:extend(
 			recipe = "pistol"
 		}
 	},
-	prerequisites = {"powder_1"},
+	prerequisites = {"powder_1", "automation-science-pack"},
 	unit =
 	{
 		count = 15,
@@ -771,7 +775,7 @@ data:extend(
 			recipe = "first-aid-1"
 		}
 	},
-	prerequisites = {"organics_1"},
+	prerequisites = {"organics_1", "logistic-science-pack"},
 	unit =
 	{
 		count = 150,
@@ -1113,6 +1117,7 @@ data:extend(
 			recipe = "light-armor"
 		}
 	},
+	prerequisites = { "automation-science-pack" },
 	unit =
 	{
 		count = 10,
