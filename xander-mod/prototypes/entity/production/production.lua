@@ -270,6 +270,9 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 
 --Base Overrides
 
+--XM "assembling-machine-0"
+data.raw["assembling-machine"]["assembling-machine-0"].next_upgrade = "assembling-machine-1"
+
 --Base "assembling-machine-1"
 data.raw["assembling-machine"]["assembling-machine-1"].icon = "__xander-mod-v1__/graphics/item/production/production/assembling-machine-1.png"
 data.raw["assembling-machine"]["assembling-machine-1"].max_health = 100
@@ -329,6 +332,7 @@ data.raw["assembling-machine"]["assembling-machine-3"].crafting_speed = 2
 data.raw["assembling-machine"]["assembling-machine-3"].energy_source.emissions = 0.004
 data.raw["assembling-machine"]["assembling-machine-3"].energy_usage = "200kW"
 data.raw["assembling-machine"]["assembling-machine-3"].module_specification.module_slots = 3
+data.raw["assembling-machine"]["assembling-machine-3"].next_upgrade = "assembling-machine-4"
 
 --Base "lab"
 data.raw.lab["lab"].max_health = 200

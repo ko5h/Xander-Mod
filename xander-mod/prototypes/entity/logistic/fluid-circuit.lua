@@ -529,7 +529,8 @@ xmutil.clone("pump", "pump",
 				filename = "__xander-mod-v1__/graphics/entity/logistic/pump-2/west.png",
 				hr_version = { filename = "__xander-mod-v1__/graphics/entity/logistic/pump-2/hr-west.png" },
 			},
-		}
+		},
+		next_upgrade = "pump-3"
 	}
 ),
 
@@ -572,3 +573,6 @@ xmutil.clone("pump", "pump",
 
 }
 )
+
+--Base "pump"
+data.raw.pump["pump"].next_upgrade = "pump-2"
