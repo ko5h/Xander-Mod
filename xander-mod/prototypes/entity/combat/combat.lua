@@ -81,6 +81,7 @@ xmutil.clone("wall", "stone-wall",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-2.png",
 		minable = {mining_time = 0.5, result = "wall-2"},
 		max_health = 100,
+    next_upgrade = "wall-3"
 	}
 ),
 --Concrete Wall
@@ -128,6 +129,7 @@ xmutil.clone("wall", "stone-wall",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-3.png",
 		minable = {mining_time = 0.5, result = "wall-3"},
 		max_health = 400,
+    next_upgrade = "wall-4"
 	}
 ),
 --Armored Basalt Wall
@@ -175,6 +177,7 @@ xmutil.clone("wall", "stone-wall",
 		icon = "__xander-mod-v1__/graphics/item/combat/structure/wall-4.png",
 		minable = {mining_time = 0.5, result = "wall-4"},
 		max_health = 600,
+    next_upgrade = "wall-5"
 	}
 ),
 --Impervious Wall
@@ -263,6 +266,7 @@ xmutil.clone("gate", "gate",
 		minable = {hardness = 0.2, mining_time = 0.5, result = "gate-2"},
 		max_health = 600,
 		opening_speed = 0.08,
+    next_upgrade = "gate-3"
 	}
 ),
 --Impervious Gate
@@ -632,3 +636,10 @@ xmutil.clone("car", "tank",
 
 }
 )
+
+
+
+--Base "stone-wall"
+data.raw.wall["stone-wall"].next_upgrade = "wall-2"
+--Base "gate"
+data.raw.gate["gate"].next_upgrade = "gate-2"
