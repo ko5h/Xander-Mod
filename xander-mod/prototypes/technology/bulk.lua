@@ -488,7 +488,7 @@ data:extend(
 			recipe = "furnace-5-b"
 		}
 	},
-	prerequisites = {"brick-clay", "chromium-refining", "magnesium-processing"},
+	prerequisites = {"brick-clay", "chromium-refining", "magnesium-processing", "chemical-science-pack"},
 	unit =
 	{
 		count = 350,
@@ -722,7 +722,7 @@ data:extend(
 			recipe = "solvay-process"
 		}
 	},
-	prerequisites = {"sodium-processing", "haber-process"},
+	prerequisites = {"sodium-processing", "haber-process", "chemical-science-pack"},
 	unit =
 	{
 		count = 300,
@@ -873,7 +873,7 @@ data:extend(
 			recipe = "electrolysis-water-b"
 		}
 	},
-	prerequisites = {"electrolysis-water-a", "sodium-processing"},
+	prerequisites = {"electrolysis-water-a", "sodium-processing", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -934,7 +934,7 @@ data:extend(
 			recipe = "kvaerner-process"
 		}
 	},
-	prerequisites = {"carbon-processing", "oil-processing"},
+	prerequisites = {"carbon-processing", "oil-processing", "chemical-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -1298,7 +1298,7 @@ data:extend(
 			recipe = "slag-cracking"
 		}
 	},
-	prerequisites = {"carbon-oxides", "calcium-processing"},
+	prerequisites = {"carbon-oxides", "calcium-processing", "chemical-science-pack"},
 	unit =
 	{
 		count = 250,

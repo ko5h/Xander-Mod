@@ -29,8 +29,7 @@ data.raw.technology["automation"].order = "07-22"
 --Base "automation-2"
 data.raw.technology["automation-2"].icon = "__xander-mod-v1__/graphics/technology/production/automation-2.png"
 data.raw.technology["automation-2"].icon_size = 128
-data.raw.technology["automation-2"].effects = {{type = "unlock-recipe", recipe = "assembling-machine-2"}, 
-	{type = "unlock-recipe", recipe = "production-science-pack"}}
+data.raw.technology["automation-2"].effects = {{type = "unlock-recipe", recipe = "assembling-machine-2"}}
 data.raw.technology["automation-2"].prerequisites = {"automation", "inserter-fast"}
 data.raw.technology["automation-2"].unit = {count = 100, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 30}
 data.raw.technology["automation-2"].order = "07-23"
@@ -114,7 +113,8 @@ data.raw.technology["rocket-silo"].order = "08-53"
 --Base "logistic-science-pack"
 data.raw.technology["logistic-science-pack"].prerequisites = {"automation-science-pack", "logistics"}
 
-
+--Base "production-science-pack"
+data.raw.technology["production-science-pack"].prerequisites = { "productivity-module", "furnace_4", "automation-2", "railway", "chemical-science-pack"}
 
 data:extend(
 {
@@ -445,10 +445,6 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "furnace-4-2p-convert"
-		},
-		{
-			type = "unlock-recipe",
-			recipe = "production-science-pack"
 		}
 	},
 	prerequisites = {"advanced-material-processing", "pump_1"},
@@ -1083,7 +1079,7 @@ data:extend(
 			recipe = "solar-panel-2"
 		}
 	},
-	prerequisites = {"solar-energy"},
+	prerequisites = {"solar-energy", "chemical-science-pack"},
 	unit =
 	{
 		count = 450,

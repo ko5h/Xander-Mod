@@ -24,14 +24,14 @@ data.raw.technology["logistics-2"].order = "06-05"
 --Base "logistics-3"
 data.raw.technology["logistics-3"].effects = {{type = "unlock-recipe", recipe = "expedited-transport-belt"}, 
 	{type = "unlock-recipe", recipe = "expedited-underground-belt"}, {type = "unlock-recipe", recipe = "expedited-splitter"}}
-data.raw.technology["logistics-3"].prerequisites = {"logistics-2", "parts_2", "forging-aluminum", "advanced-electronics"}
+data.raw.technology["logistics-3"].prerequisites = {"logistics-2", "parts_2", "forging-aluminum", "chemical-science-pack"}
 data.raw.technology["logistics-3"].unit = {count = 350, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}, 
 	{"production-science-pack", 1}}, time = 30}
 data.raw.technology["logistics-3"].order = "06-06"
 
 --Base "stack-inserter"
 data.raw.technology["stack-inserter"].effects = {{type = "unlock-recipe", recipe = "stack-inserter"}, {type = "stack-inserter-capacity-bonus", modifier = 1}}
-data.raw.technology["stack-inserter"].prerequisites = {"logistics-2", "inserter-long-fast", "advanced-electronics"}
+data.raw.technology["stack-inserter"].prerequisites = {"logistics-2", "inserter-long-fast", "chemical-science-pack"}
 data.raw.technology["stack-inserter"].unit = {count = 150, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}}, time = 30}
 data.raw.technology["stack-inserter"].order = "06-17"
 
@@ -560,7 +560,7 @@ data:extend(
 			recipe = "rail-b"
 		}
 	},
-	prerequisites = {"railway", "forging-alloy-a", "concrete"},
+	prerequisites = {"railway", "forging-alloy-a", "concrete", "chemical-science-pack"},
 	unit =
 	{
 		count = 150,
@@ -869,7 +869,7 @@ data:extend(
 			recipe = "pipe-to-ground-stainless"
 		}
 	},
-	prerequisites = {"forging-stainless", "forging-alloy-a"},
+	prerequisites = {"forging-stainless", "forging-alloy-a", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -932,7 +932,7 @@ data:extend(
 			recipe = "pipe-to-ground-plastic"
 		}
 	},
-	prerequisites = {"plastics", "forging-alloy-a"},
+	prerequisites = {"plastics", "forging-alloy-a", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -1079,7 +1079,7 @@ data:extend(
 			recipe = "constant-combinator"
 		}
 	},
-	prerequisites = {"circuit-network", "advanced-electronics", "forging-steel", "lead-brass"},
+	prerequisites = {"circuit-network", "chemical-science-pack", "forging-steel", "lead-brass"},
 	unit =
 	{
 		count = 50,

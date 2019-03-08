@@ -1,7 +1,10 @@
 
 --Base Overrides
+--
 data.raw.technology["toolbelt"].prerequisites = {"military", "logistic-science-pack"}
 
+table.insert(data.raw.technology["research-speed-3"].prerequisites, "chemical-science-pack")
+table.insert(data.raw.technology["mining-productivity-2"].prerequisites, "chemical-science-pack")
 
 data:extend(
 {

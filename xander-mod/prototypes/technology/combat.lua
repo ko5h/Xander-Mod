@@ -181,7 +181,7 @@ data.raw.technology["personal-roboport-equipment-2"].order = "08-52"
 
 --Base "solar-panel-equipment"
 --null
-data.raw.technology["solar-panel-equipment"].prerequisites = {"modular-armor", "solar-energy", "advanced-electronics"}
+data.raw.technology["solar-panel-equipment"].prerequisites = {"modular-armor", "solar-energy", "chemical-science-pack"}
 data.raw.technology["solar-panel-equipment"].unit = {count = 400, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}, 
 	{"production-science-pack", 1}}, time = 45}
 data.raw.technology["solar-panel-equipment"].order = "08-54"

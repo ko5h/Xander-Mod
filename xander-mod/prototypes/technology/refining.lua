@@ -48,7 +48,7 @@ data:extend(
 			recipe = "cryolite-mixture"
 		}
 	},
-	prerequisites = {"flotation_1", "reactor_1", "sulfuric-acid-a"}, --"blasting", 
+	prerequisites = {"flotation_1", "reactor_1", "sulfuric-acid-a", "chemical-science-pack"}, --"blasting", 
 	unit =
 	{
 		count = 250,
@@ -368,7 +368,7 @@ data:extend(
 			recipe = "cobalt-electrowinning"
 		}
 	},
-	prerequisites = {"haber-process"},
+	prerequisites = {"haber-process", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -487,7 +487,7 @@ data:extend(
 			recipe = "platinum-smelting"
 		}
 	},
-	prerequisites = {"flotation_1", "boron-processing"}, --"blasting", 
+	prerequisites = {"flotation_1", "boron-processing", "chemical-science-pack"}, --"blasting", 
 	unit =
 	{
 		count = 300,
@@ -746,7 +746,7 @@ data:extend(
 			recipe = "kroll-titanium"
 		}
 	},
-	prerequisites = {"flotation_1", "magnesium-refining"},
+	prerequisites = {"flotation_1", "magnesium-refining", "chemical-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -1034,7 +1034,7 @@ data:extend(
 			recipe = "parkes-process"
 		}
 	},
-	prerequisites = {"lead-refining", "silver-refining", "zinc-refining"},
+	prerequisites = {"lead-refining", "silver-refining", "zinc-refining", "chemical-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -1115,7 +1115,7 @@ data:extend(
 			recipe = "lithium-precipitation"
 		}
 	},
-	prerequisites = {"pumpjack", "reactor_1", "calcium-processing"},
+	prerequisites = {"pumpjack", "reactor_1", "calcium-processing", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -1142,7 +1142,7 @@ data:extend(
 			recipe = "gas-distillation"
 		}
 	},
-	prerequisites = {"pumpjack", "distillation-column"},
+	prerequisites = {"pumpjack", "distillation-column", "chemical-science-pack"},
 	unit =
 	{
 		count = 100,
@@ -1333,7 +1333,7 @@ data:extend(
 			recipe = "fayalite-cracking"
 		}
 	},
-	prerequisites = {"ore-processor_1", "furnace_4"}, --"blasting", 
+	prerequisites = {"ore-processor_1", "furnace_4", "chemical-science-pack"}, --"blasting", 
 	unit =
 	{
 		count = 250,

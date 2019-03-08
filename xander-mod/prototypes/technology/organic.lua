@@ -253,7 +253,7 @@ data:extend(
 			recipe = "rubber-b"
 		}
 	},
-	prerequisites = {"rubber-a", "heavy-reforming", "zinc-refining"},
+	prerequisites = {"rubber-a", "heavy-reforming", "zinc-refining", "chemical-science-pack"},
 	unit =
 	{
 		count = 350,
@@ -459,7 +459,7 @@ data:extend(
 			recipe = "naptha-benzene"
 		}
 	},
-	prerequisites = {"heavy-cracking", "light-reforming"},
+	prerequisites = {"heavy-cracking", "light-reforming", "chemical-science-pack"},
 	unit =
 	{
 		count = 300,

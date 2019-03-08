@@ -10,8 +10,7 @@ data.raw.technology["electronics"].order = "05-05"
 
 --Base "advanced-electronics"
 data.raw.technology["advanced-electronics"].effects = {{type = "unlock-recipe", recipe = "components-2-a"}, 
-	{type = "unlock-recipe", recipe = "advanced-circuit"}, {type = "unlock-recipe", recipe = "control-2"}, 
-	{type = "unlock-recipe", recipe = "chemical-science-pack"}}
+	{type = "unlock-recipe", recipe = "advanced-circuit"}, {type = "unlock-recipe", recipe = "control-2"}}
 data.raw.technology["advanced-electronics"].prerequisites = {"electronics", "substrate_2", "tungsten-refining"}
 data.raw.technology["advanced-electronics"].unit = {count = 200, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 30}
 data.raw.technology["advanced-electronics"].order = "05-06"
@@ -242,7 +241,7 @@ data:extend(
 			recipe = "solder-flux-b"
 		}
 	},
-	prerequisites = {"soldering_1", "advanced-material-processing-2", "haber-process"},
+	prerequisites = {"soldering_1", "advanced-material-processing-2", "haber-process", "chemical-science-pack"},
 	unit =
 	{
 		count = 150,

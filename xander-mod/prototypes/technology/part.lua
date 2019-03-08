@@ -541,7 +541,7 @@ data:extend(
 			recipe = "transformer-2"
 		}
 	},
-	prerequisites = {"induction_2", "parts_2", "advanced-electronics"},
+	prerequisites = {"induction_2", "parts_2", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -799,7 +799,7 @@ data:extend(
 			recipe = "battery-2"
 		}
 	},
-	prerequisites = {"battery", "silver-refining", "electrolysis-salt-water", "zinc-refining"},
+	prerequisites = {"battery", "silver-refining", "electrolysis-salt-water", "zinc-refining", "chemical-science-pack"},
 	unit =
 	{
 		count = 300,
