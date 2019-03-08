@@ -300,7 +300,15 @@ xmutil.clone("lamp", "small-lamp",
 ),
 }
 
+
+--Base "boiler"
 data.raw.boiler["boiler"].next_upgrade = "boiler-2"
+
+--Base "steam-turbine"
 data.raw.generator["steam-turbine"].next_upgrade = "steam-turbine-2"
+
+--Base "accumulator"
 data.raw.accumulator["accumulator"].next_upgrade = "accumulator-2"
+
+--Base "small-lamp"
 data.raw.lamp["small-lamp"].next_upgrade = "lamp-2"

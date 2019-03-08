@@ -41,6 +41,7 @@ xmutil.clone("assembling-machine", "assembling-machine-1",
 				},
 			},
 		},
+		next_upgrade = "assembling-machine-1"
 	}
 ),
 --Basic Lathe Mill
@@ -256,7 +257,9 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 		"basic-science-pack",
 		"automation-science-pack",
 		"logistic-science-pack"
-	}
+	},
+	next_upgrade = "lab",
+	fast_replaceable_group = "lab"
 }
 --Base "lab" placeholder
 --Base "beacon" placeholder
@@ -331,6 +334,7 @@ data.raw["assembling-machine"]["assembling-machine-3"].module_specification.modu
 data.raw.lab["lab"].max_health = 200
 data.raw.lab["lab"].light = {intensity = 1, size = 10, color = {r = 1.0, g = 1.0, b = 1.0}}
 data.raw.lab["lab"].energy_usage = "50kW"
+data.raw.lab["lab"].fast_replaceable_group = "lab"
 
 --Base "beacon"
 data.raw.beacon["beacon"].energy_usage = "500kW"
