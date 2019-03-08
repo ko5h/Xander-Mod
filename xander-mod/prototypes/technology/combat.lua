@@ -10,14 +10,14 @@ data.raw.technology["military"].order = "08-01"
 
 --Base "military-2"
 data.raw.technology["military-2"].effects = {{type = "unlock-recipe", recipe = "bullet-2"}, {type = "unlock-recipe", recipe = "casing-2"}, 
-	{type = "unlock-recipe", recipe = "piercing-rounds-magazine"}, {type = "unlock-recipe", recipe = "military-science-pack"}}
+	{type = "unlock-recipe", recipe = "piercing-rounds-magazine"}}
 data.raw.technology["military-2"].prerequisites = {"military", "powder_2"}
 data.raw.technology["military-2"].unit = {count = 50, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 15}
 data.raw.technology["military-2"].order = "08-02"
 
 --Base "military-3"
 --null
-data.raw.technology["military-3"].prerequisites = {"military-2", "laser", "phenol-a", "glass-a"}
+data.raw.technology["military-3"].prerequisites = {"military-2", "laser", "phenol-a", "glass-a", "military-science-pack"}
 data.raw.technology["military-3"].unit = {count = 250, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}, 
 	{"military-science-pack", 1}}, time = 30}
 data.raw.technology["military-3"].order = "08-03"
@@ -38,7 +38,7 @@ data.raw.technology["uranium-ammo"].order = "08-05"
 
 --Base "rocketry"
 --null
-data.raw.technology["rocketry"].prerequisites = {"military-2", "parts_2"}
+data.raw.technology["rocketry"].prerequisites = {"military-science-pack", "parts_2"}
 --null
 data.raw.technology["rocketry"].order = "08-06"
 
@@ -57,13 +57,13 @@ data.raw.technology["atomic-bomb"].order = "08-08"
 
 --Base "land-mine"
 --null
-data.raw.technology["land-mine"].prerequisites = {"military-2", "lead-brass"}
+data.raw.technology["land-mine"].prerequisites = {"military-science-pack", "lead-brass"}
 --null
 data.raw.technology["land-mine"].order = "08-09"
 
 --Base "flamethrower"
 data.raw.technology["flamethrower"].effects = {{type = "unlock-recipe", recipe = "flamethrower"}, {type = "unlock-recipe", recipe = "flamethrower-ammo"}}
-data.raw.technology["flamethrower"].prerequisites = {"military-2", "parts_2"}
+data.raw.technology["flamethrower"].prerequisites = {"military-science-pack", "parts_2"}
 data.raw.technology["flamethrower"].unit = {count = 100, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, 	{"military-science-pack", 1}}, 
 	time = 30}
 data.raw.technology["flamethrower"].order = "08-10"
@@ -107,7 +107,7 @@ data.raw.technology["turrets"].order = "08-24"
 
 --Base "laser-turrets"
 --null
-data.raw.technology["laser-turrets"].prerequisites = {"turrets", "laser", "battery", "military-2"}
+data.raw.technology["laser-turrets"].prerequisites = {"turrets", "laser", "battery", "military-science-pack"}
 --null
 data.raw.technology["laser-turrets"].order = "08-26"
 
@@ -231,6 +231,9 @@ data.raw.technology["physical-projectile-damage-4"].effects = {{type = "ammo-dam
 data.raw.technology["physical-projectile-damage-5"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
 data.raw.technology["physical-projectile-damage-6"].effects = {{type = "ammo-damage", ammo_category = "cannon-shell", modifier = 1}, {type = "ammo-damage", ammo_category = "railgun-shell", modifier = 1}}
 table.insert(data.raw.technology["physical-projectile-damage-2"].prerequisites, "logistic-science-pack")
+table.insert(data.raw.technology["physical-projectile-damage-3"].prerequisites, "military-science-pack")
+table.insert(data.raw.technology["physical-projectile-damage-5"].prerequisites, "chemical-science-pack")
+table.insert(data.raw.technology["physical-projectile-damage-6"].prerequisites, "utility-science-pack")
 
 --Base "weapon-shooting-speed"
 data.raw.technology["weapon-shooting-speed-1"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.2}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.2}}
@@ -239,6 +242,17 @@ data.raw.technology["weapon-shooting-speed-3"].effects = {{type = "gun-speed", a
 data.raw.technology["weapon-shooting-speed-4"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 0.6}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 0.6}}
 data.raw.technology["weapon-shooting-speed-5"].effects = {{type = "gun-speed", ammo_category = "cannon-shell", modifier = 1}, {type = "gun-speed", ammo_category = "railgun-shell", modifier = 1}}
 table.insert(data.raw.technology["weapon-shooting-speed-2"].prerequisites, "logistic-science-pack")
+table.insert(data.raw.technology["weapon-shooting-speed-3"].prerequisites, "military-science-pack")
+table.insert(data.raw.technology["weapon-shooting-speed-5"].prerequisites, "chemical-science-pack")
+table.insert(data.raw.technology["weapon-shooting-speed-6"].prerequisites, "utility-science-pack")
+
+--Base "stronger-explosives"
+table.insert(data.raw.technology["stronger-explosives-2"].prerequisites, "military-science-pack")
+table.insert(data.raw.technology["stronger-explosives-3"].prerequisites, "chemical-science-pack")
+table.insert(data.raw.technology["stronger-explosives-4"].prerequisites, "utility-science-pack")
+
+--Base "refined-flammables"
+table.insert(data.raw.technology["refined-flammables-3"].prerequisites, "chemical-science-pack")
 
 
 data:extend(
@@ -339,7 +353,7 @@ data:extend(
 			recipe = "grenade-b"
 		}
 	},
-	prerequisites = {"military-2"},
+	prerequisites = {"military-science-pack"},
 	unit =
 	{
 		count = 100,
@@ -401,7 +415,7 @@ data:extend(
 			recipe = "wall-3"
 		}
 	},
-	prerequisites = {"stone-walls", "concrete"},
+	prerequisites = {"stone-walls", "concrete", "military-science-pack"},
 	unit =
 	{
 		count = 50,
@@ -487,7 +501,7 @@ data:extend(
 			recipe = "gate-2"
 		}
 	},
-	prerequisites = {"gates", "wall_3", "military-2", "machines_2"},
+	prerequisites = {"gates", "wall_3", "military-science-pack", "machines_2"},
 	unit =
 	{
 		count = 200,
