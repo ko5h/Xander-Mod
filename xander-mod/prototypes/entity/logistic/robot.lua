@@ -11,12 +11,13 @@ data.raw["construction-robot"]["construction-robot"].speed = 0.05
 data.raw["construction-robot"]["construction-robot"].max_energy = "2MJ"
 
 --Base "roboport"
+data.raw["roboport"]["roboport"].fast_replaceable_group = "roboport"
+
 --Base "wooden-chest"
 data.raw.container["wooden-chest"].next_upgrade = "iron-chest"
 --Base "iron-chest"
 data.raw.container["iron-chest"].next_upgrade = "steel-chest"
 --Base "steel-chest"
-
 
 data:extend(
 {
@@ -137,3 +138,6 @@ xmutil.clone("roboport", "roboport",
 
 }
 )
+
+--Base "roboport"
+data.raw["roboport"]["roboport"].next_upgrade = "roboport-2"
