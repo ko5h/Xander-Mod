@@ -132,6 +132,7 @@ xmutil.clone("mining-drill", "electric-mining-drill",
 		energy_source = { emissions = 0.02 },
 		energy_usage = "400kW",
 		mining_power = 4.5,
+		next_upgrade = "mining-drill-4"
 	}
 ),
 --Bucket Wheel Excavator
@@ -346,3 +347,6 @@ data.raw["offshore-pump"]["offshore-pump"].next_upgrade = "offshore-pump-1"
 
 --Base "pumpjack"
 data.raw["mining-drill"]["pumpjack"].next_upgrade = "pumpjack-2"
+
+--Base "electric-mining-drill"
+data.raw["mining-drill"]["electric-mining-drill"].next_upgrade = "mining-drill-3"
