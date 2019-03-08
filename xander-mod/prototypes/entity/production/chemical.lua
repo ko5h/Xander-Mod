@@ -216,4 +216,5 @@ xmutil.clone("assembling-machine", "oil-refinery",
 ),
 }
 
+--Base "chemical-plant"
 data.raw["assembling-machine"]["chemical-plant"].next_upgrade = "reactor-1"

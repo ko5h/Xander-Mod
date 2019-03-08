@@ -4,6 +4,7 @@ local xmutil = require("xmutil")
 
 --Base "offshore-pump"
 data.raw["offshore-pump"]["offshore-pump"].pumping_speed = 10
+data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group = "offshore-pump"
 
 --Base "burner-mining-drill"
 data.raw["mining-drill"]["burner-mining-drill"].max_health = 100
@@ -24,7 +25,7 @@ data.raw["mining-drill"]["electric-mining-drill"].module_specification = {module
 
 --Base "pumpjack"
 data.raw["mining-drill"]["pumpjack"].energy_usage = "100kW"
-
+data.raw["mining-drill"]["pumpjack"].fast_replaceable_group = "pumpjack"
 
 data:extend(
 {
@@ -43,7 +44,7 @@ xmutil.clone("offshore-pump", "offshore-pump",
 		icon = "__xander-mod-v1__/graphics/item/production/miner/offshore-pump-1.png",
 		minable = {mining_time = 1, result = "offshore-pump-1"},
 		max_health = 200,
-		pumping_speed = 20,
+		pumping_speed = 20
 	}
 ),
 --XM Logging Camp
@@ -286,6 +287,7 @@ xmutil.clone("assembling-machine", "chemical-plant",
 		energy_usage = "100kW",
 		ingredient_count = 6,
 		crafting_categories = {"basic-sluice", "sluice"},
+		fast_replaceable_group = "ore-processor",
 	}
 ),
 --Integrated Ore Plant
@@ -329,10 +331,18 @@ xmutil.clone("assembling-machine", "oil-refinery",
 				pipe_connections = {{ type="input", position = {0, 3} }}
 			},
 		},
+		fast_replaceable_group = "ore-processor"
 	}
 ),
 
 }
 )
 
+--XM Logging Camp
 data.raw["assembling-machine"]["logging-camp"].crafting_categories = {"temp-logging"}
+
+--Base "offshore-pump"
+data.raw["offshore-pump"]["offshore-pump"].next_upgrade = "offshore-pump-1"
+
+--Base "pumpjack"
+data.raw["mining-drill"]["pumpjack"].next_upgrade = "pumpjack-2"
