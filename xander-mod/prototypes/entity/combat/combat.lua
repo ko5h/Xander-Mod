@@ -20,12 +20,14 @@ data.raw["electric-turret"]["laser-turret"].energy_source =
 	drain = "30kW",
 	usage_priority = "primary-input"
 }
+data.raw["electric-turret"]["laser-turret"].fast_replaceable_group = "laser-turret"
 
 --Base "radar"
 data.raw.radar["radar"].max_health = 200
 data.raw.radar["radar"].max_distance_of_sector_revealed = 10
 data.raw.radar["radar"].max_distance_of_nearby_sector_revealed = 2
 data.raw.radar["radar"].energy_per_nearby_scan = "200kJ"
+data.raw.radar["radar"].fast_replaceable_group = "radar"
 
 --Base "car"
 --Base "tank"
@@ -381,8 +383,8 @@ xmutil.clone("electric-turret", "laser-turret",
     },
     type = "beam"
   },
-
-	call_for_help_radius = 40
+	call_for_help_radius = 40,
+  next_upgrade = "laser-turret-3"
 }
 ),
 --Nd:YAG Laser Turret
@@ -502,6 +504,7 @@ xmutil.clone("radar", "radar",
       }
     }
   },
+  next_upgrade = "radar-3"
 }
 ),
 --LIDAR Scanning Array
@@ -638,8 +641,11 @@ xmutil.clone("car", "tank",
 )
 
 
-
 --Base "stone-wall"
 data.raw.wall["stone-wall"].next_upgrade = "wall-2"
 --Base "gate"
 data.raw.gate["gate"].next_upgrade = "gate-2"
+--Base "laser-turret"
+data.raw["electric-turret"]["laser-turret"].next_upgrade = "laser-turret-2"
+--Base "radar"
+data.raw.radar["radar"].next_upgrade = "radar-2"
