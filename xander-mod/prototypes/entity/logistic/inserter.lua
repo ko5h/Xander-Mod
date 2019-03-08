@@ -7,15 +7,18 @@ data.raw.inserter["burner-inserter"].max_health = 50
 data.raw.inserter["burner-inserter"].energy_per_movement = "50KJ"
 data.raw.inserter["burner-inserter"].energy_per_rotation = "50KJ"
 data.raw.inserter["burner-inserter"].energy_source.fuel_category = "crude"
+data.raw.inserter["burner-inserter"].next_upgrade = "inserter-slow"
 
 --Base "inserter"
 
 --Base "long-handed-inserter"
 data.raw.inserter["long-handed-inserter"].max_health = 150
+data.raw.inserter["long-handed-inserter"].next_upgrade = "inserter-long-fast"
 
 --Base "fast-inserter"
 
 --Base "filter-inserter"
+data.raw.inserter["filter-inserter"].next_upgrade = "stack-filter-inserter"
 
 --Base "stack-inserter"
 data.raw.inserter["stack-inserter"].max_health = 200
@@ -85,6 +88,7 @@ xmutil.clone("inserter", "fast-inserter",
 		energy_source = { drain = "1kW" },
 		extension_speed = 0.07,
 		rotation_speed = 0.0457,
+		next_upgrade = "inserter-long-stack",
 	}
 ),
 --Base "filter-inserter" placeholder
@@ -115,3 +119,13 @@ xmutil.clone("inserter", "stack-inserter",
 
 }
 )
+
+
+-- XM "inserter-slow"
+data.raw.inserter["inserter-slow"].next_upgrade = "inserter"
+
+-- XM "inserter-long-fast"
+data.raw.inserter["inserter-long-fast"].fast_replaceable_group = "long-handed-inserter"
+
+-- XM "inserter-long-stack"
+data.raw.inserter["inserter-long-stack"].fast_replaceable_group = "long-handed-inserter"
