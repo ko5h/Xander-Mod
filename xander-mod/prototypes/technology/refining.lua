@@ -813,7 +813,7 @@ data:extend(
 			recipe = "zirconium-remelting"
 		}
 	},
-	prerequisites = {"zirconium-refining"},
+	prerequisites = {"zirconium-refining", "utility-science-pack"},
 	unit =
 	{
 		count = 250,

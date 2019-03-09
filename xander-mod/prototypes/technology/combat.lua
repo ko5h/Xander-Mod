@@ -111,6 +111,9 @@ data.raw.technology["laser-turrets"].prerequisites = {"turrets", "laser", "batte
 --null
 data.raw.technology["laser-turrets"].order = "08-26"
 
+--Base "laser-turret-speed"
+table.insert(data.raw.technology["laser-turret-speed-5"].prerequisites, "utility-science-pack")
+
 --Base "automobilism"
 --null
 data.raw.technology["automobilism"].prerequisites = {"machines_1", "engine", "rubber-a"}
@@ -253,7 +256,10 @@ table.insert(data.raw.technology["stronger-explosives-4"].prerequisites, "utilit
 
 --Base "refined-flammables"
 table.insert(data.raw.technology["refined-flammables-3"].prerequisites, "chemical-science-pack")
+table.insert(data.raw.technology["refined-flammables-4"].prerequisites, "utility-science-pack")
 
+--Base "energy-weapons-damage"
+table.insert(data.raw.technology["energy-weapons-damage-5"].prerequisites, "utility-science-pack")
 
 data:extend(
 {
@@ -470,7 +476,7 @@ data:extend(
 			recipe = "wall-5"
 		}
 	},
-	prerequisites = {"wall_4", "silicon-nitride", "tungsten-refining"},
+	prerequisites = {"wall_4", "silicon-nitride", "tungsten-refining", "utility-science-pack"},
 	unit =
 	{
 		count = 300,
@@ -730,7 +736,7 @@ data:extend(
 			recipe = "artillery-crawler"
 		}
 	},
-	prerequisites = {"tanks", "laser-turrets"},
+	prerequisites = {"tanks", "laser-turrets", "utility-science-pack"},
 	unit =
 	{
 		count = 1000,
@@ -819,7 +825,7 @@ data:extend(
 			recipe = "first-aid-2"
 		}
 	},
-	prerequisites = {"first-aid_1", "organics_3"},
+	prerequisites = {"first-aid_1", "organics_3", "utility-science-pack"},
 	unit =
 	{
 		count = 500,

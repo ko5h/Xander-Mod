@@ -630,7 +630,7 @@ data:extend(
 			recipe = "insulator-2-b"
 		}
 	},
-	prerequisites = {"insulator_2", "silicon-nitride"},
+	prerequisites = {"insulator_2", "silicon-nitride", "utility-science-pack"},
 	unit =
 	{
 		count = 450,
@@ -705,7 +705,7 @@ data:extend(
 			recipe = "crystal-yag"
 		}
 	},
-	prerequisites = {"optics_2", "silicon-nitride", "re-refining"},
+	prerequisites = {"optics_2", "silicon-nitride", "re-refining", "utility-science-pack"},
 	unit =
 	{
 		count = 700,

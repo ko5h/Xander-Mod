@@ -1110,7 +1110,7 @@ data:extend(
 			recipe = "green-wire-b"
 		}
 	},
-	prerequisites = {"circuit-network", "induction_3"},
+	prerequisites = {"circuit-network", "induction_3", "utility-science-pack"},
 	unit =
 	{
 		count = 100,
