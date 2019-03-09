@@ -182,7 +182,7 @@ data:extend(
 			recipe = "fiber-carbon"
 		}
 	},
-	prerequisites = {"plastics", "advanced-material-processing-2", "carbon-processing"},
+	prerequisites = {"plastics", "advanced-material-processing-2", "carbon-processing", "utility-science-pack"},
 	unit =
 	{
 		count = 400,
@@ -665,7 +665,7 @@ data:extend(
 			recipe = "crystal-corundum"
 		}
 	},
-	prerequisites = {"optics"},
+	prerequisites = {"optics", "production-science-pack"},
 	unit =
 	{
 		count = 450,

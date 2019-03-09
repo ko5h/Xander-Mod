@@ -5,12 +5,29 @@ data.raw.technology["toolbelt"].prerequisites = {"military", "logistic-science-p
 
 --Base "research-speed"
 table.insert(data.raw.technology["research-speed-3"].prerequisites, "chemical-science-pack")
+table.insert(data.raw.technology["research-speed-5"].prerequisites, "production-science-pack")
+table.insert(data.raw.technology["research-speed-6"].prerequisites, "utility-science-pack")
 
 --Base "mining-productivity"
 table.insert(data.raw.technology["mining-productivity-2"].prerequisites, "chemical-science-pack")
 
 --Base "follower-robot-count"
 table.insert(data.raw.technology["follower-robot-count-3"].prerequisites, "chemical-science-pack")
+
+--Base "braking-force"
+table.insert(data.raw.technology["braking-force-3"].prerequisites, "production-science-pack")
+table.insert(data.raw.technology["braking-force-6"].prerequisites, "utility-science-pack")
+
+--Base "inserter-capacity-bonus"
+table.insert(data.raw.technology["inserter-capacity-bonus-4"].prerequisites, "production-science-pack")
+
+--Base "worker-robots-storage"
+table.insert(data.raw.technology["worker-robots-storage-2"].prerequisites, "production-science-pack")
+table.insert(data.raw.technology["worker-robots-storage-3"].prerequisites, "utility-science-pack")
+
+--Base "worker-robots-speed"
+table.insert(data.raw.technology["worker-robots-speed-3"].prerequisites, "utility-science-pack")
+table.insert(data.raw.technology["worker-robots-speed-5"].prerequisites, "production-science-pack")
 
 
 data:extend(

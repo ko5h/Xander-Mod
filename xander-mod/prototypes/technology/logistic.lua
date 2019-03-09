@@ -24,7 +24,7 @@ data.raw.technology["logistics-2"].order = "06-05"
 --Base "logistics-3"
 data.raw.technology["logistics-3"].effects = {{type = "unlock-recipe", recipe = "expedited-transport-belt"}, 
 	{type = "unlock-recipe", recipe = "expedited-underground-belt"}, {type = "unlock-recipe", recipe = "expedited-splitter"}}
-data.raw.technology["logistics-3"].prerequisites = {"logistics-2", "parts_2", "forging-aluminum", "chemical-science-pack"}
+data.raw.technology["logistics-3"].prerequisites = {"logistics-2", "parts_2", "forging-aluminum", "production-science-pack", }
 data.raw.technology["logistics-3"].unit = {count = 350, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}, 
 	{"production-science-pack", 1}}, time = 30}
 data.raw.technology["logistics-3"].order = "06-06"
@@ -593,7 +593,7 @@ data:extend(
 			recipe = "cargo-wagon-2"
 		}
 	},
-	prerequisites = {"rail-b", "forging-stainless", "parts_2"},
+	prerequisites = {"rail-b", "forging-stainless", "parts_2", "production-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -1041,7 +1041,7 @@ data:extend(
 			recipe = "storage-tank-2"
 		}
 	},
-	prerequisites = {"fluid-handling", "plumbing-monel", "plumbing-stainless", "parts_2"},
+	prerequisites = {"fluid-handling", "plumbing-monel", "plumbing-stainless", "parts_2", "production-science-pack"},
 	unit =
 	{
 		count = 250,

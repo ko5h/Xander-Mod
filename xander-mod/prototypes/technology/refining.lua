@@ -514,7 +514,7 @@ data:extend(
 			recipe = "nickel-platinum"
 		}
 	},
-	prerequisites = {"nickel-refining", "platinum-refining"},
+	prerequisites = {"nickel-refining", "platinum-refining", "production-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -668,7 +668,7 @@ data:extend(
 			recipe = "cassiterite-gold"
 		}
 	},
-	prerequisites = {"tin-refining", "gold-refining", "boron-processing"},
+	prerequisites = {"tin-refining", "gold-refining", "boron-processing", "production-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -785,7 +785,7 @@ data:extend(
 			recipe = "kroll-zirconium"
 		}
 	},
-	prerequisites = {"titanium-refining"},
+	prerequisites = {"titanium-refining", "production-science-pack"},
 	unit =
 	{
 		count = 750,
@@ -918,7 +918,7 @@ data:extend(
 			recipe = "oil-vanadium-slagging"
 		}
 	},
-	prerequisites = {"iron-refining", "vanadium-refining"},
+	prerequisites = {"iron-refining", "vanadium-refining", "production-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -1396,7 +1396,7 @@ data:extend(
 			recipe = "re-reduction"
 		}
 	},
-	prerequisites = {"flotation_1", "haber-process", "magnesium-refining"}, --"blasting", 
+	prerequisites = {"flotation_1", "haber-process", "magnesium-refining", "production-science-pack"}, --"blasting", 
 	unit =
 	{
 		count = 300,
@@ -1428,7 +1428,7 @@ data:extend(
 			recipe = "uranium-hexafluoride"
 		}
 	},
-	prerequisites = {"nitric-acid-b", "fluorine-processing"}, --"blasting", 
+	prerequisites = {"nitric-acid-b", "fluorine-processing", "production-science-pack"}, --"blasting", 
 	unit =
 	{
 		count = 300,

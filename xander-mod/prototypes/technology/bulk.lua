@@ -196,7 +196,7 @@ data:extend(
 			recipe = "forging-alloy-b"
 		}
 	},
-	prerequisites = {"forging-alloy-a", "chromium-refining", "cobalt-refining"},
+	prerequisites = {"forging-alloy-a", "chromium-refining", "cobalt-refining", "production-science-pack"},
 	unit =
 	{
 		count = 400,
@@ -254,7 +254,7 @@ data:extend(
 			recipe = "forging-titanium"
 		}
 	},
-	prerequisites = {"titanium-refining", "aluminum-refining", "vanadium-refining"},
+	prerequisites = {"titanium-refining", "aluminum-refining", "vanadium-refining", "production-science-pack"},
 	unit =
 	{
 		count = 300,
@@ -569,7 +569,7 @@ data:extend(
 			recipe = "cement-b"
 		}
 	},
-	prerequisites = {"cement-a", "slag-use"},
+	prerequisites = {"cement-a", "slag-use", "production-science-pack"},
 	unit =
 	{
 		count = 350,
@@ -605,7 +605,7 @@ data:extend(
 			recipe = "modified-b"
 		}
 	},
-	prerequisites = {"landfill", "slag-use"},
+	prerequisites = {"landfill", "slag-use", "production-science-pack"},
 	unit =
 	{
 		count = 250,
@@ -660,7 +660,7 @@ data:extend(
 			recipe = "basalt-b"
 		}
 	},
-	prerequisites = {"basalt-a", "slag-use"},
+	prerequisites = {"basalt-a", "slag-use", "production-science-pack"},
 	unit =
 	{
 		count = 400,
@@ -819,7 +819,7 @@ data:extend(
 			recipe = "nitride-block"
 		}
 	},
-	prerequisites = {"acheson-process", "air-processing"},
+	prerequisites = {"acheson-process", "air-processing", "production-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -995,7 +995,7 @@ data:extend(
 			recipe = "sand-recovery"
 		}
 	},
-	prerequisites = {"acheson-process", "carbon-processing"},
+	prerequisites = {"acheson-process", "carbon-processing", "utility-science-pack"},
 	unit =
 	{
 		count = 500,
@@ -1031,7 +1031,7 @@ data:extend(
 			recipe = "ultrapure-powder"
 		}
 	},
-	prerequisites = {"silicon-boule-a", "electrolysis-salt-water"},
+	prerequisites = {"silicon-boule-a", "electrolysis-salt-water", "utility-science-pack"},
 	unit =
 	{
 		count = 800,
@@ -1325,7 +1325,7 @@ data:extend(
 			recipe = "sulfate-cracking"
 		}
 	},
-	prerequisites = {"slag-use", "carbon-processing", "sulfur-processing"},
+	prerequisites = {"slag-use", "carbon-processing", "sulfur-processing", "production-science-pack"},
 	unit =
 	{
 		count = 250,

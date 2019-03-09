@@ -37,7 +37,7 @@ data.raw.technology["automation-2"].order = "07-23"
 --Base "automation-3"
 data.raw.technology["automation-3"].icon = "__xander-mod-v1__/graphics/technology/production/automation-3.png"
 data.raw.technology["automation-3"].icon_size = 128
-data.raw.technology["automation-3"].prerequisites = {"automation-2", "machines_2", "inserter-filter"}
+data.raw.technology["automation-3"].prerequisites = {"automation-2", "machines_2", "inserter-filter", "production-science-pack"}
 data.raw.technology["automation-3"].unit = {count = 200, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}, {"chemical-science-pack", 1}, 
 	{"production-science-pack", 1}}, time = 30}
 data.raw.technology["automation-3"].order = "07-24"
@@ -119,7 +119,7 @@ data.raw.technology["production-science-pack"].prerequisites = { "productivity-m
 data:extend(
 {
 
---Automation 
+--Automation science pack
 {
 	type = "technology",
 	name = "automation-science-pack",
@@ -409,7 +409,7 @@ data:extend(
 			recipe = "ore-processor-2"
 		}
 	},
-	prerequisites = {"ore-processor_1", "pump_2"},
+	prerequisites = {"ore-processor_1", "pump_2", "production-science-pack"},
 	unit =
 	{
 		count = 450,
@@ -931,7 +931,7 @@ data:extend(
 			recipe = "boiler-2"
 		}
 	},
-	prerequisites = {"machines_2", "plumbing-monel", "brick-spinel"},
+	prerequisites = {"machines_2", "plumbing-monel", "brick-spinel", "production-science-pack"},
 	unit =
 	{
 		count = 300,
@@ -1136,7 +1136,7 @@ data:extend(
 			recipe = "accumulator-2"
 		}
 	},
-	prerequisites = {"electric-energy-accumulators-1", "forging-stainless", "battery_2", "insulator_2"},
+	prerequisites = {"electric-energy-accumulators-1", "forging-stainless", "battery_2", "insulator_2", "production-science-pack"},
 	unit =
 	{
 		count = 400,

@@ -184,7 +184,7 @@ data:extend(
 			recipe = "dimethyl-carbonate"
 		}
 	},
-	prerequisites = {"organics_2", "fluorine-processing"},
+	prerequisites = {"organics_2", "fluorine-processing", "production-science-pack"},
 	unit =
 	{
 		count = 800,
@@ -402,7 +402,7 @@ data:extend(
 			recipe = "lubricant-b"
 		}
 	},
-	prerequisites = {"oil-processing", "phenolic-resin", "lithium-precipitation"},
+	prerequisites = {"oil-processing", "phenolic-resin", "lithium-precipitation", "production-science-pack"},
 	unit =
 	{
 		count = 150,
@@ -614,7 +614,7 @@ data:extend(
 			recipe = "methane-gasification"
 		}
 	},
-	prerequisites = {"carbon-oxides", "light-cracking"},
+	prerequisites = {"carbon-oxides", "light-cracking", "production-science-pack"},
 	unit =
 	{
 		count = 400,
@@ -678,7 +678,7 @@ data:extend(
 			recipe = "uncured-epoxy"
 		}
 	},
-	prerequisites = {"phenolic-resin", "hydrocarbon-chlorination", "haber-process"},
+	prerequisites = {"phenolic-resin", "hydrocarbon-chlorination", "haber-process", "production-science-pack"},
 	unit =
 	{
 		count = 400,
