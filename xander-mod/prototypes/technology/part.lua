@@ -3,13 +3,13 @@
 
 --Base "engine"
 data.raw.technology["engine"].effects = {{type = "unlock-recipe", recipe = "engine-unit"}}
-data.raw.technology["engine"].prerequisites = {"parts_1", "plumbing-steel", "rubber-a"}
+data.raw.technology["engine"].prerequisites = {"parts_1", "plumbing-steel", "rubber-a", "logistic-science-pack"}
 data.raw.technology["engine"].order = "04-03"
 --Base "robotics"
 data.raw.technology["robotics"].prerequisites = {"parts_2", "battery_2", "forging-aluminum"}
 data.raw.technology["robotics"].order = "04-06"
 --Base "electric-engine"
-data.raw.technology["electric-engine"].prerequisites = {"induction_1", "parts_1", "electronics"}
+data.raw.technology["electric-engine"].prerequisites = {"automation-science-pack", "parts_1", "electronics"}
 data.raw.technology["electric-engine"].effects = {{type = "unlock-recipe", recipe = "motor-1-b"}, {type = "unlock-recipe", recipe = "transformer-1"}}
 data.raw.technology["electric-engine"].unit.ingredients = {{"automation-science-pack", 1}}
 data.raw.technology["electric-engine"].order = "04-16"
@@ -69,7 +69,7 @@ data:extend(
 			recipe = "wheel-1"
 		},
 	},
-	prerequisites = {"smelting-graphite"},
+	prerequisites = {"smelting-graphite", "automation-science-pack"},
 	unit =
 	{
 		count = 20,
@@ -182,7 +182,7 @@ data:extend(
 			recipe = "fiber-carbon"
 		}
 	},
-	prerequisites = {"plastics", "advanced-material-processing-2", "carbon-processing"},
+	prerequisites = {"plastics", "advanced-material-processing-2", "carbon-processing", "utility-science-pack"},
 	unit =
 	{
 		count = 400,
@@ -442,10 +442,6 @@ data:extend(
 		{
 			type = "unlock-recipe",
 			recipe = "electric-engine-unit"
-		},
-		{
-			type = "unlock-recipe",
-			recipe = "automation-science-pack"
 		}
 	},
 	prerequisites = {"reactor_0", "smelting-graphite"},
@@ -545,7 +541,7 @@ data:extend(
 			recipe = "transformer-2"
 		}
 	},
-	prerequisites = {"induction_2", "parts_2", "advanced-electronics"},
+	prerequisites = {"induction_2", "parts_2", "chemical-science-pack"},
 	unit =
 	{
 		count = 200,
@@ -634,7 +630,7 @@ data:extend(
 			recipe = "insulator-2-b"
 		}
 	},
-	prerequisites = {"insulator_2", "silicon-nitride"},
+	prerequisites = {"insulator_2", "silicon-nitride", "utility-science-pack"},
 	unit =
 	{
 		count = 450,
@@ -669,7 +665,7 @@ data:extend(
 			recipe = "crystal-corundum"
 		}
 	},
-	prerequisites = {"optics"},
+	prerequisites = {"optics", "production-science-pack"},
 	unit =
 	{
 		count = 450,
@@ -709,7 +705,7 @@ data:extend(
 			recipe = "crystal-yag"
 		}
 	},
-	prerequisites = {"optics_2", "silicon-nitride", "re-refining"},
+	prerequisites = {"optics_2", "silicon-nitride", "re-refining", "utility-science-pack"},
 	unit =
 	{
 		count = 700,
@@ -803,7 +799,7 @@ data:extend(
 			recipe = "battery-2"
 		}
 	},
-	prerequisites = {"battery", "silver-refining", "electrolysis-salt-water", "zinc-refining"},
+	prerequisites = {"battery", "silver-refining", "electrolysis-salt-water", "zinc-refining", "chemical-science-pack"},
 	unit =
 	{
 		count = 300,
@@ -1025,7 +1021,7 @@ data:extend(
       type = "character-mining-speed"
     }
   },
-  prerequisites = { "axe_1" },
+  prerequisites = { "axe_1", "automation-science-pack" },
   unit = {
     count = 10,
     ingredients = {

@@ -9,8 +9,3 @@ script.on_event(defines.events.on_player_created, function(event)
 	player.insert{name = "electric-engine-unit", count = 10}
 	player.insert{name = "burner-mining-drill", count = 1}
 end)
-
-
-script.on_event(defines.events.on_research_started, function(event)
-  event.research.researched = true
-end)
