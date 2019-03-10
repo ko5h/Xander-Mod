@@ -36,8 +36,8 @@ xmutil.clone("assembling-machine", "assembling-machine-1",
 		animation = {
 			layers = {
 				{
-					filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-0/0.png",
-					hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-0/hr-0.png" },
+					filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-0/0.png",
+					hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-0/hr-0.png" },
 				},
 			},
 		},
@@ -61,8 +61,8 @@ xmutil.clone("assembling-machine", "assembling-machine-1",
 		animation = {
 			layers = {
 				{
-					filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-1/1.png",
-					hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-1/hr-1.png" },
+					filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-1/1.png",
+					hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-1/hr-1.png" },
 				},
 			},
 		},
@@ -84,8 +84,8 @@ xmutil.clone("assembling-machine", "assembling-machine-2",
 		animation = {
 			layers = {
 				{
-					filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-2/2.png",
-					hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-2/hr-2.png" },
+					filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-2/2.png",
+					hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-2/hr-2.png" },
 				},
 			},
 		},
@@ -108,8 +108,8 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 		animation = {
 			layers = {
 				{
-					filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-3/3.png",
-					hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/machine-tool-3/hr-3.png" },
+					filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-3/3.png",
+					hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/machine-tool-3/hr-3.png" },
 				},
 			},
 		},
@@ -158,7 +158,7 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 	{
 		{
 			"__base__/graphics/entity/assembling-machine-3/(h?r?-?)assembling-machine-3.png",
-			"__xander-mod-v1__/graphics/entity/production/assembling-machine-4/%14.png",
+			"__xander-v1-graphics__/graphics/entity/production/assembling-machine-4/%14.png",
 		},
 	},
 	{
@@ -191,7 +191,7 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 	light = {intensity = 0.75, size = 8, color = {r = 1.0, g = 1.0, b = 1.0}},
 	on_animation =
 	{
-		filename = "__xander-mod-v1__/graphics/entity/production/lab-1/lab-1.png",
+		filename = "__xander-v1-graphics__/graphics/entity/production/lab-1/lab-1.png",
 		width = 98,
 		height = 87,
 		frame_count = 33,
@@ -199,7 +199,7 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 		animation_speed = 1 / 3,
 		shift = {0, 0.046875},
 		hr_version = {
-						filename = "__xander-mod-v1__/graphics/entity/production/lab-1/hr-lab-1.png",
+						filename = "__xander-v1-graphics__/graphics/entity/production/lab-1/hr-lab-1.png",
 						width = 194,
 						height = 174,
 						frame_count = 33,
@@ -211,13 +211,13 @@ xmutil.clone("assembling-machine", "assembling-machine-3",
 	},
 	off_animation =
 	{
-		filename = "__xander-mod-v1__/graphics/entity/production/lab-1/lab-1.png",
+		filename = "__xander-v1-graphics__/graphics/entity/production/lab-1/lab-1.png",
 		width = 98,
 		height = 87,
 		frame_count = 1,
 		shift = {0, 0.046875},
 		hr_version = {
-						filename = "__xander-mod-v1__/graphics/entity/production/lab-1/hr-lab-1.png",
+						filename = "__xander-v1-graphics__/graphics/entity/production/lab-1/hr-lab-1.png",
 						width = 194,
 						height = 174,
 						frame_count = 1,
@@ -281,8 +281,8 @@ data.raw["assembling-machine"]["assembling-machine-1"].animation = xmutil.merge{
 	{
 		layers = {
 			{
-				filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-1/1.png",
-				hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-1/hr-1.png" },
+				filename = "__xander-v1-graphics__/graphics/entity/production/assembling-machine-1/1.png",
+				hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/assembling-machine-1/hr-1.png" },
 			},
 		}
 	}
@@ -302,8 +302,8 @@ data.raw["assembling-machine"]["assembling-machine-2"].animation = xmutil.merge{
 	{
 		layers = {
 			{
-				filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-2/2.png",
-				hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-2/hr-2.png" },
+				filename = "__xander-v1-graphics__/graphics/entity/production/assembling-machine-2/2.png",
+				hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/assembling-machine-2/hr-2.png" },
 			},
 		},
 	}
@@ -322,8 +322,8 @@ data.raw["assembling-machine"]["assembling-machine-3"].animation = xmutil.merge{
 	{
 		layers = {
 			{
-				filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-3/3.png",
-				hr_version = { filename = "__xander-mod-v1__/graphics/entity/production/assembling-machine-3/hr-3.png" },
+				filename = "__xander-v1-graphics__/graphics/entity/production/assembling-machine-3/3.png",
+				hr_version = { filename = "__xander-v1-graphics__/graphics/entity/production/assembling-machine-3/hr-3.png" },
 			},
 		},
 	}
