@@ -40,7 +40,7 @@ data.raw.technology["battery"].prerequisites = {"plastics", "lead-refining", "su
 data.raw.technology["battery"].order = "04-27"
 --Base "steel-axe"
 data.raw.technology["steel-axe"].prerequisites = { "axe_2", "steel-processing", "parts_1" }
-data.raw.technology["steel-axe"].effects = {{ type = "character-mining-speed", modifier = 3 }}
+data.raw.technology["steel-axe"].effects = {{ type = "character-mining-speed", modifier = 1 }}
 data.raw.technology["steel-axe"].icon = "__xander-mod-v1__/graphics/technology/production/axe-3.png"
 
 data:extend(
@@ -970,7 +970,7 @@ data:extend(
 	icon_size = 32,
   effects = {
     {
-      modifier = 2,
+      modifier = 1,
       type = "character-mining-speed"
     }
   },
@@ -992,7 +992,7 @@ data:extend(
 	icon_size = 32,
   effects = {
     {
-      modifier = 3,
+      modifier = 2,
       type = "character-mining-speed"
     }
   },
@@ -1015,7 +1015,7 @@ data:extend(
 	icon_size = 32,
   effects = {
     {
-      modifier = 3,
+      modifier = 2,
       type = "character-mining-speed"
     }
   },
