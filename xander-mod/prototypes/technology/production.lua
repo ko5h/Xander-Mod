@@ -104,8 +104,7 @@ data.raw.technology["effectivity-module-3"].prerequisites = {"effectivity-module
 data.raw.technology["effectivity-module-3"].order = "07-52"
 
 --Base "rocket-silo"
-data.raw.technology["rocket-silo"].effects = {{type = "unlock-recipe", recipe = "rocket-silo"}, {type = "unlock-recipe", recipe = "rocket-part"}, 
-	{type = "unlock-recipe", recipe = "satellite"}}
+data.raw.technology["rocket-silo"].effects = {{type = "unlock-recipe", recipe = "rocket-silo"}, {type = "unlock-recipe", recipe = "rocket-part"}}
 data.raw.technology["rocket-silo"].prerequisites = {"rocket-fuel", "low-density-structure", "rocket-control", "rocket-engine", "rocket-mechanism"}
 --null
 data.raw.technology["rocket-silo"].order = "08-53"
