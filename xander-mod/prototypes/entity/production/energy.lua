@@ -5,8 +5,10 @@ local xmutil = require("xmutil")
 
 --Base "boiler"
 data.raw.boiler["boiler"].energy_source.fuel_category = "crude"
+data.raw.boiler["boiler"].energy_source.effectivity = 1/2
 data.raw.boiler["boiler"].energy_source.emissions = 0.004
 data.raw.boiler["boiler"].fast_replaceable_group = "boiler"
+data.raw.boiler["boiler"].energy_consumption = "1.8MW"
 
 
 --Base "heat-exchanger"
