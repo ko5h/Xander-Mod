@@ -1,6 +1,11 @@
 
 --Base Overrides
 
+--Base "rocket-control-unit"
+data.raw.technology["rocket-control-unit"].prerequisites = {"speed-module", "effectivity-module", "laser_3"}
+data.raw.technology["rocket-control-unit"].unit = { count = 1000, ingredients = { {"automation-science-pack", 1}, {"logistic-science-pack", 1}, 
+  {"chemical-science-pack", 1}, {"production-science-pack", 1}, {"utility-science-pack", 1}}, time = 45}
+
 --Base "low-density-structure"
 data.raw.technology["low-density-structure"].prerequisites = {"machines_3", "epoxy-resin", "fiber-carbon", "forging-aluminum"}
 data.raw.technology["low-density-structure"].unit = { count = 1000, ingredients = { {"automation-science-pack", 1},
@@ -877,35 +882,6 @@ data:extend(
 		time = 45
 	},
 	order = "04-30"
-},
---Rocket Control Dedicated Research
-{
-	type = "technology",
-	name = "rocket-control",
-	icon = "__xander-mod-v1__/graphics/technology/part/rocket-control.png",
-	icon_size = 128,
-	effects =
-	{
-		{
-			type = "unlock-recipe",
-			recipe = "rocket-control-unit"
-		}
-	},
-	prerequisites = {"speed-module", "effectivity-module", "laser_3"},
-	unit =
-	{
-		count = 1000,
-		ingredients =
-		{
-			{"automation-science-pack", 1},
-			{"logistic-science-pack", 1},
-			{"chemical-science-pack", 1},
-			{"production-science-pack", 1},
-			{"utility-science-pack", 1}
-		},
-		time = 45
-	},
-	order = "04-32"
 },
 --Rocket Engine Dedicated Research
 {
