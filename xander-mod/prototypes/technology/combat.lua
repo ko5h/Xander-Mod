@@ -161,7 +161,7 @@ data.raw.technology["battery-mk2-equipment"].order = "08-45"
 --Base "personal-laser-defense-equipment"
 --null
 --null
---null
+data.raw.technology["personal-laser-defense-equipment"].prerequisites = {"laser-turrets", "military-3", "power-armor", "solar-panel-equipment"}
 data.raw.technology["personal-laser-defense-equipment"].order = "08-47"
 
 --Base "discharge-defense-equipment"

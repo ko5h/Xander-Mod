@@ -20,11 +20,11 @@ xmutil.clone("furnace", "stone-furnace",
 	{
 		{
 			"__base__/graphics/entity/stone-furnace/stone-furnace.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-1/1.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-1/1.png",
 		},
 		{
 			"__base__/graphics/entity/stone-furnace/hr-stone-furnace.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-1/hr-1.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-1/hr-1.png",
 		},
 	},
 	{
@@ -46,11 +46,11 @@ xmutil.clone("furnace", "stone-furnace",
 	{
 		{
 			"__base__/graphics/entity/stone-furnace/stone-furnace.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-2/2.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-2/2.png",
 		},
 		{
 			"__base__/graphics/entity/stone-furnace/hr-stone-furnace.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-2/hr-2.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-2/hr-2.png",
 		},
 	},
 	{
@@ -108,11 +108,11 @@ xmutil.clone("furnace", "electric-furnace",
 	{
 		{
 			"__base__/graphics/entity/electric-furnace/electric-furnace-base.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-4/4.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-4/4.png",
 		},
 		{
 			"__base__/graphics/entity/electric-furnace/hr-electric-furnace.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-4/hr-4.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-4/hr-4.png",
 		},
 	},
 	{
@@ -173,15 +173,15 @@ xmutil.clone("furnace", "electric-furnace",
 	{
 		{
 			"__base__/graphics/entity/electric-furnace/electric-furnace-base.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-6/6.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-6/6.png",
 		},
 		{
 			"__base__/graphics/entity/electric-furnace/hr-electric-furnace.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-6/hr-6.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-6/hr-6.png",
 		},
 		{
 			"__base__/graphics/entity/electric-furnace/electric-furnace-heater.png",
-			"__xander-mod-v1__/graphics/entity/production/furnace-6/heater.png",
+			"__xander-v1-graphics__/graphics/entity/production/furnace-6/heater.png",
 		},
 	},
 	{

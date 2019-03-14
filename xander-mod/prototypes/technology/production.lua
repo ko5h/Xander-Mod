@@ -104,9 +104,8 @@ data.raw.technology["effectivity-module-3"].prerequisites = {"effectivity-module
 data.raw.technology["effectivity-module-3"].order = "07-52"
 
 --Base "rocket-silo"
-data.raw.technology["rocket-silo"].effects = {{type = "unlock-recipe", recipe = "rocket-silo"}, {type = "unlock-recipe", recipe = "rocket-part"}, 
-	{type = "unlock-recipe", recipe = "satellite"}}
-data.raw.technology["rocket-silo"].prerequisites = {"rocket-fuel", "rocket-structure", "rocket-control", "rocket-engine", "rocket-mechanism"}
+data.raw.technology["rocket-silo"].effects = {{type = "unlock-recipe", recipe = "rocket-silo"}}
+data.raw.technology["rocket-silo"].prerequisites = {"rocket-fuel", "low-density-structure", "rocket-control-unit", "rocket-engine", "rocket-mechanism"}
 --null
 data.raw.technology["rocket-silo"].order = "08-53"
 
@@ -115,6 +114,9 @@ data.raw.technology["logistic-science-pack"].prerequisites = {"automation-scienc
 
 --Base "production-science-pack"
 data.raw.technology["production-science-pack"].prerequisites = { "productivity-module", "furnace_4", "automation-2", "railway", "chemical-science-pack"}
+
+--Base "utility-science-pack"
+data.raw.technology["utility-science-pack"].prerequisites = {"robotics", "advanced-electronics-2"}
 
 data:extend(
 {

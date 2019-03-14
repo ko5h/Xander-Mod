@@ -10,6 +10,7 @@ data.raw.recipe["steel-furnace"].order = "10"
 --Base "steel-furnace"
 data.raw.recipe["steel-furnace"].category = "crafting"
 data.raw.recipe["steel-furnace"].energy_required = 5
+data.raw.recipe["steel-furnace"].result = "furnace-3"
 data.raw.recipe["steel-furnace"].ingredients = {{"brick-clay-graphite", 20}, {"forging-iron", 5}, {"pipe-steel", 5}, {"mechanism-1", 2}}
 data.raw.recipe["steel-furnace"].order = "12"
 

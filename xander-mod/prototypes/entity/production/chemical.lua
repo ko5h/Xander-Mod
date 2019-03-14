@@ -48,11 +48,11 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-1/1.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-1/1.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-1/hr-1.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-1/hr-1.png",
 		},
 	},
 	{
@@ -79,11 +79,11 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-2/2.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-2/2.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-2/hr-2.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-2/hr-2.png",
 		},
 	},
 	{
@@ -110,11 +110,11 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/electrolyzer-1/1.png",
+			"__xander-v1-graphics__/graphics/entity/production/electrolyzer-1/1.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/electrolyzer-1/hr-1.png",
+			"__xander-v1-graphics__/graphics/entity/production/electrolyzer-1/hr-1.png",
 		},
 	},
 	{
@@ -142,11 +142,11 @@ xmutil.clone("assembling-machine", "chemical-plant",
 	{
 		{
 			"__base__/graphics/entity/chemical-plant/chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/electrolyzer-2/2.png",
+			"__xander-v1-graphics__/graphics/entity/production/electrolyzer-2/2.png",
 		},
 		{
 			"__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-			"__xander-mod-v1__/graphics/entity/production/electrolyzer-2/hr-2.png",
+			"__xander-v1-graphics__/graphics/entity/production/electrolyzer-2/hr-2.png",
 		},
 	},
 	{
@@ -176,19 +176,19 @@ xmutil.clone("assembling-machine", "oil-refinery",
 	{
 		{
 			"__base__/graphics/entity/oil-refinery/oil-refinery.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-3/3.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-3/3.png",
 		},
 		{
 			"__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-3/hr-3.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-3/hr-3.png",
 		},
 		{
 			"__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-3/steam.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-3/steam.png",
 		},
 		{
 			"__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
-			"__xander-mod-v1__/graphics/entity/production/reactor-3/hr-steam.png",
+			"__xander-v1-graphics__/graphics/entity/production/reactor-3/hr-steam.png",
 		},
 	},
 	{
